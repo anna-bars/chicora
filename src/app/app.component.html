@@ -1,5 +1,6 @@
 <div class="cont">
-  <div class="first-header">
+  <!-- Desktop Sidebar -->
+  <div class="first-header desktop-only">
     <img class="logo-img" src="/assets/logo.svg" alt="Daily Nail Edit Logo">
     <div class="middle-part">
       <h2>Daily Nail Edit</h2>
@@ -21,8 +22,42 @@
       </div>
     </div>
   </div>
+
+  <!-- Mobile Navigation (Burger Menu) -->
+  <div class="mobile-nav mobile-only">
+    <div class="mobile-nav-header">
+      <img class="mobile-logo" src="/assets/logo.svg" alt="Daily Nail Edit">
+      <button class="burger-menu" id="burgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Fullscreen Menu -->
+    <div class="mobile-fullscreen-menu" id="mobileMenu">
+      <button class="close-menu">&times;</button>
+      <div class="mobile-menu-content">
+        <img class="menu-logo" src="/assets/logo.svg" alt="Logo">
+        <h2>Daily Nail Edit</h2>
+        <div class="menu-tags">
+          <a href="#">Summer</a>
+          <a href="#">French tips</a>
+          <a href="#">Old money</a>
+          <a href="#">June nails</a>
+        </div>
+        <div class="menu-footer">
+          <p>Vol 2O26</p>
+          <p>Follow on Pinterest ↗</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
   <div class="second-general-cont">
-    <div class="general-cont-header">
+    <!-- Desktop Header -->
+    <div class="general-cont-header desktop-only">
       <div class="tags">
         <a href="#">Summer</a>
         <a href="#">French tips</a>
@@ -34,27 +69,100 @@
         <img src="../assets/pints-icon.svg" alt="Pinterest">
       </div>
     </div>
+
+    <!-- Mobile Hero Section -->
+    <div class="mobile-hero mobile-only">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <h1>Your Next <br><span>Nail Obsession</span><br>Starts Here.</h1>
+        <p class="hero-subtitle">Curated, not random.</p>
+        <p class="hero-desc">For girls who notice details.</p>
+        <div class="hero-badge">
+          <span>Vol 2O26</span>
+          <span class="hero-pinterest">📌 Follow on Pinterest</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Search & Filter Bar -->
+    <div class="mobile-search-bar mobile-only">
+      <div class="search-input">
+        <img src="../assets/search-icon.svg" alt="search">
+        <input type="text" placeholder="Search nails...">
+      </div>
+      <button class="filter-btn">
+        <span>🔍</span> Filter
+      </button>
+    </div>
+
+    <!-- Mobile Category Chips -->
+    <div class="mobile-categories mobile-only">
+      <div class="category-chip active">✨ All</div>
+      <div class="category-chip">🌸 Summer</div>
+      <div class="category-chip">🇫🇷 French tips</div>
+      <div class="category-chip">💰 Old money</div>
+      <div class="category-chip">📅 June nails</div>
+      <div class="category-chip">🎨 Minimal</div>
+      <div class="category-chip">💅 Glossy</div>
+    </div>
+
+    <!-- Blog Posts -->
     <div class="gen-blog-cont">
       <div class="blog-unique-example">
+        <div class="blog-badge">🔥 Trending</div>
         <p class="data">June 24'</p>
         <div class="blog-title-seo">
           <h4>~ SUMMER / FRENCH / MINIMAL</h4>
           <h3>May Nails That Feel Just Right On Time For Spring</h3>
+          <div class="read-more">Read more →</div>
         </div>
       </div>
       <div class="blog-unique-example">
+        <div class="blog-badge">📌 Editor's pick</div>
         <p class="data">June 28'</p>
         <div class="blog-title-seo">
           <h4>~ SUMMER / FRENCH / MINIMAL</h4>
           <h3>The Ultimate Guide To This Summer's Aesthetics</h3>
+          <div class="read-more">Read more →</div>
         </div>
       </div>
       <div class="blog-unique-example">
+        <div class="blog-badge">💎 Must read</div>
         <p class="data">June 24'</p>
         <div class="blog-title-seo">
           <h4>~ SUMMER / FRENCH / MINIMAL</h4>
           <h3>May Nails That Feel Just Right On Time For Spring</h3>
+          <div class="read-more">Read more →</div>
         </div>
+      </div>
+      <div class="blog-unique-example">
+        <div class="blog-badge">✨ New</div>
+        <p class="data">July 1'</p>
+        <div class="blog-title-seo">
+          <h4>~ TRENDING / SUMMER / VIRAL</h4>
+          <h3>The Viral Nail Trend Taking Over TikTok</h3>
+          <div class="read-more">Read more →</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <div class="mobile-bottom-nav mobile-only">
+      <div class="nav-item active">
+        <span>🏠</span>
+        <span>Home</span>
+      </div>
+      <div class="nav-item">
+        <span>🔍</span>
+        <span>Explore</span>
+      </div>
+      <div class="nav-item">
+        <span>❤️</span>
+        <span>Saved</span>
+      </div>
+      <div class="nav-item">
+        <span>👤</span>
+        <span>Profile</span>
       </div>
     </div>
   </div>
