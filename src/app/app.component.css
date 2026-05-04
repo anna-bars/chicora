@@ -1,0 +1,128 @@
+.first-header {
+    background-image: url(../assets/header-ack.png);
+    width: 26.9%;
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.btimg {
+    width: 100%;
+}
+.logo-img {
+    width: 32%;
+}
+.bottom-part-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    color: rgb(186, 186, 186);
+    padding-top: 8px;
+}
+.line-vector-img {
+    display: block;
+    padding: 6px 20px;
+}
+.middle-part h2 {
+    font-weight: 400;
+    color: #bfb1ada7;
+    font-size: 22px;
+}
+.middle-part h3 {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: right;
+    color: #bfb1ada7;
+}
+.middle-part h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 38px;
+}
+.middle-part h1 span {
+    font-weight: 600;
+    font-style: italic;
+}
+.cont {
+    display: flex;
+}
+.second-general-cont {
+    width: 73.1%;
+    height: 100vh;
+    overflow: hidden;
+}
+.icons {
+    display: flex;
+    gap: 12px;
+}
+.tags a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.tags {
+    display: flex;
+    gap: 36px;
+}
+.general-cont-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 38px;
+    padding: 20px 20px 18px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.339);
+}
+.gen-blog-cont {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 92vh;
+}
+.blog-unique-example {
+    width: 32.5%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+.blog-unique-example:nth-child(1) {
+    background-image: url(../assets/blog-1-img.png);
+}
+.blog-unique-example:nth-child(2) {
+    background-image: url(../assets/blog-3-img.png);
+}
+.blog-unique-example:nth-child(3) {
+    background-image: url(../assets/blog-2-img.png);
+}
+.data {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.474);
+}
+
+.blog-title-seo h4 {
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.614);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.blog-title-seo h3 {
+    font-weight: 400;
+    color: #FFF8F8;
+    font-size: 26px;
+}
+
+
+
+
+
+
