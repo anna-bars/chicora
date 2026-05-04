@@ -17,7 +17,7 @@
     <div class="bottom-part">
       <img class="btimg" src="../assets/brending-img.png" alt="Branding image">
       <div class="bottom-part-text">
-        <p>Vol 2O26</p>
+        <p>Vol 2026</p>
         <p>Follow on Pinterest ↗</p>
       </div>
     </div>
@@ -27,16 +27,16 @@
   <div class="mobile-nav mobile-only">
     <div class="mobile-nav-header">
       <img class="mobile-logo" src="/assets/logo.svg" alt="Daily Nail Edit">
-      <button class="burger-menu" id="burgerBtn">
+      <button class="burger-menu" id="burgerBtn" (click)="toggleMenu()">
         <span></span>
         <span></span>
         <span></span>
       </button>
     </div>
     
-    <!-- Mobile Fullscreen Menu -->
-    <div class="mobile-fullscreen-menu" id="mobileMenu">
-      <button class="close-menu">&times;</button>
+    <!-- Mobile Fullscreen Menu - BRAND RED BACKGROUND -->
+    <div class="mobile-fullscreen-menu" id="mobileMenu" [class.active]="menuOpen">
+      <button class="close-menu" (click)="toggleMenu()">&times;</button>
       <div class="mobile-menu-content">
         <img class="menu-logo" src="/assets/logo.svg" alt="Logo">
         <h2>Daily Nail Edit</h2>
@@ -47,7 +47,7 @@
           <a href="#">June nails</a>
         </div>
         <div class="menu-footer">
-          <p>Vol 2O26</p>
+          <p>Vol 2026</p>
           <p>Follow on Pinterest ↗</p>
         </div>
       </div>
@@ -72,27 +72,23 @@
 
     <!-- Mobile Hero Section -->
     <div class="mobile-hero mobile-only">
-      <div class="hero-background"></div>
       <div class="hero-content">
         <h1>Your Next <br><span>Nail Obsession</span><br>Starts Here.</h1>
         <p class="hero-subtitle">Curated, not random.</p>
         <p class="hero-desc">For girls who notice details.</p>
         <div class="hero-badge">
-          <span>Vol 2O26</span>
-          <span class="hero-pinterest">📌 Follow on Pinterest</span>
+          <span>Vol 2026</span>
+          <span>📌 Follow on Pinterest</span>
         </div>
       </div>
     </div>
 
-    <!-- Mobile Search & Filter Bar -->
+    <!-- Mobile Search Bar -->
     <div class="mobile-search-bar mobile-only">
       <div class="search-input">
-        <img src="../assets/search-icon.svg" alt="search">
+        <span class="search-icon">🔍</span>
         <input type="text" placeholder="Search nails...">
       </div>
-      <button class="filter-btn">
-        <span>🔍</span> Filter
-      </button>
     </div>
 
     <!-- Mobile Category Chips -->
@@ -106,7 +102,7 @@
       <div class="category-chip">💅 Glossy</div>
     </div>
 
-    <!-- Blog Posts -->
+    <!-- Blog Posts Grid -->
     <div class="gen-blog-cont">
       <div class="blog-unique-example">
         <div class="blog-badge">🔥 Trending</div>
@@ -117,6 +113,7 @@
           <div class="read-more">Read more →</div>
         </div>
       </div>
+
       <div class="blog-unique-example">
         <div class="blog-badge">📌 Editor's pick</div>
         <p class="data">June 28'</p>
@@ -126,6 +123,7 @@
           <div class="read-more">Read more →</div>
         </div>
       </div>
+
       <div class="blog-unique-example">
         <div class="blog-badge">💎 Must read</div>
         <p class="data">June 24'</p>
@@ -135,6 +133,7 @@
           <div class="read-more">Read more →</div>
         </div>
       </div>
+
       <div class="blog-unique-example">
         <div class="blog-badge">✨ New</div>
         <p class="data">July 1'</p>
@@ -144,25 +143,25 @@
           <div class="read-more">Read more →</div>
         </div>
       </div>
-    </div>
 
-    <!-- Mobile Bottom Navigation -->
-    <div class="mobile-bottom-nav mobile-only">
-      <div class="nav-item active">
-        <span>🏠</span>
-        <span>Home</span>
+      <div class="blog-unique-example">
+        <div class="blog-badge">🌟 Popular</div>
+        <p class="data">July 5'</p>
+        <div class="blog-title-seo">
+          <h4>~ MINIMAL / GLOSSY / TREND</h4>
+          <h3>10 Minimal Nail Designs You'll See Everywhere</h3>
+          <div class="read-more">Read more →</div>
+        </div>
       </div>
-      <div class="nav-item">
-        <span>🔍</span>
-        <span>Explore</span>
-      </div>
-      <div class="nav-item">
-        <span>❤️</span>
-        <span>Saved</span>
-      </div>
-      <div class="nav-item">
-        <span>👤</span>
-        <span>Profile</span>
+
+      <div class="blog-unique-example">
+        <div class="blog-badge">💡 Tips</div>
+        <p class="data">July 8'</p>
+        <div class="blog-title-seo">
+          <h4>~ CARE / HEALTH / NAILS</h4>
+          <h3>How To Keep Your Nails Healthy All Summer</h3>
+          <div class="read-more">Read more →</div>
+        </div>
       </div>
     </div>
   </div>
