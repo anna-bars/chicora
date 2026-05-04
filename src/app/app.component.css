@@ -87,9 +87,7 @@
     cursor: pointer;
 }
 
-.btimg:hover {
-    transform: scale(1.02);
-}
+
 
 .bottom-part-text {
     display: flex;
@@ -295,6 +293,17 @@
 .mobile-only {
     display: none;
 }
+p.hero-ttitle {
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    padding-bottom: 8px;
+}
+p.hero-ttitle span {
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 16px;
+}
 
 /* ========== MOBILE STYLES ========== */
 @media (max-width: 768px) {
@@ -321,7 +330,6 @@
         top: 0;
         z-index: 1000;
         background: white;
-        border-bottom: 1px solid rgba(0,0,0,0.05);
     }
     
     .mobile-nav-header {
@@ -333,7 +341,7 @@
     }
     
     .mobile-logo {
-        height: 32px;
+        height: 56px;
         width: auto;
     }
     
@@ -438,14 +446,10 @@
     
     /* Mobile Hero */
     .mobile-hero {
-        position: relative;
-        min-height: 50vh;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         overflow: hidden;
-        padding: 40px 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 16px 20px;
+        background-image: url(../assets/header-ack.png);
+        border-top: 1px solid white;
     }
     
     .hero-background {
@@ -519,7 +523,6 @@
         display: flex;
         gap: 12px;
         background: white;
-        border-bottom: 1px solid #f0f0f0;
     }
     
     .search-input {
@@ -563,7 +566,6 @@
         gap: 10px;
         overflow-x: auto;
         scrollbar-width: none;
-        border-bottom: 1px solid #f0f0f0;
     }
     
     .mobile-categories::-webkit-scrollbar {
