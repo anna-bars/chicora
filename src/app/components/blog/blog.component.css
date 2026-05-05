@@ -8,12 +8,14 @@
 :host {
     display: block;
     width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* Նույն հիմնական ոճերը ինչ app.component.css-ում */
 .cont {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -30,6 +32,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    flex-shrink: 0;
 }
 
 .logo-img {
@@ -109,9 +112,10 @@
 .second-general-cont {
     width: 73.1%;
     flex: 1;
-    min-height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .general-cont-header {
@@ -125,6 +129,7 @@
     top: 0;
     background: white;
     z-index: 10;
+    flex-shrink: 0;
 }
 
 .tags {
@@ -175,17 +180,16 @@
     transform: scale(1.2);
 }
 
-/* Blog Wrapper - ապահովում է relative positioning */
-.blog-wrapper {
-    position: relative;
-}
-
-/* Blog specific styles */
+/* Blog Wrapper - Scrollable */
 .blog-container {
     display: flex;
     gap: 40px;
     padding: 40px;
     align-items: flex-start;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 .blog-main-content {
@@ -196,12 +200,14 @@
 .blog-sidebar {
     flex: 0.7;
     min-width: 250px;
+    position: sticky;
+    top: 0;
 }
 
 /* Sticky Sidebar - միշտ attached */
 .sidebar-sticky {
     position: sticky;
-    top: 80px; /* header-ի բարձրությունից ներքև */
+    top: 20px;
 }
 
 .sidebar-title {
@@ -381,7 +387,7 @@
 }
 
 .suggested-blog-image {
-    height: 180px;
+    height: 114px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -417,7 +423,7 @@
     color: #1a1a1a;
 }
 
-.suggested-blog-card .read-more {
+.read-more {
     font-size: 12px;
     color: #c4957c;
 }
@@ -535,13 +541,21 @@ p.hero-ttitle span {
     .mobile-only {
         display: block;
     }
+
+    :host {
+        overflow: auto;
+        height: auto;
+    }
     
     .cont {
         flex-direction: column;
+        height: auto;
     }
     
     .second-general-cont {
         width: 100%;
+        height: auto;
+        overflow: visible;
     }
     
     .mobile-nav {
@@ -668,15 +682,18 @@ p.hero-ttitle span {
         flex-direction: column;
         padding: 20px;
         gap: 40px;
+        overflow: visible;
+        height: auto;
     }
     
     .blog-sidebar {
         min-width: auto;
+        position: static;
     }
     
-    /* Mobile sticky sidebar */
+    /* Mobile sticky sidebar becomes static */
     .sidebar-sticky {
-        position: relative;
+        position: static;
         top: auto;
     }
     
@@ -732,15 +749,32 @@ p.hero-ttitle span {
     .blog-container {
         flex-direction: column;
         padding: 30px;
+        overflow: visible;
+        height: auto;
+    }
+
+    :host {
+        overflow: auto;
+        height: auto;
+    }
+
+    .cont {
+        height: auto;
+    }
+
+    .second-general-cont {
+        height: auto;
+        overflow: visible;
     }
     
     .blog-sidebar {
         min-width: auto;
+        position: static;
     }
     
-    /* Tablet sticky sidebar */
+    /* Tablet sticky sidebar becomes static */
     .sidebar-sticky {
-        position: relative;
+        position: static;
         top: auto;
     }
     
