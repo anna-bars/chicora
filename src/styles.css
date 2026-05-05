@@ -26,10 +26,12 @@ img.blog-img {
 }
 .nail-idea-item h3 {
     font-size: 32px;
-    font-weight: normal;
+    font-weight: 500;
 }
 .nail-idea-item p {
     width: 94%;
+    font-weight: 500;
+    font-size: 17px;
 }
 .blog-header h1 {
     width: 80%;
