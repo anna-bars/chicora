@@ -1,8 +1,10 @@
 import { Blog } from './blog.model';
+import { generateSlug } from '../utils/slug.util';
 
 export const BLOGS: Blog[] = [
   {
     id: 1,
+    slug: generateSlug('30 Summer Nail Ideas You\'ll Be Obsessed With 2026'),
     title: '30 Summer Nail Ideas You\'ll Be Obsessed With',
     fullTitle: '30 Summer Nail Ideas You\'ll Be Obsessed With (2026)',
     date: 'June 15\'',
@@ -209,6 +211,7 @@ export const BLOGS: Blog[] = [
 
   {
     id: 2,
+    slug: generateSlug('12 Summer Nail Ideas You\'ll Be Obsessed With 2026'),
     title: '20 Classy May Nails Ideas For Late Spring',
     fullTitle: '20 Classy May Nails Ideas For Late Spring',
     date: 'May 20\'',
@@ -223,6 +226,7 @@ export const BLOGS: Blog[] = [
   // ← ՆՈՐ ԲԼՈԳ ԱՎԵԼԱՑՆԵԼԻՍ ուղղակի copy-paste անում ես այս կաղապարը:
   {
     id: 7,  // ← հաջորդ id
+    slug: generateSlug('26 Summer Nail Ideas You\'ll Be Obsessed With 2026'),
     title: 'Բլոգի կարճ անունը (grid-ում)',
     fullTitle: 'Բլոգի լրիվ անունը (բլոգի էջում)',
     date: 'July 15\'',

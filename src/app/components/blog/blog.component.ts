@@ -14,28 +14,29 @@ export class BlogComponent implements OnInit {
   suggestedBlogs: Blog[] = [];
 
   constructor(private route: ActivatedRoute, private router: Router) {}
-
+  
   ngOnInit(): void {
-    this.route.params.subscribe(params => this.loadBlog(+params['id']));
+    this.route.params.subscribe(params => this.loadBlog(params['slug']));
   }
 
-  loadBlog(id: number): void {
-    this.currentBlog = BLOGS.find(b => b.id === id) ?? null;
+  loadBlog(slug: string): void {
+    this.currentBlog = BLOGS.find(b => b.slug === slug) ?? null;
     if (this.currentBlog) {
-      this.suggestedBlogs = BLOGS.filter(b => b.id !== id).slice(0, 3);
+      this.suggestedBlogs = BLOGS.filter(b => b.slug !== slug).slice(0, 3);
     } else {
       this.router.navigate(['/']);
     }
-  }
+}
 
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
     document.body.style.overflow = this.menuOpen ? 'hidden' : '';
   }
 
-  navigateToBlog(id: number): void {
-    this.router.navigate(['/blog', id]);
-    this.loadBlog(id);
+  navigateToBlog(slug: string): void {
+    this.router.navigate(['/blog', slug]);
+    this.loadBlog(slug);
     window.scrollTo(0, 0);
   }
+
 }

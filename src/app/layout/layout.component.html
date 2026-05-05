@@ -66,7 +66,7 @@
         *ngFor="let blog of blogs"
         class="blog-unique-example"
         [style.backgroundImage]="'url(' + (blog.cardImage || blog.imageUrl) + ')'"
-        (click)="navigateToBlog(blog.id)"
+        (click)="navigateToBlog(blog.slug)"   
       >
         <div class="blog-badge">{{ blog.badge }}</div>
         <p class="data">{{ blog.date }}</p>

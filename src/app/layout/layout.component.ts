@@ -14,10 +14,10 @@ export class LayoutComponent {
 
   constructor(private router: Router) {}
 
-  navigateToBlog(id: number): void {
-    this.router.navigate(['/blog', id]);
+  navigateToBlog(slug: string): void {
+    this.router.navigate(['/blog', slug]);
   }
-
+  
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
     document.body.style.overflow = this.menuOpen ? 'hidden' : '';

@@ -107,7 +107,9 @@
         <div class="sidebar-sticky">
           <h3 class="sidebar-title">You Might Also Like</h3>
           <div class="suggested-blogs">
-            <div *ngFor="let blog of suggestedBlogs" class="suggested-blog-card" (click)="navigateToBlog(blog.id)">
+            <div *ngFor="let blog of suggestedBlogs" 
+              class="suggested-blog-card" 
+              (click)="navigateToBlog(blog.slug)"> 
               <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
                 <span class="suggested-category-badge">{{ blog.badge }}</span>
               </div>
