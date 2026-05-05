@@ -19,7 +19,7 @@
 
 .first-header {
     background-image: url(/assets/header-ack.png);
-    width: 23.9%;
+    width: 20.9%;
     min-width: 280px;
     height: 100vh;
     background-size: cover;
@@ -175,11 +175,17 @@
     transform: scale(1.2);
 }
 
+/* Blog Wrapper - ապահովում է relative positioning */
+.blog-wrapper {
+    position: relative;
+}
+
 /* Blog specific styles */
 .blog-container {
     display: flex;
     gap: 40px;
     padding: 40px;
+    align-items: flex-start;
 }
 
 .blog-main-content {
@@ -189,7 +195,22 @@
 
 .blog-sidebar {
     flex: 0.7;
-    min-width: 180px;
+    min-width: 250px;
+}
+
+/* Sticky Sidebar - միշտ attached */
+.sidebar-sticky {
+    position: sticky;
+    top: 80px; /* header-ի բարձրությունից ներքև */
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #c4957c;
+    display: inline-block;
 }
 
 .blog-header {
@@ -339,15 +360,6 @@
 }
 
 /* Suggested Blogs Sidebar */
-.sidebar-title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid #c4957c;
-    display: inline-block;
-}
-
 .suggested-blogs {
     display: flex;
     flex-direction: column;
@@ -662,6 +674,12 @@ p.hero-ttitle span {
         min-width: auto;
     }
     
+    /* Mobile sticky sidebar */
+    .sidebar-sticky {
+        position: relative;
+        top: auto;
+    }
+    
     .suggested-blog-card {
         display: flex;
         gap: 16px;
@@ -718,6 +736,12 @@ p.hero-ttitle span {
     
     .blog-sidebar {
         min-width: auto;
+    }
+    
+    /* Tablet sticky sidebar */
+    .sidebar-sticky {
+        position: relative;
+        top: auto;
     }
     
     .suggested-blogs {

@@ -104,16 +104,18 @@
 
       <!-- Suggested Blogs Sidebar -->
       <div class="blog-sidebar">
-        <h3 class="sidebar-title">You Might Also Like</h3>
-        <div class="suggested-blogs">
-          <div *ngFor="let blog of suggestedBlogs" class="suggested-blog-card" (click)="navigateToBlog(blog.id)">
-            <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
-              <div class="suggested-badge">{{ blog.badge }}</div>
-            </div>
-            <div class="suggested-blog-info">
-              <p class="suggested-date">{{ blog.date }}</p>
-              <h4 class="suggested-title">{{ blog.title }}</h4>
-              <div class="read-more">Read more →</div>
+        <div class="sidebar-sticky">
+          <h3 class="sidebar-title">You Might Also Like</h3>
+          <div class="suggested-blogs">
+            <div *ngFor="let blog of suggestedBlogs" class="suggested-blog-card" (click)="navigateToBlog(blog.id)">
+              <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
+                <div class="suggested-badge">{{ blog.badge }}</div>
+              </div>
+              <div class="suggested-blog-info">
+                <p class="suggested-date">{{ blog.date }}</p>
+                <h4 class="suggested-title">{{ blog.title }}</h4>
+                <div class="read-more">Read more →</div>
+              </div>
             </div>
           </div>
         </div>
