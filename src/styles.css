@@ -28,8 +28,12 @@ img.blog-img {
     font-size: 32px;
     font-weight: normal;
 }
-
-
+.nail-idea-item p {
+    width: 94%;
+}
+.blog-header h1 {
+    width: 80%;
+}
 
 
 
