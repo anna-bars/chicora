@@ -1,3 +1,4 @@
+// blog.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { BLOGS } from '../../data/blogs.data';
