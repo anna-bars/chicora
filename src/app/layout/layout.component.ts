@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { BLOGS } from '../data/blogs.data';
+import { Blog } from '../data/blog.model';
 
 @Component({
   selector: 'app-layout',
@@ -7,13 +10,16 @@ import { Component } from '@angular/core';
 })
 export class LayoutComponent {
   menuOpen = false;
+  blogs: Blog[] = BLOGS;
+
+  constructor(private router: Router) {}
+
+  navigateToBlog(id: number): void {
+    this.router.navigate(['/blog', id]);
+  }
 
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
-    if (this.menuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    document.body.style.overflow = this.menuOpen ? 'hidden' : '';
   }
 }
