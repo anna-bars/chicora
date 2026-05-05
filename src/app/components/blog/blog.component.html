@@ -1,0 +1,133 @@
+<div class="cont">
+  <!-- Desktop Sidebar -->
+  <div class="first-header desktop-only">
+    <img class="logo-img" src="/assets/logo.svg" alt="Daily Nail Edit Logo">
+    <div class="middle-part">
+      <h2>Daily Nail Edit</h2>
+      <img class="line-vector-img" src="/assets/top-line.svg" alt="decorative line">
+      <h1>
+        Your Next <br>
+        <span>Nail Obsession</span> <br>
+        Starts Here.
+      </h1>
+      <img class="line-vector-img" src="/assets/top-line.svg" alt="decorative line">
+      <h2>Curated, not random.</h2>
+      <h3>For girls who notice details.</h3>
+    </div>
+    <div class="bottom-part">
+      <img class="btimg" src="/assets/brending-img.png" alt="Branding image">
+      <div class="bottom-part-text">
+        <p>Vol 2026</p>
+        <p>Follow on Pinterest ↗</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation (Burger Menu) -->
+  <div class="mobile-nav mobile-only">
+    <div class="mobile-nav-header">
+      <img class="mobile-logo" src="/assets/logo.svg" alt="Daily Nail Edit">
+      <button class="burger-menu" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <div class="mobile-fullscreen-menu" [class.active]="menuOpen">
+      <button class="close-menu" (click)="toggleMenu()">&times;</button>
+      <div class="mobile-menu-content">
+        <img class="menu-logo" src="/assets/logo.svg" alt="Logo">
+        <h2>Daily Nail Edit</h2>
+        <div class="menu-tags">
+          <a href="#">Summer</a>
+          <a href="#">French tips</a>
+          <a href="#">Old money</a>
+          <a href="#">June nails</a>
+        </div>
+        <div class="menu-footer">
+          <p>Vol 2026</p>
+          <p>Follow on Pinterest ↗</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="second-general-cont">
+    <!-- Desktop Header -->
+    <div class="general-cont-header desktop-only">
+      <div class="tags">
+        <a href="#">Summer</a>
+        <a href="#">French tips</a>
+        <a href="#">Old money</a>
+        <a href="#">June nails</a>
+      </div>
+      <div class="icons">
+        <img src="/assets/pints-icon.svg" alt="Pinterest">
+      </div>
+    </div>
+
+    <!-- Blog Content Area -->
+    <div class="blog-container" *ngIf="currentBlog">
+      <!-- Main Blog Post -->
+      <div class="blog-main-content">
+        <div class="blog-header">
+          <div class="blog-badge">{{ currentBlog.badge }}</div>
+          <p class="blog-date">{{ currentBlog.date }}</p>
+          <h4 class="blog-category">{{ currentBlog.category }}</h4>
+          <h1 class="blog-title">{{ currentBlog.fullTitle }}</h1>
+        </div>
+
+        <!-- Nail Section -->
+        <div class="nail-section">
+          <h2 class="nail-name">{{ currentBlog.nailName }}</h2>
+          <img [src]="currentBlog.imageUrl" [alt]="currentBlog.nailName" class="nail-image">
+          <p class="nail-description">{{ currentBlog.nailDescription }}</p>
+        </div>
+
+        <!-- Blog Content -->
+        <div class="blog-content" [innerHTML]="currentBlog.content"></div>
+
+        <!-- Tags & Share -->
+        <div class="blog-footer">
+          <div class="blog-tags">
+            <span>#NailArt</span>
+            <span>#SpringNails</span>
+            <span>#NailInspo</span>
+          </div>
+          <div class="share-buttons">
+            <button class="share-btn">📌 Save to Pinterest</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Suggested Blogs Sidebar -->
+      <div class="blog-sidebar">
+        <h3 class="sidebar-title">You Might Also Like</h3>
+        <div class="suggested-blogs">
+          <div *ngFor="let blog of suggestedBlogs" class="suggested-blog-card" (click)="navigateToBlog(blog.id)">
+            <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
+              <div class="suggested-badge">{{ blog.badge }}</div>
+            </div>
+            <div class="suggested-blog-info">
+              <p class="suggested-date">{{ blog.date }}</p>
+              <h4 class="suggested-title">{{ blog.title }}</h4>
+              <div class="read-more">Read more →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Hero Section -->
+    <div class="mobile-hero mobile-only">
+      <p class="hero-ttitle">
+        Your next <br>
+        <span>nail obsession</span> <br>
+        starts here.
+      </p>
+      <img class="btimg" src="/assets/brending-img.png" alt="Branding image">
+    </div>
+  </div>
+</div>

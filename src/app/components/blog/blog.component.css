@@ -1,0 +1,629 @@
+/* Ժառանգել հիմնական ոճերը */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:host {
+    display: block;
+    width: 100%;
+}
+
+/* Նույն հիմնական ոճերը ինչ app.component.css-ում */
+.cont {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.first-header {
+    background-image: url(/assets/header-ack.png);
+    width: 21.9%;
+    min-width: 280px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo-img {
+    width: 32%;
+    min-width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+.middle-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-part h2 {
+    font-weight: 400;
+    color: #bfb1ada7;
+    font-size: clamp(18px, 2.5vw, 22px);
+    margin: 10px 0;
+}
+
+.middle-part h3 {
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: 400;
+    width: 100%;
+    text-align: right;
+    color: #bfb1ada7;
+}
+
+.middle-part h1 {
+    color: white;
+    font-weight: 400;
+    font-size: clamp(28px, 5vw, 38px);
+    line-height: 1.2;
+}
+
+.middle-part h1 span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.line-vector-img {
+    display: block;
+    padding: 6px 20px;
+    height: 12px;
+}
+
+.btimg {
+    width: 100%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.bottom-part-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    color: rgb(186, 186, 186);
+    padding-top: 8px;
+    font-size: clamp(13px, 1.5vw, 15px);
+}
+
+.bottom-part-text p {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.bottom-part-text p:hover {
+    color: white;
+}
+
+.second-general-cont {
+    width: 73.1%;
+    flex: 1;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.general-cont-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: clamp(20px, 3vw, 38px);
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.tags {
+    display: flex;
+    gap: clamp(20px, 3vw, 36px);
+    flex-wrap: wrap;
+}
+
+.tags a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: clamp(14px, 1.5vw, 16px);
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+}
+
+.tags a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.tags a:hover::after {
+    width: 100%;
+    background-color: #c4957c;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+}
+
+.icons img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Blog specific styles */
+.blog-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.blog-main-content {
+    flex: 2.3;
+    min-width: 0;
+}
+
+.blog-sidebar {
+    flex: 0.7;
+    min-width: 180px;
+}
+
+.blog-header {
+    margin-bottom: 40px;
+}
+
+.blog-badge {
+    display: inline-block;
+    background: rgba(0,0,0,0.05);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.blog-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.blog-category {
+    color: #c4957c;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.blog-title {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 400;
+    line-height: 1.2;
+    color: #1a1a1a;
+}
+
+/* Nail Section */
+.nail-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.nail-name {
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #c4957c;
+}
+
+.nail-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.nail-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Blog Content */
+.blog-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.blog-content h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+    font-weight: 500;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.blog-content ul, .blog-content ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.blog-content li {
+    margin-bottom: 10px;
+}
+
+.blog-content img.blog-detail-img {
+    width: 100%;
+    border-radius: 16px;
+    margin: 30px 0;
+}
+
+/* Blog Footer */
+.blog-footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.blog-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.blog-tags span {
+    background: #f5f5f5;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.blog-tags span:hover {
+    background: #c4957c;
+    color: white;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.share-btn {
+    background: #8B1A19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.share-btn:hover {
+    background: #6b1312;
+    transform: translateY(-2px);
+}
+
+/* Suggested Blogs Sidebar */
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #c4957c;
+    display: inline-block;
+}
+
+.suggested-blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.suggested-blog-card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.suggested-blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.suggested-blog-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.suggested-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(5px);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: white;
+}
+
+.suggested-blog-info {
+    padding: 16px;
+}
+
+.suggested-date {
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.suggested-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+}
+
+.suggested-blog-card .read-more {
+    font-size: 12px;
+    color: #c4957c;
+}
+
+/* Mobile Styles */
+.desktop-only {
+    display: flex;
+}
+
+.mobile-only {
+    display: none;
+}
+
+p.hero-ttitle {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0 0 0 6px;
+    position: absolute;
+}
+
+p.hero-ttitle span {
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 16px;
+}
+
+/* Mobile Navigation Styles (նույնը ինչ app.component.css-ում) */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none !important;
+    }
+    
+    .mobile-only {
+        display: block;
+    }
+    
+    .cont {
+        flex-direction: column;
+    }
+    
+    .second-general-cont {
+        width: 100%;
+    }
+    
+    .mobile-nav {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: white;
+    }
+    
+    .mobile-nav-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px;
+        background: #8B1A19;
+    }
+    
+    .mobile-logo {
+        height: 56px;
+        width: auto;
+    }
+    
+    .burger-menu {
+        width: 30px;
+        height: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .burger-menu span {
+        width: 100%;
+        height: 2px;
+        background: #ffffff;
+        transition: all 0.3s ease;
+    }
+    
+    .mobile-fullscreen-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        z-index: 2000;
+        transition: left 0.4s ease;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mobile-fullscreen-menu.active {
+        left: 0;
+    }
+    
+    .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 40px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: 300;
+    }
+    
+    .mobile-menu-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 40px;
+    }
+    
+    .menu-logo {
+        width: 60px;
+        height: auto;
+        filter: brightness(0) invert(1);
+    }
+    
+    .mobile-menu-content h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .menu-tags {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .menu-tags a {
+        color: rgba(255,255,255,0.9);
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.3s ease;
+    }
+    
+    .menu-footer {
+        position: absolute;
+        bottom: 40px;
+        display: flex;
+        gap: 30px;
+        color: rgba(255,255,255,0.8);
+    }
+    
+    .mobile-hero {
+        overflow: hidden;
+        padding: 16px 20px;
+        background-image: url(/assets/header-ack.png);
+        border-top: 1px solid #8B1A19;
+    }
+    
+    /* Mobile Blog Layout */
+    .blog-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+    
+    .blog-sidebar {
+        min-width: auto;
+    }
+    
+    .suggested-blog-card {
+        display: flex;
+        gap: 16px;
+    }
+    
+    .suggested-blog-image {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+    
+    .suggested-blog-info {
+        flex: 1;
+        padding: 12px 0;
+    }
+    
+    .suggested-title {
+        font-size: 14px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .blog-container {
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .blog-sidebar {
+        min-width: auto;
+    }
+    
+    .suggested-blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .first-header {
+        width: 35%;
+    }
+    
+    .second-general-cont {
+        width: 65%;
+    }
+}
