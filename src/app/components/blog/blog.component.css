@@ -19,7 +19,7 @@
 
 .first-header {
     background-image: url(/assets/header-ack.png);
-    width: 21.9%;
+    width: 23.9%;
     min-width: 280px;
     height: 100vh;
     background-size: cover;
@@ -410,6 +410,87 @@
     color: #c4957c;
 }
 
+/* ======================================== */
+/* 30 SUMMER NAIL IDEAS - SPECIAL STYLES    */
+/* ======================================== */
+
+/* Hide default nail section for summer blog (id: 1) */
+.blog-container.is-summer-blog .nail-section {
+    display: none !important;
+}
+
+/* Summer blog nail images sizing */
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fafafa;
+    border-radius: 24px;
+    padding: 28px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    border-color: rgba(196,149,124,0.2);
+}
+
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item img {
+    max-width: 300px !important;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #c4957c;
+    letter-spacing: -0.3px;
+}
+
+.blog-container.is-summer-blog .nail-ideas-list .nail-idea-item p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Final thoughts section */
+.blog-container.is-summer-blog .final-thoughts {
+    background: linear-gradient(135deg, #fdf8f5 0%, #fff 100%);
+    padding: 40px;
+    border-radius: 24px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid rgba(196,149,124,0.2);
+}
+
+.blog-container.is-summer-blog .final-thoughts p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.blog-container.is-summer-blog .final-thoughts strong {
+    color: #c4957c;
+    font-weight: 600;
+}
+
 /* Mobile Styles */
 .desktop-only {
     display: flex;
@@ -433,7 +514,7 @@ p.hero-ttitle span {
     padding-left: 16px;
 }
 
-/* Mobile Navigation Styles (նույնը ինչ app.component.css-ում) */
+/* Mobile Navigation Styles */
 @media (max-width: 768px) {
     .desktop-only {
         display: none !important;
@@ -600,6 +681,32 @@ p.hero-ttitle span {
     .suggested-title {
         font-size: 14px;
     }
+
+    /* Mobile summer blog styles */
+    .blog-container.is-summer-blog .nail-ideas-list .nail-idea-item {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .blog-container.is-summer-blog .nail-ideas-list .nail-idea-item img {
+        max-width: 200px !important;
+    }
+
+    .blog-container.is-summer-blog .nail-ideas-list .nail-idea-item h3 {
+        font-size: 18px;
+    }
+
+    .blog-container.is-summer-blog .nail-ideas-list .nail-idea-item p {
+        font-size: 14px;
+    }
+
+    .blog-container.is-summer-blog .final-thoughts {
+        padding: 24px;
+    }
+
+    .blog-container.is-summer-blog .final-thoughts p {
+        font-size: 16px;
+    }
 }
 
 /* Tablet Styles */
@@ -626,4 +733,14 @@ p.hero-ttitle span {
     .second-general-cont {
         width: 65%;
     }
+
+    /* Tablet summer blog styles */
+    .blog-container.is-summer-blog .nail-ideas-list .nail-idea-item img {
+        max-width: 250px !important;
+    }
+}
+
+img.blog-img {
+    border: 15px solid red;
+    width: 71%;
 }

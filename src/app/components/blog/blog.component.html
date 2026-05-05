@@ -69,7 +69,7 @@
     </div>
 
     <!-- Blog Content Area -->
-    <div class="blog-container" *ngIf="currentBlog">
+    <div class="blog-container" *ngIf="currentBlog" [class.is-summer-blog]="currentBlog.id === 1">
       <!-- Main Blog Post -->
       <div class="blog-main-content">
         <div class="blog-header">
@@ -93,7 +93,7 @@
         <div class="blog-footer">
           <div class="blog-tags">
             <span>#NailArt</span>
-            <span>#SpringNails</span>
+            <span>#SummerNails</span>
             <span>#NailInspo</span>
           </div>
           <div class="share-buttons">

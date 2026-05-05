@@ -4,3 +4,23 @@
     box-sizing: border-box;
     font-family: 'Urbanist';
 }
+img.blog-img {
+    width: 80%;
+    padding: 6px 0 12px;
+}
+.blog-content {
+    width: 77%;
+}
+.nail-idea-item h3 {
+    margin: 16px 0 6px;
+}
+
+@media (max-width: 768px) {
+  img.blog-img {
+    width: 100%;
+    padding: 6px 0 12px;
+}
+.blog-content {
+    width: 100%;
+}
+}
