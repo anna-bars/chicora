@@ -201,7 +201,8 @@
 
 .blog-sidebar {
     flex: 0.7;
-    min-width: 250px;
+    min-width: 220px;
+    max-width: 250px;
     position: sticky;
     top: 0;
 }
@@ -213,12 +214,15 @@
 }
 
 .sidebar-title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #c4957c;
     display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #1a1a1a;
 }
 
 .blog-header {
@@ -367,67 +371,91 @@
     transform: translateY(-2px);
 }
 
-/* Suggested Blogs Sidebar */
+/* ======================================== */
+/* SUGGESTED BLOGS SIDEBAR - COMPACT        */
+/* ======================================== */
+
 .suggested-blogs {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
 }
 
 .suggested-blog-card {
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     background: white;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
 }
 
 .suggested-blog-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .suggested-blog-image {
-    height: 114px;
+    height: 75px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.suggested-badge {
+.suggested-category-badge {
     position: absolute;
-    top: 12px;
-    left: 12px;
-    background: rgba(0,0,0,0.7);
-    backdrop-filter: blur(5px);
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 11px;
+    top: 8px;
+    left: 8px;
+    background: rgba(0,0,0,0.65);
+    backdrop-filter: blur(4px);
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
     color: white;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 .suggested-blog-info {
-    padding: 16px;
+    padding: 10px 12px;
 }
 
 .suggested-date {
     color: #999;
-    font-size: 11px;
-    margin-bottom: 8px;
+    font-size: 10px;
+    margin-bottom: 4px;
+    display: block;
 }
 
 .suggested-title {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
-    line-height: 1.4;
-    margin-bottom: 8px;
+    line-height: 1.35;
+    margin-bottom: 6px;
     color: #1a1a1a;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .read-more {
-    font-size: 12px;
+    font-size: 11px;
     color: #c4957c;
+    font-weight: 500;
+    display: inline-block;
+    transition: color 0.2s ease;
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
+}
+
+.suggested-blog-card:hover .read-more {
+    color: #a67b66;
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
 }
 
 /* ======================================== */
@@ -683,40 +711,66 @@ p.hero-ttitle span {
     .blog-container {
         flex-direction: column;
         padding: 20px;
-        gap: 40px;
+        gap: 20px;
         overflow: visible;
         height: auto;
     }
     
     .blog-sidebar {
         min-width: auto;
+        max-width: 100%;
         position: static;
     }
     
-    /* Mobile sticky sidebar becomes static */
     .sidebar-sticky {
         position: static;
         top: auto;
     }
     
-    .suggested-blog-card {
+    .sidebar-title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    .suggested-blogs {
         display: flex;
-        gap: 16px;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+    
+    .suggested-blog-card {
+        min-width: 180px;
+        max-width: 200px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
     }
     
     .suggested-blog-image {
-        width: 100px;
-        height: 100px;
-        flex-shrink: 0;
+        height: 85px;
     }
     
     .suggested-blog-info {
-        flex: 1;
-        padding: 12px 0;
+        padding: 8px 10px;
     }
     
     .suggested-title {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    
+    .suggested-date {
+        font-size: 9px;
+    }
+    
+    .read-more {
+        font-size: 10px;
+    }
+    
+    .suggested-category-badge {
+        font-size: 9px;
+        padding: 2px 6px;
     }
 
     /* Mobile summer blog styles */
@@ -753,6 +807,7 @@ p.hero-ttitle span {
         padding: 30px;
         overflow: visible;
         height: auto;
+        gap: 24px;
     }
 
     :host {
@@ -771,19 +826,46 @@ p.hero-ttitle span {
     
     .blog-sidebar {
         min-width: auto;
+        max-width: 100%;
         position: static;
     }
     
-    /* Tablet sticky sidebar becomes static */
     .sidebar-sticky {
         position: static;
         top: auto;
     }
     
+    .sidebar-title {
+        font-size: 15px;
+    }
+    
+    /* Horizontal scroll for tablet sidebar */
     .suggested-blogs {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+    
+    .suggested-blog-card {
+        min-width: 200px;
+        max-width: 220px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .suggested-blog-image {
+        height: 90px;
+    }
+    
+    .suggested-blog-info {
+        padding: 10px 12px;
+    }
+    
+    .suggested-title {
+        font-size: 13px;
     }
     
     .first-header {

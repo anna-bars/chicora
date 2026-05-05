@@ -102,19 +102,19 @@
         </div>
       </div>
 
-      <!-- Suggested Blogs Sidebar -->
+      <!-- Suggested Blogs Sidebar - Compact Version -->
       <div class="blog-sidebar">
         <div class="sidebar-sticky">
           <h3 class="sidebar-title">You Might Also Like</h3>
           <div class="suggested-blogs">
             <div *ngFor="let blog of suggestedBlogs" class="suggested-blog-card" (click)="navigateToBlog(blog.id)">
               <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
-                <div class="suggested-badge">{{ blog.badge }}</div>
+                <span class="suggested-category-badge">{{ blog.badge }}</span>
               </div>
               <div class="suggested-blog-info">
-                <p class="suggested-date">{{ blog.date }}</p>
+                <span class="suggested-date">{{ blog.date }}</span>
                 <h4 class="suggested-title">{{ blog.title }}</h4>
-                <div class="read-more">Read more →</div>
+                <span class="read-more">Read more →</span>
               </div>
             </div>
           </div>
