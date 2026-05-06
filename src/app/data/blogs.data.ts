@@ -219,7 +219,7 @@ export const BLOGS: Blog[] = [
     "badge": "🌸 Spring edit",
     "category": "~ SPRING / CLASSY / PASTEL",
     "imageUrl": "/assets/blog-2/1-pink-rhinestone-flower-nails-elegant.png",
-    "cardImage": "/assets/blog-2/1-pink-rhinestone-flower-nails-elegant.png",
+    "cardImage": "/assets/blog-2/36-gold-accent-jewelry-match-nails.png",
     "content": `
       <p>You know that awkward moment when your winter nails feel too dark, but your summer vibe hasn't fully kicked in yet? Yeah… that's exactly where May sits. And honestly, it's the perfect excuse to experiment with classy, soft, slightly playful nail designs that don't scream—but definitely get noticed.</p>
       <p>I went through your inspo (and yes, I <em>actually</em> paid attention this time 😄), and these designs lean heavily into <strong>soft pinks, delicate details, tiny accents, and clean luxury vibes</strong>. So if you're aiming for that "effortlessly put-together" look… you're in the right place.</p>
