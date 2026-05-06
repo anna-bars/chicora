@@ -1841,5 +1841,88 @@ export const BLOGS: Blog[] = [
       <p>So pick your shade, pick your energy, and go be that girl 😉</p>
     </div>
   `
+},
+{
+  id: 11,
+  slug: generateSlug('10 Iced Nails for Hot Girl Summer 2026'),
+  title: '10 Iced Nails',
+  fullTitle: '10 Iced Nails for Hot Girl Summer 2026',
+  date: 'July 08\'',
+  badge: '🟡 Iced Edit',
+  category: '~ ICED NAILS / FROSTED FINISH / SUMMER',
+  imageUrl: '/assets/blog-11/1-pearl-chrome-black-turtleneck-nails.png',
+  cardImage: '/assets/blog-11/1-pearl-chrome-black-turtleneck-nails.png',
+  nailName: '10 Iced Nails',
+  nailDescription: 'Frosted, barely-there finish that makes every hand look like it belongs on a yacht in the South of France.',
+  content: `
+    <p>Iced nails are having their moment — and honestly, it's not even a surprise. There's something about that frosted, barely-there finish that makes every hand look like it belongs on a yacht in the South of France. If you're planning your summer nails and you haven't considered iced yet, let me change your mind right now.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Pearl Chrome Black Turtleneck Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/1-pearl-chrome-black-turtleneck-nails.png" alt="Pearl chrome black turtleneck iced nails">
+        <p>Long almond nails with a pearl chrome finish photographed against a black turtleneck create a striking, high-contrast editorial moment. The iridescent shimmer catches light in a way that feels almost otherworldly. <strong>This is the iced nail look that means business.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Sheer White Jacket Portrait Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/2-sheer-white-jacket-portrait-nails.png" alt="Sheer white jacket portrait iced nails">
+        <p>Soft, sheer white nails framing the face in a clean white jacket portrait feel polished, minimal, and completely sophisticated. The monochromatic composition makes the iced finish stand out in the most elegant way. It's quiet, but it's <em>loud</em> in the right rooms.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Ice Blue Stripe Shirt Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/3-ice-blue-stripe-shirt-street-nails.png" alt="Ice blue stripe shirt street iced nails">
+        <p>Ice blue almond nails paired with a striped shirt in a European street setting feel fresh, summery, and effortlessly cool. The blue tones in both the nails and the shirt create a cohesive look that feels intentional. <strong>Summer in the city never looked this good.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Sheer Nude Dark Hair Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/4-sheer-nude-dark-hair-closeup-nails.png" alt="Sheer nude dark hair close up iced nails">
+        <p>Sheer nude-pink iced nails covering the face in a moody close-up feel intimate, mysterious, and deeply stylish. The barely-there color against the dark background adds a layer of contrast that makes the look feel editorial. IMO, this is the most underrated iced nail look on this list.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Powder Blue Dark Moody Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/5-powder-blue-dark-moody-nails.png" alt="Powder blue dark moody iced nails">
+        <p>Powder blue iced nails covering the eyes in a dark, close-up setting create a bold and atmospheric composition that feels fashion-forward and intense. The coolness of the blue against warm skin tones is genuinely stunning. <strong>Color theory didn't miss here.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Frosted Nude Yellow Dress Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/6-frosted-nude-yellow-dress-nails.png" alt="Frosted nude yellow dress iced nails">
+        <p>Frosted nude nails resting gently against a yellow dress create a warm, sun-kissed composition that feels like a perfect summer afternoon. The softness of the iced finish complements the brightness of the dress without competing. Everything about this look feels like a vacation.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Iced Almond Natural Smile Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/7-iced-almond-natural-smile-nails.png" alt="Iced almond natural smile iced nails">
+        <p>Long iced almond nails framing a natural smile in warm outdoor light feel radiant, feminine, and completely wearable. The neutral frost finish works with every skin tone and every outfit — it's the definition of a universally flattering nail. <strong>Simple, stunning, done.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. White Frost Face Frame Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/8-white-frost-face-frame-street-nails.png" alt="White frost face frame street iced nails">
+        <p>Crisp white frosted nails framing the face on a sun-lit street feel clean, confident, and undeniably chic. The brightness of the nails against the warm outdoor setting creates a fresh contrast that feels polished and alive. This is the look that makes strangers compliment your manicure.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Ivory Fur Coat Double Hand Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/9-ivory-fur-coat-double-hand-nails.png" alt="Ivory fur coat double hand iced nails">
+        <p>Long ivory iced nails framed by a luxurious white fur coat create an over-the-top glamorous moment that somehow still feels refined. The combination of textures — frosted nails and fluffy coat — is visually rich and deeply satisfying. FYI — this is the look you save for when you want to feel like a main character 😉</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Blush Pink Denim Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/10-blush-pink-denim-street-nails.png" alt="Blush pink denim street iced nails">
+        <p>Soft blush-pink iced nails peeking through fingers in a casual denim street setting feel relaxed, pretty, and effortlessly cool. The warmth of the blush tone keeps the iced finish from feeling too cold. <strong>Laid-back luxury — that's the whole vibe.</strong></p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>Ten looks, one conclusion — iced nails work because they feel expensive without trying to explain themselves. No bold patterns, no loud colors, just that perfect frosted finish that catches light and attention in equal measure.</p>
+      <p>Hot girl summer 2026 starts at the nail salon. Pick your ice, and go 😉</p>
+    </div>
+  `
 }
 ];
