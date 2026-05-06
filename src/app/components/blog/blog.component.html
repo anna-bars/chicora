@@ -79,12 +79,7 @@
           <h1 class="blog-title">{{ currentBlog.fullTitle }}</h1>
         </div>
 
-        <!-- Nail Section -->
-        <div class="nail-section">
-          <h2 class="nail-name">{{ currentBlog.nailName }}</h2>
-          <img [src]="currentBlog.imageUrl" [alt]="currentBlog.nailName" class="nail-image">
-          <p class="nail-description">{{ currentBlog.nailDescription }}</p>
-        </div>
+      
 
         <!-- Blog Content -->
         <div class="blog-content" [innerHTML]="currentBlog.content"></div>

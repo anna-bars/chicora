@@ -208,33 +208,258 @@ export const BLOGS: Blog[] = [
         </div>
     `
   },
-
-  {
+{
     id: 2,
-    slug: generateSlug('12 Summer Nail Ideas You\'ll Be Obsessed With 2026'),
-    title: '20 Classy May Nails Ideas For Late Spring',
-    fullTitle: '20 Classy May Nails Ideas For Late Spring',
+     nailName: '38 Classy May Nails Ideas',
+    nailDescription: 'Soft pastels, delicate details, and clean luxury vibes for the perfect transition from spring to summer.',
+    slug: generateSlug('38 Classy May Nails Ideas for Late Spring 2026'),
+    title: '38 Classy May Nails Ideas',
+    fullTitle: '38 Classy May Nails Ideas for Late Spring (2026)',
     date: 'May 20\'',
     badge: '🌸 Spring edit',
     category: '~ SPRING / CLASSY / PASTEL',
-    imageUrl: '/assets/blog-2-img.png',
-    nailName: 'Spring Elegance',
-    nailDescription: 'Soft pastels and delicate designs for the perfect transition from spring to summer.',
-    content: `<p>Late spring calls for elegant, soft tones...</p>`
-  },
+    imageUrl: '/assets/blog-2/1-pink-rhinestone-flower-nails-elegant.png',
+    cardImage: '/assets/blog-2-img.png',
+    content: `
+      <p>You know that awkward moment when your winter nails feel too dark, but your summer vibe hasn’t fully kicked in yet? Yeah… that’s exactly where May sits. And honestly, it’s the perfect excuse to experiment with classy, soft, slightly playful nail designs that don’t scream—but definitely get noticed.</p>
+      <p>I went through your inspo (and yes, I <em>actually</em> paid attention this time 😄), and these designs lean heavily into <strong>soft pinks, delicate details, tiny accents, and clean luxury vibes</strong>. So if you’re aiming for that “effortlessly put-together” look… you’re in the right place.</p>
+      
+      <div class="nail-ideas-list">
+        <div class="nail-idea-item">
+          <h3>1. Pink Nails with Rhinestone Flowers</h3>
+          <img class="blog-img" src="/assets/blog-2/1-pink-rhinestone-flower-nails-elegant.png" alt="Pink Nails with Rhinestone Flowers">
+          <p>Soft pink base with tiny crystal flowers? This one feels straight-up elegant. The sparkle stays subtle, but those little stones catch the light in the prettiest way. Ever wanted something feminine without going overboard? This nails it.</p>
+        </div>
 
-  // ← ՆՈՐ ԲԼՈԳ ԱՎԵԼԱՑՆԵԼԻՍ ուղղակի copy-paste անում ես այս կաղապարը:
-  {
-    id: 7,  // ← հաջորդ id
-    slug: generateSlug('26 Summer Nail Ideas You\'ll Be Obsessed With 2026'),
-    title: 'Բլոգի կարճ անունը (grid-ում)',
-    fullTitle: 'Բլոգի լրիվ անունը (բլոգի էջում)',
-    date: 'July 15\'',
-    badge: '✨ New',
-    category: '~ CATEGORY / TAGS',
-    imageUrl: '/assets/blog-X-img.png',
-    nailName: 'Nail Set Name',
-    nailDescription: 'Կարճ նկարագրություն բլոգի վերևում',
-    content: `<p>Բլոգի HTML կոնտենտը...</p>`
+        <div class="nail-idea-item">
+          <h3>2. Minimal Baby Pink with Micro Details</h3>
+          <img class="blog-img" src="/assets/blog-2/2-soft-baby-pink-minimal-detail-nails.png" alt="Minimal Baby Pink with Micro Details">
+          <p>This design keeps things super clean—light pink with tiny accents that almost feel hidden. I love how it looks simple at first glance, but then you notice the details. It's giving quiet luxury.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>3. Pink & Blue French with Berry Accents</h3>
+          <img class="blog-img" src="/assets/blog-2/3-pink-blue-french-berry-accent-nails.png" alt="Pink & Blue French with Berry Accents">
+          <p>Now this one stands out. A mix of pink and blue French tips with tiny fruit-like details creates a playful but still polished look. It's cute—but not childish.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>4. Soft Pink Glossy Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/4-glossy-soft-pink-classy-nails.png" alt="Soft Pink Glossy Nails">
+          <p>No crazy design here—just perfectly shaped, glossy pink nails. And honestly? That's the whole point. Sometimes simplicity wins.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>5. White & Pink Subtle Art Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/5-white-pink-delicate-art-nails.png" alt="White & Pink Subtle Art Nails">
+          <p>A mix of white and pink tones with soft detailing. It feels airy and fresh, like late spring mornings. Clean girl aesthetic, but upgraded.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>6. Peachy Neutral Minimal Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/6-peach-neutral-minimal-spring-nails.png" alt="Peachy Neutral Minimal Nails">
+          <p>Warm peach tones with a glossy finish. These sit right between nude and color, which makes them insanely wearable.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>7. Peach Nails with Tiny Art Accents</h3>
+          <img class="blog-img" src="/assets/blog-2/7-peach-nails-with-subtle-art-details.png" alt="Peach Nails with Tiny Art Accents">
+          <p>Same base, but with small details—tiny lines or dots. It adds personality without ruining the softness.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>8. Peach & White Combo Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/8-peach-white-combination-classy-nails.png" alt="Peach & White Combo Nails">
+          <p>A mix of peach and white designs across nails. This one feels curated but still relaxed.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>9. Gold Ring-Inspired Nude Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/9-nude-nails-with-gold-jewelry-accent.png" alt="Gold Ring-Inspired Nude Nails">
+          <p>Soft nude base paired with gold accents that match jewelry. Ever matched your nails to your rings? Game changer.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>10. Nude Nails with Gold Foil Touches</h3>
+          <img class="blog-img" src="/assets/blog-2/10-nude-gold-foil-luxury-nails.png" alt="Nude Nails with Gold Foil Touches">
+          <p>Random gold foil pieces on a neutral base. Slightly messy—in a good way. It looks expensive without trying.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>11. Pastel Mix with Soft Shine</h3>
+          <img class="blog-img" src="/assets/blog-2/11-pastel-mix-soft-glossy-nails.png" alt="Pastel Mix with Soft Shine">
+          <p>Light pastel tones with a glossy finish. Each nail feels slightly different, but the overall vibe stays cohesive.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>12. Pink Ombre Fade Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/12-pink-ombre-fade-almond-nails.png" alt="Pink Ombre Fade Nails">
+          <p>A soft gradient from natural to pink. It blends so smoothly, it almost looks airbrushed.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>13. Daisy Floral Accent Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/13-daisy-floral-spring-accent-nails.png" alt="Daisy Floral Accent Nails">
+          <p>Tiny daisy details over pink or nude. It gives that spring garden energy—light, fresh, and super wearable.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>14. Beige & Pink Combo Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/14-beige-pink-soft-combo-nails.png" alt="Beige & Pink Combo Nails">
+          <p>Neutral beige mixed with soft pink creates balance. Not too warm, not too cool—just right.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>15. Soft Glam Pink Nails (Influencer Style)</h3>
+          <img class="blog-img" src="/assets/blog-2/15-soft-glam-pink-influencer-nails.png" alt="Soft Glam Pink Nails">
+          <p>Polished pink with a slightly glam finish. These feel very "Instagram-ready," but still classy.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>16. Almond Nude Nails with Shine</h3>
+          <img class="blog-img" src="/assets/blog-2/16-almond-nude-glossy-clean-nails.png" alt="Almond Nude Nails with Shine">
+          <p>Slightly elongated almond shape with a natural glossy finish. Clean, sharp, and elegant.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>17. Pink Nails with Tiny White Flowers</h3>
+          <img class="blog-img" src="/assets/blog-2/17-pink-nails-with-tiny-white-flowers.png" alt="Pink Nails with Tiny White Flowers">
+          <p>Small floral details scattered across nails. It's delicate and feminine without feeling busy.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>18. Long Pink Glitter Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/18-long-pink-glitter-shine-nails.png" alt="Long Pink Glitter Nails">
+          <p>Soft pink base with glitter layered in. Not too loud, but definitely noticeable when light hits.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>19. Minimal White Accent Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/19-minimal-white-accent-modern-nails.png" alt="Minimal White Accent Nails">
+          <p>White base with a single small detail—like a dot or line. Very modern.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>20. Coral Pink Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/20-coral-pink-bright-spring-nails.png" alt="Coral Pink Nails">
+          <p>A warmer pink shade that leans slightly coral. It instantly brightens your whole look.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>21. Nude Nails with Micro Art</h3>
+          <img class="blog-img" src="/assets/blog-2/21-nude-nails-with-micro-art-design.png" alt="Nude Nails with Micro Art">
+          <p>Tiny designs—almost invisible unless you look closely. Subtle, but super intentional.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>22. Soft French with a Twist</h3>
+          <img class="blog-img" src="/assets/blog-2/22-soft-french-tip-modern-twist-nails.png" alt="Soft French with a Twist">
+          <p>Classic French, but with softer lines or slight color variation. A small change, big difference.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>23. Pink with Green Contrast Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/23-pink-green-contrast-spring-nails.png" alt="Pink with Green Contrast Nails">
+          <p>That unexpected combo actually works. The green pops just enough against the pink.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>24. Strawberry-Inspired Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/24-strawberry-inspired-cute-nails.png" alt="Strawberry-Inspired Nails">
+          <p>Tiny fruit details—cute but surprisingly stylish. Ever thought fruit nails could look classy? Now you know.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>25. Clean White Square Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/25-clean-white-square-classy-nails.png" alt="Clean White Square Nails">
+          <p>Pure white, sharp shape. Bold in the simplest way possible.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>26. Multi-Color Minimal Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/26-multicolor-minimal-soft-tone-nails.png" alt="Multi-Color Minimal Nails">
+          <p>Different soft shades on each nail. It feels playful but still controlled.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>27. Nude & Gold Layered Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/27-nude-gold-layered-elegant-nails.png" alt="Nude & Gold Layered Nails">
+          <p>Layered textures with gold accents. Slightly more detailed, but still elegant.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>28. Soft Pink with Face-Framing Pose Style</h3>
+          <img class="blog-img" src="/assets/blog-2/28-soft-pink-selfie-aesthetic-nails.png" alt="Soft Pink Selfie Nails">
+          <p>You know those nails that look good in every selfie? Yeah, these.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>29. Glossy Pink Everyday Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/29-glossy-everyday-pink-simple-nails.png" alt="Glossy Pink Everyday Nails">
+          <p>Simple, wearable, and goes with literally everything. No stress choice.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>30. Soft Yellow & Pink Combo Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/30-yellow-pink-soft-spring-nails.png" alt="Soft Yellow & Pink Combo Nails">
+          <p>Light yellow mixed with pink creates a soft spring palette. Fresh and underrated.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>31. White Nails with Tiny Black Details</h3>
+          <img class="blog-img" src="/assets/blog-2/31-white-nails-with-black-minimal-details.png" alt="White Nails with Tiny Black Details">
+          <p>Minimal contrast that adds edge without losing class.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>32. Pink & White Marble Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/32-pink-white-marble-effect-nails.png" alt="Pink & White Marble Nails">
+          <p>Swirled marble effect in soft tones. Each nail looks slightly different—like mini art pieces.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>33. Classic White Almond Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/33-classic-white-almond-clean-nails.png" alt="Classic White Almond Nails">
+          <p>Clean, sharp, and timeless. You can never go wrong here.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>34. Warm Nude Glow Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/34-warm-nude-glow-natural-nails.png" alt="Warm Nude Glow Nails">
+          <p>Nude base with a slightly sun-kissed tone. Perfect for late spring lighting.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>35. Soft Pink Glam Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/35-soft-pink-glam-shiny-nails.png" alt="Soft Pink Glam Nails">
+          <p>A bit more shine, a bit more polish. Still classy, just elevated.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>36. Gold Jewelry Matching Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/36-gold-accent-jewelry-match-nails.png" alt="Gold Jewelry Matching Nails">
+          <p>Designed to complement rings and accessories. Honestly, this combo always wins.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>37. Peach Gloss Almond Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/37-peach-glossy-almond-classy-nails.png" alt="Peach Gloss Almond Nails">
+          <p>Peach tone with a smooth almond shape. Soft, flattering, and super wearable.</p>
+        </div>
+
+        <div class="nail-idea-item">
+          <h3>38. Ultimate Clean Girl Nails</h3>
+          <img class="blog-img" src="/assets/blog-2/38-neutral-glam-bold-elegant-nails.png" alt="Ultimate Clean Girl Nails">
+          <p>Glossy, nude, perfectly shaped. No art, no extras—just perfection.</p>
+        </div>
+      </div>
+
+      <div class="final-thoughts">
+        <p><strong>So… be honest—how many of these are already saved in your head? 😏</strong></p>
+        <p>Late spring nails hit different because they sit right in that sweet spot between fresh and fun. You don't need neon chaos, and you don't want winter drama either. You just want something that feels <strong>put-together, soft, and a little addictive</strong>.</p>
+        <p><strong>My advice?</strong> Pick one that matches your current mood—not your future Pinterest board. You can always switch next week anyway. That's the whole point.</p>
+        <p>Now go ahead… choose your favorite and pretend you're not about to change it again in 10 days 🙂</p>
+      </div>
+    `
   },
 ];
