@@ -1924,5 +1924,1229 @@ export const BLOGS: Blog[] = [
       <p>Hot girl summer 2026 starts at the nail salon. Pick your ice, and go 😉</p>
     </div>
   `
+},
+{
+  id: 12,
+  slug: generateSlug('22 Nails Perfect for Office Girls 2026'),
+  title: '22 Nails Perfect for Office Girls',
+  fullTitle: '22 Nails Perfect for Office Girls (2026)',
+  date: 'July 10\'',
+  badge: '💼 Office Edit',
+  category: '~ OFFICE NAILS / PROFESSIONAL / CLEAN GIRL',
+  imageUrl: '/assets/blog-9/1-soft-pink-chest-pose-nails.png',
+  cardImage: '/assets/blog-9/6-nude-soft-smile-nails.png',
+  nailName: '22 Nails Perfect for Office Girls',
+  nailDescription: 'Polished, professional, and still completely you — office nails that mean business without being boring.',
+  content: `
+    <p>Let's be honest — "office-appropriate nails" used to mean beige and boring. But not anymore. You can absolutely walk into a boardroom, a meeting, or a Monday morning with nails that look <em>intentional</em> and still completely professional. The trick? Clean shapes, soft tones, and that polished finish that says "I have my life together" — even if you're running on three hours of sleep.</p>
+    <p>Here are 22 looks that work <strong>from desk to dinner</strong> without skipping a beat.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Soft Pink Chest Pose Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/1-soft-pink-chest-pose-nails.png" alt="Soft pink chest pose office nails">
+        <p>Soft pink nails on a white ribbed top — this is the manicure that makes every work outfit look more put-together. The barely-there color feels professional without being dull. It's the kind of nail that gets noticed in the best, most subtle way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Nude Soft Smile Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/6-nude-soft-smile-nails.png" alt="Nude soft smile office nails">
+        <p>Nude nails are the ultimate office staple — and this version feels genuinely polished rather than lazy. The clean finish works with every skin tone and every outfit in your work wardrobe. <strong>This is your Monday-to-Friday nail.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Blush Pink Blazer Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/14-blush-pink-blazer-nails.png" alt="Blush pink blazer office nails">
+        <p>Blush pink nails peeking from a tailored blazer? This combination was basically designed for the office. The softness of the pink against structured suiting feels feminine and sharp at the same time. <strong>Professional never looked this good.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Sheer Pink Almond Paired Hands Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/12-sheer-pink-almond-paired-hands-nails.png" alt="Sheer pink almond office nails">
+        <p>Sheer pink almond nails feel refined and intentional without crossing into "too much" territory. The translucent finish keeps everything clean and workplace-friendly. Perfect for client meetings where you want to feel polished without distraction.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Nude Diamond Ring Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/8-nude-diamond-ring-closeup-nails.png" alt="Nude diamond ring office nails">
+        <p>Nude nails with a simple ring — this is the desk aesthetic that makes your hands look effortlessly elegant during every video call. The neutral tone never competes with your work, it complements it. <strong>Zoom-ready from every angle.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Lavender Blue Chest Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/3-lavender-blue-chest-touch-nails.png" alt="Lavender blue chest touch office nails">
+        <p>Soft lavender-blue is one of those colors that feels creative without being disruptive. It adds personality to a neutral outfit while still reading as calm and collected. For the office girl who wants to express herself — but tastefully.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Nude Street Style Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/9-nude-street-style-nails.png" alt="Nude street style office nails">
+        <p>Clean nude nails that work just as well on your commute as they do in the conference room. The simplicity makes them incredibly versatile for long work weeks. Ever wanted nails that genuinely go with everything? These are it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Nude Almond Long Denim Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/15-nude-almond-long-denim-nails.png" alt="Nude almond long office nails">
+        <p>Long almond nails in nude feel elevated and professional without veering into flashy territory. The shape adds elegance while the color keeps everything grounded. <strong>This is the power move of neutral nails.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Sheer Nude Pink Face Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/18-sheer-nude-pink-face-touch-nails.png" alt="Sheer nude pink office nails">
+        <p>Barely-there sheer pink that enhances rather than transforms — this is minimalism at its most professional. The finish looks clean, intentional, and polished in any lighting. Perfect for days when you want to look put-together without thinking about it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Ombre Blush Almond Long Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/11-ombre-blush-almond-long-nails.png" alt="Ombre blush almond office nails">
+        <p>A soft blush ombre on long almond nails feels artistic but still completely office-appropriate. The gradient is subtle enough to stay professional while still feeling special. It's the upgrade your work nails have been waiting for.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Soft Blue Shoulder Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/10-soft-blue-shoulder-touch-nails.png" alt="Soft blue shoulder touch office nails">
+        <p>Soft blue nails are a quiet way to add color to a work look without going overboard. The cool tone feels calm and professional. <strong>Ideal for creative industries where personal style matters.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Pink Mix Sunglasses Selfie Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/2-pink-mix-sunglasses-selfie-nails.png" alt="Pink mix sunglasses office nails">
+        <p>Mixed pink tones feel put-together and polished — perfect for the office girl who likes a little personality in her routine. The gloss keeps everything refined. It's Friday energy that still respects the dress code.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Mauve Tiny Heart Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/13-mauve-tiny-heart-detail-nails.png" alt="Mauve tiny heart detail office nails">
+        <p>Muted mauve with a tiny heart accent — this is the "I have a personality outside of work" nail that still stays completely professional. The detail is so small you almost miss it. Almost.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Soft Nude Face Cradle Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/20-soft-nude-face-cradle-nails.png" alt="Soft nude face cradle office nails">
+        <p>Soft nude nails in warm natural light — clean, calm, and completely professional. This look works equally well in a client presentation and a casual Friday. <strong>The no-brainer office nail.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Nude Warm Glow Portrait Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/22-nude-warm-glow-portrait-nails.png" alt="Nude warm glow portrait office nails">
+        <p>Warm nude nails in soft lighting feel polished and effortless — exactly what you want when you need to look professional without overthinking it. The glow makes even the simplest manicure look intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Pink Double Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/21-pink-double-face-frame-nails.png" alt="Pink double face frame office nails">
+        <p>Soft pink nails framing the face with both hands — this is the video call look you didn't know you needed. The color is light enough to stay professional while still feeling feminine and styled.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Sage Green Jewelry Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/19-sage-green-jewelry-closeup-nails.png" alt="Sage green jewelry office nails">
+        <p>Sage green is the unexpected office nail color that works. It feels grounded, sophisticated, and just different enough to start a conversation. <strong>For the girl who sets trends at work, not just follows them.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Deep Red Cozy Knit Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/7-deep-red-cozy-knit-nails.png" alt="Deep red cozy knit office nails">
+        <p>A deep, rich red is actually one of the most classic professional nail colors — it just gets forgotten behind all the nudes. The glossy finish keeps it polished and workplace-ready. Confidence in color form.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Dark Cherry Floral Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/16-dark-cherry-floral-detail-nails.png" alt="Dark cherry floral office nails">
+        <p>Dark cherry with a subtle floral detail — this is the nail for the office girl who takes her aesthetics seriously. The dark base feels polished and intentional. The tiny floral keeps it from feeling too corporate.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Purple Holographic Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/4-purple-holographic-face-frame-nails.png" alt="Purple holographic office nails">
+        <p>Holographic nails in the office? In a creative field — absolutely yes. The iridescent finish feels high-fashion but still refined. <strong>For the girl whose office has a ping pong table and a dress code that says "express yourself."</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Colorful Abstract Mixed Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/17-colorful-abstract-mixed-nails.png" alt="Colorful abstract office nails">
+        <p>Abstract mixed nails work beautifully in creative environments where personality is part of the job description. The artistic design feels curated rather than chaotic. It's expressive, but still controlled.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Pink Glitter Square Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/5-pink-glitter-square-nails.png" alt="Pink glitter square office nails">
+        <p>Soft pink glitter on short square nails — subtle enough for the office, fun enough for after-work drinks. The shape keeps things neat and professional while the shimmer adds just a little joy. Because work should have some of that too.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>Here's the thing about office nails</strong> — they don't have to be a compromise. You don't have to choose between "looking professional" and "feeling like yourself."</p>
+      <p>The best work manicure is the one that makes you feel polished, confident, and <em>completely you</em> — from the first meeting to the last email of the day.</p>
+      <p>So pick your look, book your appointment, and walk into Monday like you own the place 😉</p>
+    </div>
+  `
+},
+
+{
+  id: 13,
+  slug: generateSlug('33 Pink Nails for Each Month of the Year 2026'),
+  title: '33 Pink Nails for Every Month',
+  fullTitle: '33 Pink Nails for Each Month of the Year (2026)',
+  date: 'July 12\'',
+  badge: '🗓️ Year-Round Edit',
+  category: '~ PINK NAILS / YEAR ROUND / SEASONAL',
+  imageUrl: '/assets/blog-10/1-glossy-pink-street-portrait-nails.png',
+  cardImage: '/assets/blog-10/11-nude-pink-chest-necklace-nails.png',
+  nailName: '33 Pink Nails for Every Month',
+  nailDescription: 'Pink for January, pink for July, pink forever — 33 shades and styles that prove pink works all year long.',
+  content: `
+    <p>Some people think pink is a spring thing. Those people are wrong 😄 Pink nails work in January when everything is grey outside. They work in July when it's 35 degrees and you're holding an iced coffee. They work in November when you need something that makes you feel alive. Pink is not a season — it's a <em>lifestyle</em>.</p>
+    <p>Here are 33 pink looks matched to every mood, every month, and every version of you throughout the year.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. January — Glossy Pink Street Portrait</h3>
+        <img class="blog-img" src="/assets/blog-10/1-glossy-pink-street-portrait-nails.png" alt="Glossy pink street portrait January nails">
+        <p>New year, new nails. A glossy, confident pink to start January with the right energy. Bold enough to feel like a statement, clean enough to stay timeless. <strong>This is your "new chapter" nail.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. January — Soft Pink Face Cover</h3>
+        <img class="blog-img" src="/assets/blog-10/2-soft-pink-face-cover-nails.png" alt="Soft pink face cover January nails">
+        <p>For the quieter, more introspective January days — soft pink that feels calm and intentional. The kind of nail you choose when you're starting fresh and keeping things simple.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. February — Nude Pink Bag Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/3-nude-pink-bag-closeup-nails.png" alt="Nude pink bag February nails">
+        <p>February is for elevated simplicity. Nude pink nails with a structured bag — refined, romantic, and perfect for Valentine's season without being obvious about it. <strong>Quiet luxury for the most love-coded month.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. February — Hot Pink Mouth Cover</h3>
+        <img class="blog-img" src="/assets/blog-10/8-hot-pink-mouth-cover-nails.png" alt="Hot pink mouth cover February nails">
+        <p>Or maybe February calls for something bolder — hot pink that says exactly what it means. Dramatic, confident, and completely on-theme for the most romantic month of the year.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. March — Sheer Pink Floral Outdoor</h3>
+        <img class="blog-img" src="/assets/blog-10/10-sheer-pink-floral-outdoor-nails.png" alt="Sheer pink floral outdoor March nails">
+        <p>March brings the first hints of warmth — and sheer pink with floral detail captures that perfectly. Light, airy, and hopeful. <strong>Spring is coming, and your nails already know.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. March — Matcha Drink Pink</h3>
+        <img class="blog-img" src="/assets/blog-10/4-matcha-drink-pink-nails.png" alt="Matcha drink pink March nails">
+        <p>Pink nails and a matcha drink — March energy at its finest. Fresh, trendy, and slightly health-conscious (the matcha is doing the heavy lifting there). It's the aesthetic reset your nails needed after winter.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. April — Lavender Pink Floral Daisy</h3>
+        <img class="blog-img" src="/assets/blog-10/27-lavender-pink-floral-daisy-nails.png" alt="Lavender pink floral daisy April nails">
+        <p>April is peak floral season — and these lavender-pink daisy nails are exactly the right energy. Playful, feminine, and fresh. <strong>Your Easter weekend nail, sorted.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. April — Pastel Pink Star Detail</h3>
+        <img class="blog-img" src="/assets/blog-10/12-pastel-pink-star-detail-nails.png" alt="Pastel pink star detail April nails">
+        <p>Pastel pink with tiny star accents — whimsical enough for spring, refined enough to stay elegant. April showers bring May flowers, but your nails are already ahead of schedule.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. May — Pink Cherry Pattern Ring</h3>
+        <img class="blog-img" src="/assets/blog-10/15-pink-cherry-pattern-ring-nails.png" alt="Pink cherry pattern ring May nails">
+        <p>May calls for something playful — and cherry-patterned pink nails with gold rings deliver exactly that. Vintage-inspired, charming, and completely on-trend for late spring.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. May — Nude Pink Outdoor Minimal</h3>
+        <img class="blog-img" src="/assets/blog-10/16-nude-pink-outdoor-minimal-nails.png" alt="Nude pink outdoor minimal May nails">
+        <p>Or keep May clean and minimal — nude pink outdoors, natural light, no fuss. <strong>Because sometimes the simplest choice is the most confident one.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. June — Pink Face Touch Sunglasses</h3>
+        <img class="blog-img" src="/assets/blog-10/5-pink-face-touch-sunglasses-nails.png" alt="Pink face touch sunglasses June nails">
+        <p>June arrives and suddenly everything feels lighter. Pink nails and sunglasses — this is the official start of summer in nail form. Bold color, soft energy, perfect timing.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. June — Pink Iced Drink Outdoor</h3>
+        <img class="blog-img" src="/assets/blog-10/6-pink-iced-drink-outdoor-nails.png" alt="Pink iced drink outdoor June nails">
+        <p>Pink nails wrapped around a pink iced drink in the sun — this <em>is</em> June. The tonal coordination feels like it was planned by the universe. <strong>Summer officially started the moment this photo was taken.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. July — Light Pink Outdoor Sun</h3>
+        <img class="blog-img" src="/assets/blog-10/7-light-pink-outdoor-sun-nails.png" alt="Light pink outdoor sun July nails">
+        <p>July sunshine hits differently — and light pink nails in that golden light feel almost magical. Warm, glowing, and completely effortless. Peak summer nail energy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. July — Long Pink Almond Street</h3>
+        <img class="blog-img" src="/assets/blog-10/17-long-pink-almond-street-nails.png" alt="Long pink almond street July nails">
+        <p>Long almond pink nails on a hot July street feel dramatic and confident. This is vacation nail energy even if you're not going anywhere. <strong>Summer boldness, fully activated.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. July — Hot Pink Jewel Ring</h3>
+        <img class="blog-img" src="/assets/blog-10/26-hot-pink-jewel-ring-nails.png" alt="Hot pink jewel ring July nails">
+        <p>Hot pink loaded with jewelry — this is the July look for the girl who goes all out. Maximalist, unapologetic, and completely summer. No notes.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. August — Bright Pink Long Bag</h3>
+        <img class="blog-img" src="/assets/blog-10/25-bright-pink-long-bag-nails.png" alt="Bright pink long bag August nails">
+        <p>August is the last full month of summer — make it count. Bright pink long nails with a luxury bag. Bold, glamorous, and completely intentional. <strong>August deserves drama.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. August — Mixed Pink Floral Gem</h3>
+        <img class="blog-img" src="/assets/blog-10/21-mixed-pink-floral-gem-nails.png" alt="Mixed pink floral gem August nails">
+        <p>Maximalist pink with floral gems — for the girl squeezing every last drop out of summer. Every finger is its own moment. August is not the time for restraint.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. September — Ombre Pink Ring Detail</h3>
+        <img class="blog-img" src="/assets/blog-10/13-ombre-pink-ring-detail-nails.png" alt="Ombre pink ring detail September nails">
+        <p>September brings transition energy — and a soft pink ombre captures that perfectly. Still warm, but more refined. It's summer fading beautifully into something more elegant.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. September — Pink Sunglasses Chic</h3>
+        <img class="blog-img" src="/assets/blog-10/9-pink-sunglasses-chic-nails.png" alt="Pink sunglasses chic September nails">
+        <p>September still has sun — and these pink nails with oversized sunglasses prove it. <strong>The off-duty model look for the back-to-everything season.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. October — Dark Pink Face Cover Night</h3>
+        <img class="blog-img" src="/assets/blog-10/19-dark-pink-face-cover-night-nails.png" alt="Dark pink face cover night October nails">
+        <p>October calls for something deeper. Dark pink nails in a moody, night setting feel mysterious and rich. It's pink — but make it autumn. <strong>Classy can be dark too.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. October — Sheer Pink Floral Dark</h3>
+        <img class="blog-img" src="/assets/blog-10/22-sheer-pink-floral-dark-nails.png" alt="Sheer pink floral dark October nails">
+        <p>Sheer pink with floral detail against a dark background — romantic and slightly moody. Perfect for October when the light changes and everything feels more cinematic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. October — Pink Floral Leather Jacket</h3>
+        <img class="blog-img" src="/assets/blog-10/29-pink-floral-leather-jacket-nails.png" alt="Pink floral leather jacket October nails">
+        <p>Pink floral nails peeking from a leather jacket — soft meets edge. This contrast is exactly the October energy: warm colors, cooler vibes. <strong>Opposites attract, always.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. November — Blush Pink Dot Chest</h3>
+        <img class="blog-img" src="/assets/blog-10/30-blush-pink-dot-chest-nails.png" alt="Blush pink dot chest November nails">
+        <p>November calls for something gentle and warm — blush pink with subtle dots, resting softly on the chest. Delicate, refined, and exactly right for the cozy season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. November — Soft Pink Gold Chain</h3>
+        <img class="blog-img" src="/assets/blog-10/31-soft-pink-gold-chain-nails.png" alt="Soft pink gold chain November nails">
+        <p>Soft pink paired with gold chain jewelry — warm, elegant, and perfectly timed for the season of gratitude and gatherings. <strong>Thanksgiving table, but make it a manicure.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. November — Nude Pink Chest Necklace</h3>
+        <img class="blog-img" src="/assets/blog-10/11-nude-pink-chest-necklace-nails.png" alt="Nude pink chest necklace November nails">
+        <p>Nude pink near a delicate necklace — intimate, refined, and seasonally perfect. Everything about this composition feels like November: quiet, warm, and intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. December — White Pink Floral Eye Cover</h3>
+        <img class="blog-img" src="/assets/blog-10/32-white-pink-floral-eye-cover-nails.png" alt="White pink floral eye cover December nails">
+        <p>December parties deserve editorial nails. White-pink floral nails partially covering one eye — bold, artistic, and unforgettable. <strong>Holiday season, diva edition.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>27. December — Mixed Art Red Cherry</h3>
+        <img class="blog-img" src="/assets/blog-10/33-mixed-art-red-cherry-nails.png" alt="Mixed art red cherry December nails">
+        <p>Pink with red cherry and abstract art accents — festive without being obvious about it. It's playful, creative, and perfectly timed for December's party season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>28. Anytime — French Pink Lip Touch</h3>
+        <img class="blog-img" src="/assets/blog-10/23-french-pink-lip-touch-nails.png" alt="French pink lip touch all year nails">
+        <p>Classic French-pink — this one belongs to every month, every season, every occasion. Polished, feminine, and quietly confident. <strong>The year-round nail that never fails.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>29. Anytime — Soft Pink Street Candid</h3>
+        <img class="blog-img" src="/assets/blog-10/24-soft-pink-street-candid-nails.png" alt="Soft pink street candid all year nails">
+        <p>Real, wearable soft pink — candid and genuinely stylish in any month, any setting. This is the nail that just works, always. No overthinking required.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>30. Anytime — Teal Blue Tip Almond</h3>
+        <img class="blog-img" src="/assets/blog-10/14-teal-blue-tip-almond-nails.png" alt="Teal blue tip almond all year nails">
+        <p>Technically not pink — but the pink base with teal tips creates a combination that works beautifully year-round. Fresh in summer, unexpected in winter. <strong>Sometimes classy means going off-script.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>31. Anytime — Neutral Tote Bag Hand</h3>
+        <img class="blog-img" src="/assets/blog-10/18-neutral-tote-bag-hand-nails.png" alt="Neutral tote bag hand all year nails">
+        <p>Nude pink on a neutral tote — minimal, aspirational, and completely timeless. Works January through December without a single adjustment. Old money energy has no season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>32. Anytime — Pink Portrait Outdoor</h3>
+        <img class="blog-img" src="/assets/blog-10/20-pink-portrait-outdoor-nails.png" alt="Pink portrait outdoor all year nails">
+        <p>Soft pink in natural light — organic, feminine, and effortlessly pretty in every season. This is the nail you never regret. <strong>Pick it any month. You won't be wrong.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>33. Anytime — Sheer Nude Almond Ribbed</h3>
+        <img class="blog-img" src="/assets/blog-10/28-sheer-nude-almond-ribbed-nails.png" alt="Sheer nude almond ribbed all year nails">
+        <p>Sheer nude-pink against a ribbed white top — the most universally flattering, always-appropriate, never-boring choice. The nail equivalent of a white button-down. It works with literally everything, always.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>Twelve months. Thirty-three looks. One conclusion: <strong>pink never runs out of things to say.</strong></p>
+      <p>Whether you're starting the year fresh in January or closing it out with December drama — there's a pink for that exact moment. You just have to pick which version of yourself you're going for.</p>
+      <p>So go ahead. Bookmark this page. You're going to come back to it every single month 😉</p>
+    </div>
+  `
+},
+
+{
+  id: 14,
+  slug: generateSlug('10 Iced Nails That Look Expensive on a Budget 2026'),
+  title: '10 Iced Nails That Look Expensive',
+  fullTitle: '10 Iced Nails That Look Expensive on a Budget (2026)',
+  date: 'July 15\'',
+  badge: '💰 Budget Luxury Edit',
+  category: '~ ICED NAILS / BUDGET BEAUTY / QUIET LUXURY',
+  imageUrl: '/assets/blog-11/7-iced-almond-natural-smile-nails.png',
+  cardImage: '/assets/blog-11/7-iced-almond-natural-smile-nails.png',
+  nailName: '10 Iced Nails That Look Expensive',
+  nailDescription: 'The frosted finish that fools everyone — iced nails that look like a luxury splurge but don\'t have to be.',
+  content: `
+    <p>Here's the thing nobody wants to admit — the most expensive-looking nails are almost never the most expensive to get. Iced nails are proof of that. One frosted, barely-there finish and suddenly your hands look like they belong to someone who summers in Capri and winters in Aspen. The secret? It's all in the finish, the shape, and how you style them.</p>
+    <p>These 10 looks prove you don't need to spend a fortune to look like you did. <strong>Quiet luxury is a skill — not a price tag.</strong></p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Iced Almond Natural Smile Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/7-iced-almond-natural-smile-nails.png" alt="Iced almond natural smile budget luxury nails">
+        <p>Long iced almond nails in warm outdoor light — this is the look that makes people assume you spend a lot on your nails. The almond shape and frosted finish do all the heavy lifting. <strong>Universally flattering, universally convincing.</strong> One base coat with the right finish and you're done.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Sheer White Jacket Portrait Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/2-sheer-white-jacket-portrait-nails.png" alt="Sheer white jacket portrait budget luxury nails">
+        <p>Sheer white iced nails against a clean white jacket — the monochromatic effect makes everything look incredibly intentional and polished. This combination costs almost nothing to recreate but reads as completely luxury. The styling does half the work — and styling is free.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Frosted Nude Yellow Dress Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/6-frosted-nude-yellow-dress-nails.png" alt="Frosted nude yellow dress budget luxury nails">
+        <p>Frosted nude nails against a bright yellow dress create a warm, sun-kissed look that feels effortlessly expensive. The secret here is contrast — a simple frosted nude next to a vibrant color creates visual richness without any extra effort. <strong>Your outfit is doing the luxury lifting.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Blush Pink Denim Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/10-blush-pink-denim-street-nails.png" alt="Blush pink denim street budget luxury nails">
+        <p>Blush-pink iced nails with denim — casual but clearly considered. This is the budget luxury formula: take the simplest nail finish, pair it with something effortlessly styled, and let the combination do the talking. <strong>Expensive-looking doesn't have to mean expensive-costing.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. White Frost Face Frame Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/8-white-frost-face-frame-street-nails.png" alt="White frost face frame street budget luxury nails">
+        <p>Crisp white frosted nails framing the face outdoors — clean, confident, and completely convincing as a luxury choice. White iced nails are one of the most cost-effective looks because the finish itself is so striking it needs nothing else. No art, no extras — just perfect frost.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Sheer Nude Dark Hair Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/4-sheer-nude-dark-hair-closeup-nails.png" alt="Sheer nude dark hair close up budget luxury nails">
+        <p>Sheer nude iced nails in a moody close-up — intimate, editorial, and deeply stylish. The barely-there finish against dark hair creates a contrast that feels incredibly high-end. <strong>IMO, this is the most underestimated budget nail look.</strong> A single sheer coat and good lighting make this happen.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Ice Blue Stripe Shirt Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/3-ice-blue-stripe-shirt-street-nails.png" alt="Ice blue stripe shirt street budget luxury nails">
+        <p>Ice blue nails with a striped shirt — tonal dressing at its most affordable and most effective. When your nails and your outfit share the same color story, everything looks curated. <strong>This is the stylist trick that costs you exactly nothing extra.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Powder Blue Dark Moody Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/5-powder-blue-dark-moody-nails.png" alt="Powder blue dark moody budget luxury nails">
+        <p>Powder blue iced nails in a dark, close-up shot feel fashion-forward and genuinely expensive-looking. The color against warm skin tones creates a striking visual that looks far more complex than it is. One powder blue iced finish, good natural light, and you're done.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Pearl Chrome Black Turtleneck Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/1-pearl-chrome-black-turtleneck-nails.png" alt="Pearl chrome black turtleneck budget luxury nails">
+        <p>Pearl chrome against black — high contrast, high impact, high-looking budget. Chrome powder on almond nails is one of the most affordable ways to achieve a luxury finish at home. <strong>The iridescent effect does all the convincing.</strong> Nobody needs to know the chrome powder cost less than your last coffee.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Ivory Fur Coat Double Hand Nails</h3>
+        <img class="blog-img" src="/assets/blog-11/9-ivory-fur-coat-double-hand-nails.png" alt="Ivory fur coat double hand budget luxury nails">
+        <p>Ivory iced nails against a white fur coat — this is the ultimate proof that styling creates luxury more than spending does. The nails themselves are simple ivory frost. The coat is doing the rest. <strong>Pair your most basic nail with your most dramatic accessory and watch what happens.</strong> That's the budget luxury formula in one image.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>The real secret behind "expensive-looking" nails?</strong> It's never about how much you spent. It's about finish, shape, and how you style what you have.</p>
+      <p>Iced nails work because frosted finishes are inherently clean, light-catching, and refined — and all of that is achievable at home with the right top coat or a single salon visit that won't break the bank.</p>
+      <p>So next time someone asks where you get your nails done, just smile. You don't owe anyone the budget breakdown 😉</p>
+    </div>
+  `
+},
+{
+  id: 15,
+  slug: generateSlug('30 July Nail Ideas to Keep You Glowing All Month 2026'),
+  title: '30 July Nail Ideas',
+  fullTitle: '30 July Nail Ideas to Keep You Glowing All Month (2026)',
+  date: 'July 01\'',
+  badge: '☀️ July Edit',
+  category: '~ JULY NAILS / SUMMER PEAK / HOT GIRL SEASON',
+  imageUrl: '/assets/blog-1/4-pink-ombre-beach-glossy-nails.png',
+  cardImage: '/assets/blog-7/7-red-gloss-power-hands.png',
+  nailName: '30 July Nail Ideas',
+  nailDescription: 'Peak summer energy — bold colors, sun-kissed finishes, and looks that were made for golden hour.',
+  content: `
+    <p>July doesn't do "quiet." It's the month of rooftops, road trips, spontaneous plans, and nails that match the energy of all of it. You're not picking a nail for a Tuesday — you're picking one for the whole vibe of the hottest month of the year.</p>
+    <p>I went through <strong>30 looks</strong> that scream July — from bold statement colors to that sun-kissed nude glow. Pick your summer persona and commit.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Red Gloss Power Hands</h3>
+        <img class="blog-img" src="/assets/blog-7/7-red-gloss-power-hands.png" alt="Red gloss power hands July nails">
+        <p>July opens with red — glossy, rich, and completely unapologetic. Layered hands make the color look even more saturated and dramatic. This is the nail you wear when you walk into a room and own it immediately.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Pink Ombre Beach Glossy Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/4-pink-ombre-beach-glossy-nails.png" alt="Pink ombre beach glossy July nails">
+        <p>A soft fade from nude to pink that glows in sunlight — this is the beach nail July was made for. The gradient looks especially stunning in golden hour light. If you're near water this month, these are non-negotiable.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Blue Glossy Fresh Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/27-blue-glossy-fresh-summer-nails.png" alt="Blue glossy fresh July nails">
+        <p>Cool, refreshing blue nails for the hottest month of the year — it's temperature dressing but make it beauty. The glossy finish makes the color feel even more vibrant. Bold, confident, and completely July.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Sunset Glow Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/8-sunset-glow-nude-nails.png" alt="Sunset glow nude July nails">
+        <p>Warm golden light hitting nude nails creates that effortlessly expensive July look. No design needed — just the right lighting and the right finish. It's the sunset in nail form.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Bright Red Bold Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/23-bright-red-bold-summer-nails.png" alt="Bright red bold July nails">
+        <p>A brighter, more electric red for July days that feel like they need a little extra. The clean finish makes the color pop against sun-tanned skin. Classic July energy — bold and unafraid.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Deep Pink Gloss Elegance</h3>
+        <img class="blog-img" src="/assets/blog-7/10-deep-pink-gloss-elegance.png" alt="Deep pink gloss elegance July nails">
+        <p>Rich, deep pink with a glossy finish — this is the elevated July nail for evenings, dinners, and rooftop moments. The color feels bold but still polished. Not every July moment is casual — this one's for the fancy ones.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Soft Yellow Floral Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/1-soft-yellow-floral-almond-nails-summer.png" alt="Soft yellow floral almond July nails">
+        <p>Pale yellow with tiny florals — this is the July nail for flower market mornings and sunny afternoon walks. Light enough to feel breezy, detailed enough to feel intentional. It's summer but make it poetic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Sunset Flame Stiletto Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/6-sunset-flame-stiletto-summer-nails.png" alt="Sunset flame stiletto July nails">
+        <p>A fiery gradient on long stiletto nails — this is July's most dramatic look and it earns every second of attention. The shape adds intensity, the colors add fire. For the girl who treats every day in July like a main character moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Glossy Pink Face Frame</h3>
+        <img class="blog-img" src="/assets/blog-7/2-glossy-pink-face-frame.png" alt="Glossy pink face frame July nails">
+        <p>Glossy pink nails framing the face in outdoor light feel polished and summer-ready. The shine reflects July sun beautifully. It's the nail that makes every spontaneous photo look intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Tropical Mix Pattern Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/8-tropical-mix-pattern-summer-nails.png" alt="Tropical mix pattern July nails">
+        <p>Mixed colors, mixed patterns, full vacation energy. This set was designed for July — loud, playful, and impossible to ignore. For the girl who dresses like she's always about to get on a flight somewhere warm.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Lemon Drink Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/14-lemon-drink-summer-nails.png" alt="Lemon drink summer July nails">
+        <p>Nails paired with a citrus drink — this is the July content that lives in everyone's Pinterest board. Fresh, bright, and completely seasonal. The composition does the storytelling for you.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Pastel Mixed Color Nails with Gold Rings</h3>
+        <img class="blog-img" src="/assets/blog-1/2-pastel-mixed-color-nails-with-gold-rings.png" alt="Pastel mixed color gold rings July nails">
+        <p>Every nail its own pastel shade — this is the July look for the girl who can't pick just one color and refuses to apologize for it. The gold rings elevate the playfulness into something polished.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Pink Glossy Fresh Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/28-pink-glossy-fresh-summer-nails.png" alt="Pink glossy fresh July nails">
+        <p>Simple, reliable, glossy pink — the nail that works for literally every July plan without a single second of hesitation. No drama, no overthinking. Just clean summer pink that always looks good.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Blue Statement Grip Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/4-blue-statement-grip-nails.png" alt="Blue statement grip July nails">
+        <p>Bold blue nails in a grip pose — the energy here is exactly right for July. Confident, cool, and completely on-theme for the hottest season. It's the color equivalent of diving into a pool.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Soft Yellow Minimal Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/24-soft-yellow-minimal-gloss-nails.png" alt="Soft yellow minimal gloss July nails">
+        <p>Soft yellow with a glossy finish — this is July's most underrated color choice. It's warm, sunny, and incredibly wearable. Ever noticed how yellow nails make everything around them look more vibrant too?</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Gold Jewelry Nude Stack</h3>
+        <img class="blog-img" src="/assets/blog-7/6-gold-jewelry-nude-stack.png" alt="Gold jewelry nude stack July nails">
+        <p>Nude nails stacked with layered gold jewelry — July's answer to understated luxury. The simplicity of the nails makes the accessories shine even more in the summer light. Old money at the beach.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Pink 3D Flower Glam Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/7-pink-3d-flower-glam-nails.png" alt="Pink 3D flower glam July nails">
+        <p>Three-dimensional flowers in pink — this is July for the girl who goes all the way. The texture adds a dimension that flat nails can't compete with. Slightly extra, completely summer.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Nude Nails with Gold Rings Aesthetic</h3>
+        <img class="blog-img" src="/assets/blog-1/14-nude-nails-gold-rings-aesthetic.png" alt="Nude nails gold rings July nails">
+        <p>Clean nude nails elevated entirely by gold jewelry — this is proof that styling is everything. The same nude nail looks completely different when it's surrounded by the right accessories. July luxury, minimal effort.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Nude and Red Accent Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/25-nude-and-red-accent-summer-nails.png" alt="Nude and red accent July nails">
+        <p>Nude meets bold red in one set — a contrast that feels dynamic and intentional. The red accent adds that July energy without committing to an all-red look. Balance is a skill.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Designer Bag Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/21-nude-nails-designer-bag-style.png" alt="Designer bag nude July nails">
+        <p>Nude nails against a structured designer bag — July's quietest flex. The simplicity of the manicure makes everything around it look more expensive. This is summer old money, and it never misses.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Floral Accent Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/1-floral-accent-almond-nails.png" alt="Floral accent almond July nails">
+        <p>Soft almond nails with delicate floral details — this is the July nail for botanical garden visits and slow café mornings. Feminine, light, and effortlessly seasonal.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Beige Chrome Minimal Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/9-beige-chrome-minimal-summer-nails.png" alt="Beige chrome minimal July nails">
+        <p>Soft beige with a chrome finish — quiet luxury for July. The metallic sheen catches sunlight in the most subtle, satisfying way. Nothing loud, just clean and undeniably expensive-looking.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Rose Petal Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/13-rose-petal-gloss-nails.png" alt="Rose petal gloss July nails">
+        <p>Glossy pink nails on rose petals — this is July's most romantic nail moment. The softness of the composition feels almost dreamy. If summer had an aesthetic, this would be a chapter of it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Street Style Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/9-street-style-minimal-nails.png" alt="Street style minimal July nails">
+        <p>Neutral nails in a candid street setting — this is July's most wearable look. No styling, no staging, just clean nails that look good in the real world. Sometimes that's the whole point.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Ice Cream Pop Art Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/21-ice-cream-pop-art-nails.png" alt="Ice cream pop art July nails">
+        <p>Bright nails with an ice cream cone — this is July in the most literal, joyful way possible. The playful colors feel festive and free. It's happy nails. And July deserves happy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. Pink Glow Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/16-pink-glow-closeup-nails.png" alt="Pink glow close up July nails">
+        <p>A close-up of soft pink nails glowing in warm light — this is the July nail photo you've been trying to recreate. The precision of the manicure combined with the natural glow of the season creates something genuinely beautiful.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>27. Sunset Smile Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/20-sunset-smile-gloss.png" alt="Sunset smile gloss July nails">
+        <p>Glossy nails in warm sunset light with a soft smile — this is the July moment that needs no caption. The lighting does all the work. Pick any gloss, step outside at golden hour, done.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>28. Rainbow Floral Pop Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/17-rainbow-floral-pop-nails.png" alt="Rainbow floral pop July nails">
+        <p>Bright rainbow florals across each nail — this is July's boldest, most playful option. Every finger tells a different story but somehow it all works together. Maximum summer energy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>29. Nude Glossy Nails Coffee Aesthetic</h3>
+        <img class="blog-img" src="/assets/blog-1/19-nude-glossy-nails-coffee-aesthetic.png" alt="Nude glossy coffee aesthetic July nails">
+        <p>Nude nails styled with a cozy drink — even in July, some days call for an iced coffee and clean nails. The simplicity feels grounding amid all the summer chaos. The understated July moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>30. Pink Abstract Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/19-pink-abstract-detail-nails.png" alt="Pink abstract detail July nails">
+        <p>Pink nails with abstract art detailing — for the July girl who sees the month as a creative opportunity. The design is modern and unexpected without being chaotic. Art on your hands for the most artistic month of summer.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>July only happens once a year.</strong> Your nails should feel like they know that.</p>
+      <p>Whether you go bold, minimal, playful, or polished — the only wrong choice is picking something that doesn't match <em>your</em> July energy.</p>
+      <p>So book the appointment, pick the color, and step into the heat like you planned it all along 😉</p>
+    </div>
+  `
+},
+
+{
+  id: 16,
+  slug: generateSlug('28 August Nail Ideas for the Last Month of Summer 2026'),
+  title: '28 August Nail Ideas',
+  fullTitle: '28 August Nail Ideas for the Last Month of Summer (2026)',
+  date: 'Aug 01\'',
+  badge: '🍑 August Edit',
+  category: '~ AUGUST NAILS / END OF SUMMER / WARM TONES',
+  imageUrl: '/assets/blog-1/12-peach-nude-gradient-summer-nails.png',
+  cardImage: '/assets/blog-7/37-gold-jewelry-chest-detail.png',
+  nailName: '28 August Nail Ideas',
+  nailDescription: 'The last full month of summer deserves warm tones, golden finishes, and nails that make you squeeze every last drop out of the season.',
+  content: `
+    <p>August hits different. You know it's the last full month of summer, so everything feels a little more intentional — the plans, the outfits, the nails. You're not just choosing a color. You're choosing how you want to spend the final chapter of the season.</p>
+    <p>Here are <strong>28 looks</strong> for August — warm, glowing, bold, and occasionally dramatic. Because the last month of summer deserves all of it.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Peach Nude Gradient Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/12-peach-nude-gradient-summer-nails.png" alt="Peach nude gradient August nails">
+        <p>Warm peach tones blending into nude — this is August in color form. The gradient catches the light like late summer warmth, giving a soft golden glow to your hands. It's the nail equivalent of that last good beach day.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Gold Jewelry Chest Detail</h3>
+        <img class="blog-img" src="/assets/blog-7/37-gold-jewelry-chest-detail.png" alt="Gold jewelry chest detail August nails">
+        <p>Neutral nails with layered gold jewelry against the chest — August's version of quiet luxury. The warmth of the gold feels perfectly timed for a month full of golden lighting. Rich without being loud.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Deep Pink Gloss Elegance</h3>
+        <img class="blog-img" src="/assets/blog-7/10-deep-pink-gloss-elegance.png" alt="Deep pink gloss elegance August nails">
+        <p>Deep, saturated pink with a high-gloss finish — this is August's power move. The richness of the color feels like the season at its most confident, right before it transitions. Bold, intentional, and incredibly polished.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Bright Pink Long Bag Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/25-bright-pink-long-bag-nails.png" alt="Bright pink long bag August nails">
+        <p>Long bright pink nails against a luxury bag — this is August's most glamorous look. The length adds drama, the color adds energy, and the accessory completes the whole picture. Go out with a statement this month.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Nude Nails with Gold Jewelry Combo</h3>
+        <img class="blog-img" src="/assets/blog-1/20-nude-nails-gold-jewelry-combo.png" alt="Nude nails gold jewelry August nails">
+        <p>Minimal nude nails elevated entirely by gold accessories — August's understated answer to everything. Simple, warm, and effortlessly luxurious. The gold catches the August sun perfectly.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Sunset Flame Stiletto Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/6-sunset-flame-stiletto-summer-nails.png" alt="Sunset flame stiletto August nails">
+        <p>Fiery gradient on long stilettos — this is the August nail for girls who refuse to let summer end quietly. The warm gradient feels like a sunset you're trying to hold onto. Dramatic, beautiful, and completely seasonal.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Red Street Style Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/33-red-nails-street-style.png" alt="Red street style August nails">
+        <p>Red nails captured in motion — bold, confident, and completely August. The color feels like a declaration: this summer is not going out quietly. Classic, powerful, and one of the most timeless choices for the season's final stretch.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Peachy Floral Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/16-peachy-floral-gloss-nails.png" alt="Peachy floral gloss August nails">
+        <p>Peach nails with floral accents — warm, soft, and completely in tune with August's golden-hour aesthetic. The floral detail adds just enough personality without losing the warmth of the overall color. This one feels like August on its best day.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Nude Lip-Touch Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/3-nude-lip-touch-minimal.png" alt="Nude lip touch minimal August nails">
+        <p>Nude nails with a soft lip-touch pose — quiet luxury for August evenings when everything feels a little slower. The minimal finish feels grown and intentional. Sometimes the end of summer calls for stillness, not drama.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Soft Yellow Summer Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/26-soft-yellow-summer-minimal-nails.png" alt="Soft yellow summer minimal August nails">
+        <p>Muted yellow with a glossy finish — warm, sunny, and perfectly August. The softness of the tone feels like the end-of-summer light: still bright, but gentler. Cheerful without being loud.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Mixed Pink Floral Gem Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/21-mixed-pink-floral-gem-nails.png" alt="Mixed pink floral gem August nails">
+        <p>Maximalist pink with floral gems across every nail — this is August refusing to tone it down. Every finger is its own summer moment. For the girl who's squeezing every last drop out of the season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Coffee Date Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/24-coffee-date-minimal-nails.png" alt="Coffee date minimal August nails">
+        <p>Neutral nails with a coffee — August's most relatable aesthetic. As the pace starts to slow slightly, these nails feel perfectly timed. Cozy, warm, and real. The "last days of summer" nail in its purest form.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Pink Floral Detailed Glossy Nails</h3>
+        <img class="blog-img" src="/assets/blog-1/13-pink-floral-detailed-glossy-nails.png" alt="Pink floral detailed glossy August nails">
+        <p>Pink with more visible floral detailing — romantic and slightly dreamy, which is very August energy. The design feels like garden parties and outdoor dinners. Still summer, but starting to feel intentional about it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Lemon Refresh Hand Shot</h3>
+        <img class="blog-img" src="/assets/blog-7/31-lemon-drink-summer-vibes.png" alt="Lemon refresh hand shot August nails">
+        <p>Polished nails with a fresh lemon drink — this is August's most refreshing composition. The bright tones feel like a last toast to summer. Capture it before it's gone.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Glossy Pink Everyday Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/29-glossy-everyday-pink-simple-nails.png" alt="Glossy pink everyday August nails">
+        <p>Simple, glossy pink — the August nail that works for every plan, every mood, every day of the month. Not the most dramatic choice, but one of the most dependable. August is busy enough — let your nails be easy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Hot Pink Jewel Ring Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/26-hot-pink-jewel-ring-nails.png" alt="Hot pink jewel ring August nails">
+        <p>Hot pink loaded with jewelry — this is August's most maximalist, unapologetic moment. The combination of bold color and heavy accessories feels like the season at its peak. No restraint. No apology. Just August.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Matcha Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/32-green-juice-minimal-nails.png" alt="Matcha minimal August nails">
+        <p>Green tones with a clean finish — fresh, slightly unexpected, and very August. As the season starts transitioning, green feels like a quiet nod to what's coming without letting go of summer yet.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Nude Street Style Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/9-nude-street-style-nails.png" alt="Nude street style August nails">
+        <p>Nude nails walking through a summer street — candid, modern, and effortlessly stylish. August days spent exploring feel exactly like this. Simple nails, full life.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Peachy Neutral Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/6-peach-neutral-minimal-spring-nails.png" alt="Peachy neutral minimal August nails">
+        <p>Warm peach tones that sit between nude and color — this is August's most flattering minimal choice. The warmth of the shade complements sun-kissed skin perfectly. Wearable every single day of the month.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Double Hand Face Cover</h3>
+        <img class="blog-img" src="/assets/blog-7/36-double-hand-face-cover.png" alt="Double hand face cover August nails">
+        <p>Layered hands partially covering the face — bold, editorial, and completely August. The pose adds drama and makes the manicure feel like the main character. This is the nail photo that makes people stop scrolling.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Coral Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/20-coral-pink-bright-spring-nails.png" alt="Coral pink August nails">
+        <p>Warm coral pink — this is August's signature color. It sits perfectly between summer's boldness and autumn's warmth, making it ideal for the transitional energy of the month. Bright, flattering, and completely on time.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Soft Smile Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/27-soft-smile-nude-nails.png" alt="Soft smile nude August nails">
+        <p>Nude nails with a relaxed, genuine smile — August in its quietest, most beautiful form. Not every day this month needs drama. Some days just need clean nails and a good mood.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Pink Sunset Glow Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/8-pink-sunset-glow-nails.png" alt="Pink sunset glow August nails">
+        <p>Glossy pink nails glowing in natural sunlight — August sunsets are something else, and these nails are built for them. The warm light makes the pink look even richer. Step outside at 7pm. You'll understand.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Ombre Blush Almond Long Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/11-ombre-blush-almond-long-nails.png" alt="Ombre blush almond long August nails">
+        <p>Long almond nails with a blush ombre — this is August's most elegant option. The gradient feels warm and sophisticated, like the month itself when the light starts getting softer. Summer, but refined.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Nude Nails Tattoo Aesthetic Style</h3>
+        <img class="blog-img" src="/assets/blog-1/16-nude-nails-tattoo-aesthetic-style.png" alt="Nude nails tattoo aesthetic August nails">
+        <p>Minimal nude nails against tattoos — attitude without color. This is August's most effortlessly cool option, for the girl whose style speaks through everything but the nails themselves.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. Mixed Floral Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/18-mixed-floral-summer-nails.png" alt="Mixed floral summer August nails">
+        <p>A mix of florals across different nails — creative, eclectic, and unapologetically end-of-summer. Every nail tells a different story but together it reads as one beautiful August moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>27. Glossy Nude Lip Close-Up</h3>
+        <img class="blog-img" src="/assets/blog-7/34-glossy-nude-lip-closeup.png" alt="Glossy nude lip close up August nails">
+        <p>Glossy nude nails near soft lips — intimate, editorial, and quietly stunning. This is the August nail for slow mornings, golden afternoons, and the kind of photos that feel like they were taken by someone who really knew what they were doing.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>28. Soft Pink Tote Bag Elegance</h3>
+        <img class="blog-img" src="/assets/blog-3/24-soft-pink-tote-bag.png" alt="Soft pink tote bag elegance August nails">
+        <p>Glossy pink nails against a neutral tote — the most wearable, most August-appropriate way to close out the season. Casual and refined all at once. The last days of summer deserve to feel exactly like this.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>August is the month that makes you pay attention. You know it's ending, so you actually <em>look</em> at things differently — the light, the plans, the nails.</p>
+      <p><strong>So pick the one that matches how you want to remember this August.</strong> Bold and maximalist? Warm and minimal? Dramatic and golden?</p>
+      <p>Whatever you choose — wear it like it's the last week of summer. Because it basically is 😉</p>
+    </div>
+  `
+},
+
+{
+  id: 17,
+  slug: generateSlug('25 Back to School Nail Ideas That Still Look Cool 2026'),
+  title: '25 Back to School Nail Ideas',
+  fullTitle: '25 Back to School Nail Ideas That Still Look Cool (2026)',
+  date: 'Aug 20\'',
+  badge: '📚 School Edit',
+  category: '~ BACK TO SCHOOL / CLEAN GIRL / SMART CASUAL',
+  imageUrl: '/assets/blog-5/1-soft-pink-everyday-elegance.png',
+  cardImage: '/assets/blog-9/14-blush-pink-blazer-nails.png',
+  nailName: '25 Back to School Nail Ideas',
+  nailDescription: 'New year, new nails — clean, put-together, and stylish enough to last through every class, meeting, and coffee run.',
+  content: `
+    <p>Back to school doesn't mean boring nails. It means <em>intentional</em> nails. You're walking into a new semester, a new routine, possibly a new version of yourself — your manicure should be ready for all of it.</p>
+    <p>These <strong>25 looks</strong> are clean, polished, and school-appropriate without being forgettable. Because you can absolutely sit through a lecture and have the best nails in the room at the same time.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Soft Pink Everyday Elegance</h3>
+        <img class="blog-img" src="/assets/blog-5/1-soft-pink-everyday-elegance.png" alt="Soft pink everyday elegance back to school nails">
+        <p>This is the back-to-school nail for people who take their aesthetic seriously even on a Tuesday. Soft pink, clean finish, no overthinking — just polished. It works from the first lecture to the last study session.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Blush Pink Blazer Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/14-blush-pink-blazer-nails.png" alt="Blush pink blazer back to school nails">
+        <p>Blush pink peeking from a tailored blazer — this is the "I came to school and I came prepared" nail. Feminine, sharp, and absolutely school-appropriate. The kind of manicure that gets compliments between classes.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Milky Nude Natural Finish</h3>
+        <img class="blog-img" src="/assets/blog-5/8-milky-nude-natural-finish.png" alt="Milky nude natural finish back to school nails">
+        <p>Milky nude — the back-to-school staple that never fails. Clean girl aesthetic without a single second of effort. These nails survive every notebook, every laptop, every rushed morning. Reliable, always.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Soft French Tip Modern</h3>
+        <img class="blog-img" src="/assets/blog-5/10-soft-french-tip-modern.png" alt="Soft French tip modern back to school nails">
+        <p>The modern French tip — thinner, softer, and way more current than the classic version. It reads as polished and put-together in every classroom context. The glow-up French tip deserves a permanent spot in your school rotation.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Nude Almond Clean Look</h3>
+        <img class="blog-img" src="/assets/blog-5/13-nude-almond-clean-look.png" alt="Nude almond clean look back to school nails">
+        <p>The almond shape alone does the work here. Nude plus almond equals quietly expensive — even in a classroom setting. The shape says "I have standards" and the color says "I'm not here to distract anyone." Perfect balance.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Glossy Minimal Pink Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/2-glossy-minimal-pink-hands.png" alt="Glossy minimal pink hands back to school nails">
+        <p>Short glossy pink nails — the clean girl back-to-school classic. They photograph well in every situation, including accidentally getting your hand in a photo during orientation. No bad angles here.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Neutral Cream Minimal Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/9-neutral-cream-minimal-style.png" alt="Neutral cream minimal hands back to school nails">
+        <p>Creamy neutral tones that blend with everything in your wardrobe — the smartest back-to-school nail investment. These look equally good on a Tuesday and at a Friday evening event. Versatility is the whole point.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. White Tip Minimal Chic</h3>
+        <img class="blog-img" src="/assets/blog-5/14-white-tip-minimal-chic.png" alt="White tip minimal chic back to school nails">
+        <p>Thin white tips on a clean base — just enough detail to feel styled without going overboard. It's the nail for the girl who makes everything look intentional without saying a word. Understated, school-appropriate perfection.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Nude Diamond Ring Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/8-nude-diamond-ring-closeup-nails.png" alt="Nude diamond ring close up back to school nails">
+        <p>Nude nails with a delicate ring — the desk aesthetic you didn't know you needed. These photograph beautifully during note-taking, laptop typing, and coffee holding. Honestly, back to school content has never looked this curated.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Soft Pink Glam Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/35-soft-pink-glam-shiny-nails.png" alt="Soft pink glam back to school nails">
+        <p>A bit more shine, a bit more polish — the back-to-school nail for girls who want something slightly elevated. Still completely appropriate, but you'll definitely feel the difference when you look at your hands during a long lecture.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Mauve Tiny Heart Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/13-mauve-tiny-heart-detail-nails.png" alt="Mauve tiny heart detail back to school nails">
+        <p>Muted mauve with the tiniest heart detail — for the girl who wants a little personality in her back-to-school manicure without making a statement about it. It's subtle enough that you notice it only up close. That's the whole point.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Classic Neutral Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/16-classic-neutral-hands.png" alt="Classic neutral hands back to school nails">
+        <p>Neutral nails that match literally every outfit in your wardrobe — the most practical back-to-school choice. You won't have to think about your nails for weeks. And honestly? That freedom is worth everything at the start of a new semester.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Sheer Pink Almond Paired Hands Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/12-sheer-pink-almond-paired-hands-nails.png" alt="Sheer pink almond back to school nails">
+        <p>Sheer pink almond nails — refined, clean, and school-ready from day one. The translucent finish keeps everything polished without being loud. These nails work equally well in class and at the campus coffee shop. Everywhere, basically.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Cool-Tone Pink with Rings</h3>
+        <img class="blog-img" src="/assets/blog-5/5-cool-tone-pink-rings-style.png" alt="Cool tone pink rings back to school nails">
+        <p>Cool-toned pink with silver rings — the editorial back-to-school look. Slightly more modern than warm pink, slightly more interesting than nude. The silver jewelry makes it feel curated. For the girl who shows up to school looking like she has a fashion column on the side.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Almond Nude Nails with Shine</h3>
+        <img class="blog-img" src="/assets/blog-2/16-almond-nude-glossy-clean-nails.png" alt="Almond nude glossy back to school nails">
+        <p>Elongated almond shape with a glossy nude finish — clean, sharp, and quietly impressive. The shape alone makes everything look more intentional. Back to school has never looked this elevated.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Lavender Blue Chest Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/3-lavender-blue-chest-touch-nails.png" alt="Lavender blue chest touch back to school nails">
+        <p>Soft lavender-blue — the creative student's nail. It adds personality without breaking the "appropriate" rule. Cool, calm, and creative. For the girl whose notes are color-coded and whose nails match the vibe.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Natural Pink Barely-There Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/11-natural-pink-barely-there.png" alt="Natural pink barely there back to school nails">
+        <p>These nails almost disappear — and for back to school, that's sometimes the most polished choice. They look clean, fresh, and intentional. The "I clearly take care of myself" nail without any drama attached.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Warm Nude Glow Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/34-warm-nude-glow-natural-nails.png" alt="Warm nude glow back to school nails">
+        <p>Warm nude with a sun-kissed tone — holding onto summer while stepping into school season. These nails are the perfect transition: still warm, still a little summery, but completely school-ready.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Sage Green Jewelry Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/19-sage-green-jewelry-closeup-nails.png" alt="Sage green jewelry back to school nails">
+        <p>Sage green — the unexpected back-to-school color that immediately makes you look like you know what you're doing. Grounded, sophisticated, and refreshingly different from every pink and nude in the room.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Nude & Gold Layered Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/27-nude-gold-layered-elegant-nails.png" alt="Nude gold layered back to school nails">
+        <p>Layered textures with gold accents — more detailed than a plain nude but still completely school-appropriate. The gold feels elevated without being excessive. A slight upgrade to your standard school manicure.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Minimal Baby Pink with Micro Details</h3>
+        <img class="blog-img" src="/assets/blog-2/2-soft-baby-pink-minimal-detail-nails.png" alt="Minimal baby pink micro details back to school nails">
+        <p>Baby pink with tiny hidden accents — this is the back-to-school nail for the girl who notices details. Clean at a glance, interesting up close. Exactly the energy you want going into a new semester.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Nude Nails with Micro Art</h3>
+        <img class="blog-img" src="/assets/blog-2/21-nude-nails-with-micro-art-design.png" alt="Nude nails micro art back to school nails">
+        <p>Micro art on a neutral base — tiny, intentional, and almost invisible until someone looks closely. The back-to-school nail for the girl who puts effort into everything, including the details nobody else notices. Until they do.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Beige Gloss Luxe Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/12-beige-gloss-luxe-style.png" alt="Beige gloss luxe back to school nails">
+        <p>Warm beige with a glossy finish — the most luxurious-looking back-to-school choice that requires zero effort to maintain. These go with every outfit, every day, every situation a new school year throws at you.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Soft Pink with Face-Framing Pose Style</h3>
+        <img class="blog-img" src="/assets/blog-2/28-soft-pink-selfie-aesthetic-nails.png" alt="Soft pink selfie aesthetic back to school nails">
+        <p>Soft pink nails in every selfie — this is back to school's most photogenic option. The first day of school content practically creates itself when your nails look this clean. Every phone flip is ready.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Pink & White Contrast Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/17-pink-white-contrast-style.png" alt="Pink white contrast back to school nails">
+        <p>Soft pink and white — a fresh combination that feels crisp and new-season-appropriate. The contrast adds just enough visual interest without demanding attention. The school-year nail that stays interesting for weeks, not days.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>New school year, new nail era. The right manicure going into September sets the tone for everything — how you feel walking into the first class, how your hands look taking notes, how put-together you seem even at 8am.</p>
+      <p><strong>Pick something that feels like the version of you this semester is going for.</strong></p>
+      <p>And if you change it in three weeks? That's just being decisive 😉</p>
+    </div>
+  `
+},
+
+{
+  id: 18,
+  slug: generateSlug('26 Fall Transition Nail Ideas for September 2026'),
+  title: '26 Fall Transition Nail Ideas',
+  fullTitle: '26 Fall Transition Nail Ideas for September (2026)',
+  date: 'Sep 01\'',
+  badge: '🍂 Fall Transition',
+  category: '~ FALL NAILS / TRANSITION / WARM TONES',
+  imageUrl: '/assets/blog-3/8-cream-knit-neutral.png',
+  cardImage: '/assets/blog-6/4-elegant-white-sweater-butter-nails.png',
+  nailName: '26 Fall Transition Nail Ideas',
+  nailDescription: 'Not quite summer, not fully autumn — these in-between nails capture the most beautiful moment of seasonal change.',
+  content: `
+    <p>September is fashion's most interesting month. Everything is shifting — the light, the temperature, the wardrobe. Your summer nails feel slightly off, but you're not ready for full burgundy and plum yet. That in-between space? That's where the best nails live.</p>
+    <p>Here are <strong>26 looks</strong> for the fall transition — warm neutrals, cozy textures, deeper pinks, and that cream-meets-golden aesthetic that September does better than any other month.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Cream Knit Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/8-cream-knit-neutral.png" alt="Cream knit neutral fall transition nails">
+        <p>Neutral nails against soft knit fabric — this is the September nail in its purest form. The coziness of the texture combined with the clean manicure captures the transition perfectly. Still warm, starting to get comfortable.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Elegant White Sweater Butter Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/4-elegant-white-sweater-butter-nails.png" alt="Elegant white sweater butter fall transition nails">
+        <p>Butter cream nails with a white knit sweater — September's signature look. The softness of both elements creates a composition that feels warm, refined, and perfectly transitional. You're not fighting the season change — you're embracing it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Rosy Nude with Fur Sleeve</h3>
+        <img class="blog-img" src="/assets/blog-5/3-rosy-nude-fur-sleeve-style.png" alt="Rosy nude fur sleeve fall transition nails">
+        <p>Muted rosy nude against a fur sleeve — rich, warm, and very fall-adjacent. The tone is warmer than summer pink, slightly softer than autumn berry. It sits exactly where September lives: in between, and completely comfortable with it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Soft Glow Natural Butter Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/3-soft-glow-natural-butter-cream-nails.png" alt="Soft glow natural butter cream fall transition nails">
+        <p>Butter cream with a soft natural glow — the transitional nail that feels warm without being heavy. It's the color equivalent of that September light that feels different from August: still golden, but softer. Still summer, but quieter.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Deep Burgundy Statement Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/6-deep-burgundy-short-nails.png" alt="Deep burgundy fall transition nails">
+        <p>Deep burgundy — the first real taste of fall on your fingertips. It feels rich and moody without committing fully to winter. This is the September nail for girls who are genuinely excited about autumn and want to start the transition early.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Dark Cherry Floral Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/16-dark-cherry-floral-detail-nails.png" alt="Dark cherry floral detail fall transition nails">
+        <p>Dark cherry with tiny floral accents — this is fall transitional art. The depth of the color leans autumn, but the floral detail keeps it from going fully dark. It bridges the seasons in the most thoughtful way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Cozy Knit Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/26-cozy-knit-neutral-nails.png" alt="Cozy knit neutral fall transition nails">
+        <p>Neutral nails against soft knit — comfort and elegance meeting at exactly the right time. As September brings cooler mornings, this composition starts making more and more sense. It's the nail that matches the feeling of putting on your first sweater of the season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Latte Street Butter Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/16-latte-street-butter-cream-nails.png" alt="Latte street butter cream fall transition nails">
+        <p>A warm latte on a transitional September street — this is peak fall-transition content. The creamy nails match the drink, the warm tones match the season, and the outdoor setting matches the energy of a world slowly changing. Cozy, but still stylish.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Ombre Pink Ring Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/13-ombre-pink-ring-detail-nails.png" alt="Ombre pink ring detail fall transition nails">
+        <p>Soft pink ombre — summer fading beautifully into something more refined. The gradient captures the transition itself: warm at the base, softening at the tips. September in nail form.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Cozy Sleeve Butter Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/2-cozy-sleeve-butter-cream-nails.png" alt="Cozy sleeve butter cream fall transition nails">
+        <p>Butter nails half-hidden under a cozy sleeve — September's most quintessential image. Warm, soft, and slightly mysterious. As the sleeves get longer and the mornings get cooler, this composition becomes the season's unofficial logo.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Deep Red Cozy Knit Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/7-deep-red-cozy-knit-nails.png" alt="Deep red cozy knit fall transition nails">
+        <p>Deep red against a soft knit — warm, bold, and unapologetically autumn-coded. This is the transitional nail for the girl who fully commits to fall the moment September arrives. No hesitation. Just red and cashmere.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Gold Ring Butter Cream Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/6-gold-ring-butter-cream-closeup-nails.png" alt="Gold ring butter cream fall transition nails">
+        <p>Butter cream with gold rings — the warm tones of both feel perfectly calibrated for September. As the season shifts, gold jewelry starts feeling more natural again. This combination captures that effortlessly warm fall aesthetic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Beige Outfit Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/29-beige-outfit-nude-nails.png" alt="Beige outfit nude fall transition nails">
+        <p>Nude nails with a beige outfit — seamless, cohesive, and very autumn-adjacent. The tonal dressing feels warm and intentional, like the whole outfit was planned around the season's changing palette. Quiet luxury for the transitional moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Blazer Chic Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/16-blazer-chic-neutral.png" alt="Blazer chic neutral fall transition nails">
+        <p>Neutral nails with a structured blazer — September energy at its most polished. As the season shifts, structured outerwear returns, and clean nails balance the sharpness of it perfectly. Put-together, professional, transitionally perfect.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Soft Pink Gold Chain Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/31-soft-pink-gold-chain-nails.png" alt="Soft pink gold chain fall transition nails">
+        <p>Soft pink with gold chain jewelry — warm, elegant, and perfectly timed for September. The combination of cool pink and warm gold creates a balance that feels seasonally right. Summer softness meeting autumn richness.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Dark Gloss Statement Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/12-dark-gloss-statement.png" alt="Dark gloss statement fall transition nails">
+        <p>Deep, glossy tones — this is the fall arrival nail. The richness of the color announces that the season has officially changed. Bold, polished, and completely intentional. September's statement moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Neutral Outfit Butter Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/11-neutral-outfit-butter-cream-nails.png" alt="Neutral outfit butter cream fall transition nails">
+        <p>Butter cream nails with a neutral outfit — the fall transition look that feels completely effortless. Everything works together without anyone noticing how carefully it was put together. That's the goal of transitional dressing, and these nails nail it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Coffee & Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/30-coffee-cream-nails.png" alt="Coffee and cream fall transition nails">
+        <p>Creamy coffee tones — September's most comforting nail choice. As iced coffees transition to warm ones, these nails feel like they're on the right side of the season. Cozy, polished, and very autumn-ready.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Sheer Nude Almond Ribbed Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/28-sheer-nude-almond-ribbed-nails.png" alt="Sheer nude almond ribbed fall transition nails">
+        <p>Sheer nude almond nails against a ribbed top — clean, minimal, and seasonally versatile. This look works in September because it feels intentionally understated in a season that doesn't need drama to be beautiful.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Crossed Hands Classic Nude</h3>
+        <img class="blog-img" src="/assets/blog-3/15-crossed-hands-classic-nude.png" alt="Crossed hands classic nude fall transition nails">
+        <p>Layered hands with classic nude nails — composed, balanced, and completely timeless for the transitional moment. Nothing excessive, but everything considered. This is old money entering September without breaking a sweat.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Outdoor Coffee Butter Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/8-outdoor-coffee-butter-cream-nails.png" alt="Outdoor coffee butter cream fall transition nails">
+        <p>Butter cream nails with a warm coffee outdoors — September's most iconic mood. The casual city setting combined with the creamy, warm nail tone feels like the season itself. Simple but completely on the right side of the calendar.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Peach Gloss Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-2/37-peach-glossy-almond-classy-nails.png" alt="Peach gloss almond fall transition nails">
+        <p>Peach with a smooth almond shape — the warmest of the soft tones, and the most transitionally appropriate. It still holds summer's warmth but moves toward autumn's depth. The perfect in-between color for the in-between month.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Clean White Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/28-clean-white-minimal-nails.png" alt="Clean white minimal fall transition nails">
+        <p>Crisp white nails — the transitional neutral that refuses to commit to a season and looks great doing it. White works in September because it feels fresh without feeling summery. A clean slate for the new season.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Almond Shape Butter Art Nails</h3>
+        <img class="blog-img" src="/assets/blog-6/14-almond-shape-butter-art-nails.png" alt="Almond shape butter art fall transition nails">
+        <p>Butter cream almond nails with subtle art detail — slightly more than plain, significantly more interesting. The almond shape feels seasonally right as autumn brings a more considered, intentional aesthetic. A small upgrade that makes a real difference.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Denim Contrast Soft Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/14-denim-soft-pink.png" alt="Denim contrast soft pink fall transition nails">
+        <p>Soft pink against denim — as the jeans come back out and the fabric gets heavier, this nail combination feels perfectly timed. The softness of the pink against the texture of denim captures September's casual-but-considered energy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. Barely There Pink Gloss</h3>
+        <img class="blog-img" src="/assets/blog-3/17-barely-there-pink-gloss.png" alt="Barely there pink gloss fall transition nails">
+        <p>An ultra-light pink gloss — the most minimal fall transition nail you can choose. It doesn't fight the season or cling to summer. It simply sits there, clean and effortless, letting the changing world around it be the statement. Sometimes that's exactly right.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>The fall transition is fashion's best-kept secret — and nails are part of it. You don't have to go full pumpkin spice immediately. You don't have to stay in summer pink either.</p>
+      <p><strong>September is for the in-between.</strong> Warm, slightly richer, a little cozier — but still holding onto something golden from the season that just left.</p>
+      <p>Pick the nail that matches where you are right now. And enjoy every second of the most beautiful transition of the year 😊</p>
+    </div>
+  `
 }
 ];
