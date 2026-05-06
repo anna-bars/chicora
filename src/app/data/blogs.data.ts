@@ -461,5 +461,178 @@ export const BLOGS: Blog[] = [
         <p>Now go ahead… choose your favorite and pretend you're not about to change it again in 10 days 🙂</p>
       </div>
     `
+  },
+  {
+  id: 3,
+  slug: generateSlug('24 Elegant Old Money Nails for Summer 2026'),
+  title: '24 Elegant Old Money Nails',
+  fullTitle: '24 Elegant Old Money Nails for Summer (2026)',
+  date: 'June 20\'',
+  badge: '💎 Luxury Edit',
+  category: '~ OLD MONEY / LUXURY / MINIMAL',
+  imageUrl: '/assets/blog-3/1-soft-pink-luxe-chest.png',
+  cardImage: '/assets/blog-3-img.png',
+  nailName: '24 Elegant Old Money Nails',
+  nailDescription: 'Soft pinks, creamy nudes, glossy finishes—quiet luxury that speaks volumes without saying a word.',
+  content: `
+    <p>Let's be honest—<strong>old money nails don't scream for attention… they quietly demand it</strong>. You've seen the aesthetic: soft pinks, creamy nudes, glossy finishes, and hands that somehow look like they belong in a luxury campaign without even trying.</p>
+    <p>I've spent way too much time analyzing this vibe (no regrets), and here's the truth—<strong>it's not about the nails alone, it's about how they're styled, photographed, and felt</strong>. Ever wondered why some simple nude nails look insanely expensive while others feel… meh?</p>
+    <p>Yeah, details.</p>
+    <p>So here's a full breakdown of 24 old money nail looks—each with its own personality, but all sharing that quiet, expensive energy.</p>
+    
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Soft Pink Luxe Chest Pose</h3>
+        <img class="blog-img" src="/assets/blog-3/1-soft-pink-luxe-chest.png" alt="Soft Pink Luxe Chest Pose">
+        <p>Soft pink glossy nails paired with delicate gold jewelry create a look that feels effortlessly refined and quietly luxurious. The relaxed chest pose adds a natural, almost candid touch, making the entire composition feel intimate rather than staged. This style captures the essence of old money beauty—nothing feels forced, yet everything looks perfectly put together. If you want nails that whisper elegance instead of shouting trends, this is exactly where you start.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. French Tip Shoulder Elegance</h3>
+        <img class="blog-img" src="/assets/blog-3/2-french-tip-shoulder-elegance.png" alt="French Tip Shoulder Elegance">
+        <p>Classic French tips rest gently against the shoulder, creating a composition that feels timeless and undeniably chic. The clean white tips contrast softly against warm skin tones, giving that polished, just-stepped-out-of-a-salon finish. There's a reason this style never goes out of fashion—it adapts to every outfit, every season, and still looks expensive without trying. Honestly, if old money had a uniform, this manicure would be part of it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Glossy Pink Layered Jewelry Look</h3>
+        <img class="blog-img" src="/assets/blog-3/3-glossy-pink-layered-rings.png" alt="Glossy Pink Layered Jewelry Look">
+        <p>Glossy pink nails combined with layered gold rings create a perfectly balanced visual between simplicity and richness. The shine of the nails catches the light just enough to draw attention, while the jewelry adds depth and character without overpowering the look. It feels curated, but not calculated—like someone who naturally understands style without needing to prove it. This is the kind of manicure that looks good from every angle, whether you notice it or not.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Almond Nude Street Style</h3>
+        <img class="blog-img" src="/assets/blog-3/4-almond-nude-street-style.png" alt="Almond Nude Street Style">
+        <p>Almond-shaped nude nails photographed in natural light bring out a soft, polished finish that feels both relaxed and elevated. The street-style setting adds a touch of realism, proving that luxury doesn't have to live in perfect studio conditions. Instead, it thrives in everyday moments when details come together effortlessly. This look feels like someone who always looks put together, even on their most casual day.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Minimal Dot Accent Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/5-minimal-dot-accent-nails.png" alt="Minimal Dot Accent Nails">
+        <p>A neutral base paired with tiny dot accents creates a subtle design that adds personality without disrupting the clean aesthetic. The minimal detailing feels intentional, like a quiet nod to creativity while still respecting the boundaries of elegance. It's proof that you don't need bold patterns or loud colors to stand out. Sometimes, the smallest details make the strongest impression.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Milky White Collarbone Pose</h3>
+        <img class="blog-img" src="/assets/blog-3/6-milky-white-collarbone.png" alt="Milky White Collarbone Pose">
+        <p>Milky white nails paired with soft skin tones create a fresh, almost ethereal look that feels effortlessly feminine. The collarbone pose adds a delicate, editorial touch, enhancing the overall softness of the composition. This style leans heavily into purity and simplicity, making it perfect for anyone who prefers a clean, polished finish. It's quiet, refined, and undeniably luxurious.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Sleek Hair Touch Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/7-sleek-hair-touch-nude.png" alt="Sleek Hair Touch Nude Nails">
+        <p>A soft nude manicure captured mid hair-touch creates a moment that feels natural and unposed, yet visually striking. The movement adds life to the image, while the nails remain perfectly polished and understated. This balance between effortlessness and control defines the old money aesthetic. It's the kind of detail you notice without realizing why it looks so good.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Cream Knit Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/8-cream-knit-neutral.png" alt="Cream Knit Neutral Nails">
+        <p>Neutral nails paired with cozy knit textures create a warm, inviting look that still feels elevated and refined. The softness of the fabric contrasts beautifully with the clean manicure, adding depth and dimension to the overall composition. This style proves that luxury doesn't always mean formal—it can feel comfortable, relaxed, and still incredibly polished. Honestly, this is everyday elegance done right.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Clean White Shirt Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/9-white-shirt-minimal-nails.png" alt="Clean White Shirt Nails">
+        <p>A crisp white shirt combined with simple nude nails creates a look that feels effortlessly clean and sophisticated. The sharpness of the fabric enhances the softness of the manicure, resulting in a perfectly balanced aesthetic. It's minimal, timeless, and incredibly versatile. If you ever feel unsure about what to choose, this combination never fails.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Black & Blush Contrast Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/10-black-blush-contrast.png" alt="Black & Blush Contrast Nails">
+        <p>The contrast between soft blush tones and deep black polish creates a bold yet controlled visual statement. While it steps slightly outside the traditional old money palette, it maintains elegance through clean shapes and glossy finishes. This look feels confident and intentional, like someone who understands the rules and knows exactly when to bend them. It's daring—but in a refined way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Soft Pink with Accessories Grip</h3>
+        <img class="blog-img" src="/assets/blog-3/11-soft-pink-accessory-grip.png" alt="Soft Pink with Accessories Grip">
+        <p>Soft pink nails wrapped around everyday accessories create a candid yet polished look that feels effortlessly stylish. The grip adds a sense of movement and realism, while the manicure remains perfectly neat and glossy. It's the kind of detail that elevates even the simplest moment. Luxury, in this case, feels completely natural.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Dark Gloss Statement Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/12-dark-gloss-statement.png" alt="Dark Gloss Statement Nails">
+        <p>Deep, glossy tones paired with a sharp almond shape create a bold and confident manicure that still feels elegant. The richness of the color adds intensity, while the smooth finish keeps everything refined and controlled. This style stands out without looking excessive, which is exactly the balance you want. Strong, polished, and undeniably chic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Face Frame Nude Elegance</h3>
+        <img class="blog-img" src="/assets/blog-3/13-face-frame-nude.png" alt="Face Frame Nude Elegance">
+        <p>Nude nails gently framing the face create a soft, intimate composition that highlights natural beauty. The simplicity of the manicure allows the overall look to feel clean and effortless. It blends seamlessly into the aesthetic without drawing too much attention to itself. This is subtle luxury at its finest.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Denim Contrast Soft Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/14-denim-soft-pink.png" alt="Denim Contrast Soft Pink Nails">
+        <p>Soft pink nails paired with denim textures create a relaxed yet polished look that feels modern and wearable. The contrast between casual fabric and refined nails adds depth without losing elegance. It's the perfect balance between everyday comfort and elevated style. Effortless, but still intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Crossed Hands Classic Nude</h3>
+        <img class="blog-img" src="/assets/blog-3/15-crossed-hands-classic-nude.png" alt="Crossed Hands Classic Nude">
+        <p>Layered hands with classic nude nails create a composed and balanced visual that feels timeless. The positioning adds structure, while the manicure remains clean and understated. Nothing feels excessive, yet everything looks carefully considered. This is old money energy in its purest form.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Blazer Chic Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/16-blazer-chic-neutral.png" alt="Blazer Chic Neutral Nails">
+        <p>Neutral nails styled with a structured blazer create a sharp, polished aesthetic that feels both professional and fashionable. The clean lines of the outfit enhance the simplicity of the manicure. Together, they create a look that feels powerful without being loud. It's confidence, but understated.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Barely There Pink Gloss</h3>
+        <img class="blog-img" src="/assets/blog-3/17-barely-there-pink-gloss.png" alt="Barely There Pink Gloss">
+        <p>An ultra-light pink gloss creates a manicure that almost disappears into the natural nail, enhancing rather than transforming it. The result feels clean, fresh, and incredibly refined. This style relies entirely on precision and finish rather than color or design. It's minimalism at its most luxurious.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Hidden Face Luxury Pose</h3>
+        <img class="blog-img" src="/assets/blog-3/18-hidden-face-luxury.png" alt="Hidden Face Luxury Pose">
+        <p>Soft pink nails partially covering the face create a mysterious, editorial look that feels effortlessly high-end. The pose adds intrigue, while the manicure keeps everything polished and cohesive. It's subtle, yet visually striking in a quiet way. Exactly what old money aesthetics aim for.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Summer Glow Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/19-summer-glow-pink.png" alt="Summer Glow Pink Nails">
+        <p>Glossy pink nails captured in warm sunlight create a radiant, healthy glow that feels fresh and feminine. The light enhances the shine, making the manicure look even more polished. It's simple, but incredibly effective. This is summer elegance at its best.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Minimal Gold Ring Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/20-gold-ring-nude-minimal.png" alt="Minimal Gold Ring Nude Nails">
+        <p>Short nude nails paired with delicate gold rings create a refined, understated look that feels effortlessly put together. The simplicity allows every detail to shine without overwhelming the composition. It's clean, balanced, and quietly luxurious. Nothing more, nothing less.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Elegant Nude Nails with Designer Bag</h3>
+        <img class="blog-img" src="/assets/blog-3/21-nude-nails-designer-bag-style.png" alt="Elegant Nude Nails with Designer Bag">
+        <p>Neutral nails styled with a structured designer bag create a composition that feels unmistakably luxurious. The textures and tones work together to enhance the overall aesthetic without competing for attention. This look fully embodies the old money lifestyle—refined, effortless, and intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Deep Red Classic Luxury Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/22-deep-red-classic-luxury.png" alt="Deep Red Classic Luxury Nails">
+        <p>Rich red nails paired with gold accents create a timeless and powerful look that never goes out of style. The deep tone adds sophistication, while the glossy finish keeps it polished and refined. It's bold, but always elegant. A true classic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Soft Bracelet Touch Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-3/23-bracelet-touch-nude.png" alt="Soft Bracelet Touch Nude Nails">
+        <p>Natural nude nails styled with delicate bracelet details create a soft, intimate composition that feels personal and refined. The subtle movement adds life to the image, while the manicure remains clean and polished. It's quiet luxury captured in a single moment.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Soft Pink Tote Bag Elegance</h3>
+        <img class="blog-img" src="/assets/blog-3/24-soft-pink-tote-bag.png" alt="Soft Pink Tote Bag Elegance">
+        <p>Glossy almond-shaped soft pink nails styled against a neutral canvas tote create a perfect balance between casual and refined. The relaxed setting makes the look feel approachable, while the polished manicure elevates it instantly. It captures that off-duty elegance that feels effortless but still intentional. This is everyday luxury, done right.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>Here's the truth—anyone can do complicated nails, but not everyone can make simple look expensive.</strong></p>
+      <p>That's the real flex.</p>
+      <p>So next time you choose a nail design, ask yourself: <strong>"Does this feel effortless… or does it try too hard?"</strong></p>
+      <p>If it feels effortless—you already understand the assignment 😉</p>
+      <p>Now go ahead and pick your favorite. And remember—sometimes the quietest nails make the loudest statement.</p>
+    </div>
+  `
 }
 ];
