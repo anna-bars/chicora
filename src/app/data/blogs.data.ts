@@ -1620,5 +1620,226 @@ export const BLOGS: Blog[] = [
       <p>If it looks like you — you already nailed it 😉</p>
     </div>
   `
+},
+{
+  id: 10,
+  slug: generateSlug('33 Pink Nail Ideas for When Youre Feeling Classy'),
+  title: '33 Pink Nail Ideas',
+  fullTitle: '33 Pink Nail Ideas for When You\'re Feeling Classy (2026)',
+  date: 'July 05\'',
+  badge: '🟠 Classy Edit',
+  category: '~ PINK NAILS / CLASSY / VERSATILE',
+  imageUrl: '/assets/blog-10/1-glossy-pink-street-portrait-nails.png',
+  cardImage: '/assets/blog-10/1-glossy-pink-street-portrait-nails.png',
+  nailName: '33 Pink Nail Ideas',
+  nailDescription: 'Soft, bold, romantic, or powerful — pink nails never go out of style. Here are 33 classy ways to wear them.',
+  content: `
+    <p>Pink nails never go out of style — but <em>classy</em> pink nails? That's a whole different level. Whether you want soft and romantic or bold and polished, pink does it all. Here are 33 looks that prove pink is the most versatile color in your nail wardrobe.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Glossy Pink Street Portrait Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/1-glossy-pink-street-portrait-nails.png" alt="Glossy pink street portrait nails">
+        <p>Glossy pink nails framing the face in a bright street setting feel effortlessly chic and full of life. The shine catches the light beautifully, making the color look even more vibrant. It's casual, but it's <em>curated</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Soft Pink Face Cover Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/2-soft-pink-face-cover-nails.png" alt="Soft pink face cover nails">
+        <p>Soft pink nails covering the lower half of the face create a quiet, editorial moment that feels intentional and feminine. The subtle color lets the gesture do the talking. Simple, but impossible to scroll past.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Nude Pink Bag Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/3-nude-pink-bag-closeup-nails.png" alt="Nude pink bag close up nails">
+        <p>Nude pink nails resting on a structured designer bag create an instantly elevated, old-money aesthetic. The neutral tone blends seamlessly with the luxury accessory. <strong>This is what "effortlessly expensive" actually looks like.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Matcha Drink Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/4-matcha-drink-pink-nails.png" alt="Matcha drink pink nails">
+        <p>Pink nails holding a matcha drink create a relaxed, aesthetic moment that feels both trendy and personal. The contrast between the green drink and the pink manicure is surprisingly satisfying. Coffee dates just got an upgrade.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Pink Face Touch Sunglasses Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/5-pink-face-touch-sunglasses-nails.png" alt="Pink face touch sunglasses nails">
+        <p>Pink nails gently touching the face with a subtle sunglasses pose feel cool and feminine at the same time. The manicure becomes part of the whole look, not just an afterthought. <strong>Bold color, soft energy</strong> — that's the formula.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Pink Iced Drink Outdoor Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/6-pink-iced-drink-outdoor-nails.png" alt="Pink iced drink outdoor nails">
+        <p>Pink nails wrapped around an iced pink drink in a sunny outdoor setting feel fresh, summery, and completely on-brand. The tonal color coordination between the nails and the drink? <em>Chef's kiss.</em> It's the kind of photo that gets saved immediately.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Light Pink Outdoor Sun Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/7-light-pink-outdoor-sun-nails.png" alt="Light pink outdoor sun nails">
+        <p>Soft, light pink nails captured in natural sunlight feel clean and timeless. The warmth of the lighting gives the color a golden, almost glowing quality. You don't need much when the basics are this good.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Hot Pink Mouth Cover Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/8-hot-pink-mouth-cover-nails.png" alt="Hot pink mouth cover nails">
+        <p>Hot pink nails dramatically covering the mouth create a bold, fashion-forward moment that feels confident and expressive. The intensity of the color demands attention — and gets it. IMO, this is the look for when you want to be <em>remembered</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Pink Sunglasses Chic Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/9-pink-sunglasses-chic-nails.png" alt="Pink sunglasses chic nails">
+        <p>Pink nails paired with oversized sunglasses in an urban setting create a polished, street-style moment that feels effortlessly glamorous. The look has that "off-duty model" energy without even trying. <strong>Clean, confident, and camera-ready.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Sheer Pink Floral Outdoor Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/10-sheer-pink-floral-outdoor-nails.png" alt="Sheer pink floral outdoor nails">
+        <p>Sheer pink nails with a delicate floral detail photographed outdoors feel romantic and light. The transparency of the base gives the design an airy, feminine quality. It's soft but it still makes a statement.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Nude Pink Chest Necklace Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/11-nude-pink-chest-necklace-nails.png" alt="Nude pink chest necklace nails">
+        <p>Nude pink nails resting on the chest near a delicate necklace create a refined and intimate composition. The minimal color lets the jewelry and the moment take center stage. <strong>Understated luxury at its finest.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Pastel Pink Star Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/12-pastel-pink-star-detail-nails.png" alt="Pastel pink star detail nails">
+        <p>Pastel pink nails with tiny star accents feel playful, feminine, and just the right amount of whimsical. The details are small enough to stay elegant but big enough to make the look unique. Stars on nails — because why not?</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Ombre Pink Ring Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/13-ombre-pink-ring-detail-nails.png" alt="Ombre pink ring detail nails">
+        <p>A soft pink ombre with a delicate ring detail photographed on the street creates a look that feels artistic and polished. The gradient adds depth while the ring adds refinement. It's more than a manicure — it's a mood.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Teal Blue Tip Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/14-teal-blue-tip-almond-nails.png" alt="Teal blue tip almond nails">
+        <p>Long almond nails with a teal blue tip feel fresh, unexpected, and beautifully modern. The color choice breaks the mold while the shape keeps things elegant. <strong>Sometimes classy means going off-script.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Pink Cherry Pattern Ring Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/15-pink-cherry-pattern-ring-nails.png" alt="Pink cherry pattern ring nails">
+        <p>Pink nails with a tiny cherry pattern and gold ring details feel vintage-inspired and incredibly charming. The playful design is balanced by the refined accessories around it. Cute doesn't have to mean childish — this proves it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Nude Pink Outdoor Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/16-nude-pink-outdoor-minimal-nails.png" alt="Nude pink outdoor minimal nails">
+        <p>Nude pink nails in a minimal outdoor shot feel clean, natural, and completely wearable. The simplicity of the look makes it incredibly versatile — it goes with literally everything. <strong>Sometimes the quietest nails say the most.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Long Pink Almond Street Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/17-long-pink-almond-street-nails.png" alt="Long pink almond street nails">
+        <p>Long almond nails in a warm pink shade photographed on the street feel bold and feminine at the same time. The length adds drama while the color keeps things approachable. <strong>This is the look that makes people stop and ask.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Neutral Tote Bag Hand Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/18-neutral-tote-bag-hand-nails.png" alt="Neutral tote bag hand nails">
+        <p>Nude pink nails resting on a neutral tote bag create a lifestyle shot that feels clean, minimal, and aspirational. The simplicity of the composition makes the manicure feel premium. Old money energy, no question.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Dark Pink Face Cover Night Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/19-dark-pink-face-cover-night-nails.png" alt="Dark pink face cover night nails">
+        <p>Deep pink nails dramatically covering the face in a moody, dark setting create a bold and mysterious aesthetic. The richness of the color adds intensity to the whole look. <strong>Classy can be dark too — don't forget that.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Pink Portrait Outdoor Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/20-pink-portrait-outdoor-nails.png" alt="Pink portrait outdoor nails">
+        <p>Soft pink nails in a warm outdoor portrait feel natural, feminine, and effortlessly pretty. The organic setting makes the manicure feel like part of a bigger story. It's not just nails — it's a whole vibe.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Mixed Pink Floral Gem Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/21-mixed-pink-floral-gem-nails.png" alt="Mixed pink floral gem nails">
+        <p>Long pink nails with mixed floral and gem details create a maximalist yet feminine look that feels celebratory and luxurious. Every finger is its own moment, but together they feel cohesive. FYI — this is the look for when you want to <em>go all out</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Sheer Pink Floral Dark Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/22-sheer-pink-floral-dark-nails.png" alt="Sheer pink floral dark nails">
+        <p>Sheer pink nails with delicate floral accents set against a dark background feel romantic and editorial. The contrast between the soft nails and the dark setting adds depth and drama. Softness can be striking — this is proof.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. French Pink Lip Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/23-french-pink-lip-touch-nails.png" alt="French pink lip touch nails">
+        <p>A soft French-pink manicure with a subtle lip-touch pose feels polished, feminine, and quietly confident. The pose adds a layer of intention that elevates the whole composition. <strong>Classic French energy with a modern twist.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Soft Pink Street Candid Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/24-soft-pink-street-candid-nails.png" alt="Soft pink street candid nails">
+        <p>Soft pink nails captured candidly on the street feel real, wearable, and genuinely stylish. The natural setting makes the look feel like everyday elegance rather than a posed moment. That's the magic of keeping it simple.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Bright Pink Long Bag Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/25-bright-pink-long-bag-nails.png" alt="Bright pink long bag nails">
+        <p>Long bright pink nails resting on a gold-buckle bag create an instantly glamorous and fashion-forward composition. The boldness of the color against the luxury accessory feels intentional and powerful. <strong>This one turns heads.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. Hot Pink Jewel Ring Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/26-hot-pink-jewel-ring-nails.png" alt="Hot pink jewel ring nails">
+        <p>Hot pink nails loaded with jewel rings create a maximalist, high-fashion moment that feels bold and unapologetic. The combination of color and accessories is striking in the best way. When more is more — do <em>this</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>27. Lavender Pink Floral Daisy Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/27-lavender-pink-floral-daisy-nails.png" alt="Lavender pink floral daisy nails">
+        <p>Lavender-pink nails with soft daisy and floral details create a dreamy, garden-inspired aesthetic that feels feminine and fresh. The mix of colors feels playful but still refined. <strong>Spring called — and these nails answered.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>28. Sheer Nude Almond Ribbed Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/28-sheer-nude-almond-ribbed-nails.png" alt="Sheer nude almond ribbed nails">
+        <p>Sheer nude-pink almond nails resting against a ribbed white top feel minimal, clean, and effortlessly elegant. The barely-there color creates a polished finish that works in any setting. Sometimes the most elevated choice is near-invisible.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>29. Pink Floral Leather Jacket Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/29-pink-floral-leather-jacket-nails.png" alt="Pink floral leather jacket nails">
+        <p>Pink nails with floral detail peeking out from a leather jacket create an unexpected contrast that feels edgy and feminine at once. The combination of soft nails and tough outerwear is what makes it interesting. <strong>Opposites absolutely attract.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>30. Blush Pink Dot Chest Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/30-blush-pink-dot-chest-nails.png" alt="Blush pink dot chest nails">
+        <p>Blush pink nails with subtle dot details resting on the chest feel delicate and carefully styled. The gentle pattern adds personality without overwhelming the soft base color. It's refined and sweet — a perfect balance.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>31. Soft Pink Gold Chain Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/31-soft-pink-gold-chain-nails.png" alt="Soft pink gold chain nails">
+        <p>Soft pink nails paired with a gold chain necklace in a portrait shot feel warm, elegant, and completely put-together. The gold against the pink adds richness without complexity. <strong>This is quiet luxury doing what it does best.</strong></p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>32. White Pink Floral Eye Cover Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/32-white-pink-floral-eye-cover-nails.png" alt="White pink floral eye cover nails">
+        <p>White-pink nails with floral accents partially covering one eye create a bold, artistic composition that feels editorial and expressive. The unexpected pose makes the manicure feel like the star of the shot. It's fashion-forward without being try-hard.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>33. Mixed Art Red Cherry Nails</h3>
+        <img class="blog-img" src="/assets/blog-10/33-mixed-art-red-cherry-nails.png" alt="Mixed art red cherry nails">
+        <p>Pink nails with mixed art accents — red cherries, abstract details — feel playful, creative, and uniquely personal. The design is detailed enough to be interesting but controlled enough to stay classy. <strong>Art on your nails? Always a yes.</strong></p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>Here's what 33 looks taught me — pink isn't one thing. It's bold, soft, minimal, maximalist, romantic, and powerful all at once. The only wrong way to wear pink nails is to not commit to the vibe you're going for.</p>
+      <p>So pick your shade, pick your energy, and go be that girl 😉</p>
+    </div>
+  `
 }
 ];
