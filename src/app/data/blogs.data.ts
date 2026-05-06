@@ -1464,5 +1464,161 @@ export const BLOGS: Blog[] = [
       <p>And when they fit? Yeah… that's when people notice 😉</p>
     </div>
   `
+},
+{
+  id: 9,
+  slug: generateSlug('22 Simple Nail Ideas That Look Like a Diva'),
+  title: '22 Simple Nail Ideas',
+  fullTitle: '22 Simple Nail Ideas That Look Like a Diva (2026)',
+  date: 'July 01\'',
+  badge: '🔴 Diva Edit',
+  category: '~ SIMPLE NAILS / EFFORTLESS / DIVA VIBES',
+  imageUrl: '/assets/blog-9/1-soft-pink-chest-pose-nails.png',
+  cardImage: '/assets/blog-9/1-soft-pink-chest-pose-nails.png',
+  nailName: '22 Simple Nail Ideas',
+  nailDescription: 'Low-effort but absolutely diva-coded — simple nails that hit different when they\'re done right.',
+  content: `
+    <p>Let's be real — simple nails hit different when they're done <em>right</em>. You don't need 47 nail art tools or a two-hour appointment. You just need the right vibe, the right color, and honestly? The right inspo. So here are 22 looks that are low-effort but absolutely diva-coded.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Soft Pink Chest Pose Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/1-soft-pink-chest-pose-nails.png" alt="Soft pink chest pose nails">
+        <p>Soft pink nails resting gently on a white ribbed top — this is the kind of manicure that makes everything look more expensive. The color is barely-there but totally intentional. Quiet, clean, and effortlessly feminine.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Pink Mix Sunglasses Selfie Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/2-pink-mix-sunglasses-selfie-nails.png" alt="Pink mix sunglasses selfie nails">
+        <p>Mixed pink tones with a glossy finish styled in a sunglasses selfie — this look brings personality without screaming for attention. The combination of shades feels playful but polished. It's the kind of manicure you notice before you notice anything else.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Lavender Blue Chest Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/3-lavender-blue-chest-touch-nails.png" alt="Lavender blue chest touch nails">
+        <p>Soft lavender-blue nails resting on a white outfit create a calm, airy aesthetic that feels fresh and modern. The cool tone adds just enough contrast without being loud. It's understated in the best possible way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Purple Holographic Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/4-purple-holographic-face-frame-nails.png" alt="Purple holographic face frame nails">
+        <p>Purple holographic nails framing the face create an instant editorial moment — bold, eye-catching, and completely unforgettable. The iridescent finish catches light from every angle. This is the look you wear when you want to be <em>seen</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Pink Glitter Square Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/5-pink-glitter-square-nails.png" alt="Pink glitter square nails">
+        <p>Short square nails in a shimmery pink with a subtle glitter finish feel fun and feminine without trying too hard. The shape keeps things clean while the sparkle does all the talking. Perfect for the girl who wants pretty but not precious.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Nude Soft Smile Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/6-nude-soft-smile-nails.png" alt="Nude soft smile nails">
+        <p>Nude nails paired with a soft, natural smile create a look that feels genuine and effortlessly polished. The simplicity of the color makes everything feel cohesive and calm. It's the manicure equivalent of a deep breath.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Deep Red Cozy Knit Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/7-deep-red-cozy-knit-nails.png" alt="Deep red cozy knit nails">
+        <p>Rich, deep red nails against a cozy knit fabric feel warm, moody, and incredibly chic. The boldness of the color is balanced by the softness of the texture around it. It's confident without being aggressive — a rare thing.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Nude Diamond Ring Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/8-nude-diamond-ring-closeup-nails.png" alt="Nude diamond ring close up nails">
+        <p>A close-up of nude nails with a delicate diamond ring — this is the kind of shot that makes your whole feed look curated. The neutral tone lets the jewelry take center stage without competing. Minimal, refined, and very intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Nude Street Style Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/9-nude-street-style-nails.png" alt="Nude street style nails">
+        <p>Nude nails captured mid-walk in a Parisian-style street setting feel natural, modern, and completely wearable. The candid framing makes the manicure feel like part of a lifestyle, not just a beauty moment. Effortless is the word.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Soft Blue Shoulder Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/10-soft-blue-shoulder-touch-nails.png" alt="Soft blue shoulder touch nails">
+        <p>Soft blue nails resting on a shoulder create a gentle, dreamy composition that feels calm and carefully styled. The cool tone adds a quiet pop of color without disrupting the softness of the overall look. Simple, but you remember it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Ombre Blush Almond Long Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/11-ombre-blush-almond-long-nails.png" alt="Ombre blush almond long nails">
+        <p>Long almond nails in a soft ombre blush finish — this is pure elegance in nail form. The gradient from soft pink to near-nude creates a look that feels luxurious and incredibly refined. Gold rings complete the whole picture perfectly.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Sheer Pink Almond Paired Hands Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/12-sheer-pink-almond-paired-hands-nails.png" alt="Sheer pink almond paired hands nails">
+        <p>Two hands together showing sheer pink almond nails create a soft, romantic composition that feels warm and feminine. The translucent finish gives the color a delicate, fresh quality. It's sweet without being overdone.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Mauve Tiny Heart Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/13-mauve-tiny-heart-detail-nails.png" alt="Mauve tiny heart detail nails">
+        <p>Muted mauve nails with a tiny heart detail in a street setting feel personal and quietly expressive. The minimal accent adds just enough personality without turning it into full nail art. It's subtle storytelling on your fingertips.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Blush Pink Blazer Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/14-blush-pink-blazer-nails.png" alt="Blush pink blazer nails">
+        <p>Soft blush pink nails peeking out from a tailored grey blazer create a polished, put-together aesthetic that feels both professional and feminine. The contrast between the structured blazer and the soft nail color is what makes it work. Clean, sharp, and chic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Nude Almond Long Denim Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/15-nude-almond-long-denim-nails.png" alt="Nude almond long denim nails">
+        <p>Long nude almond nails against denim create a classic, versatile look that goes with literally everything. The length adds elegance while the neutral color keeps it grounded. This is the safe bet that never actually feels safe — it feels expensive.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Dark Cherry Floral Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/16-dark-cherry-floral-detail-nails.png" alt="Dark cherry floral detail nails">
+        <p>Dark cherry nails with delicate floral detailing create a dramatic yet feminine look that feels rich and carefully crafted. The dark base makes the floral accents pop in the most unexpected way. It's bold, but it's <em>art</em>.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Colorful Abstract Mixed Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/17-colorful-abstract-mixed-nails.png" alt="Colorful abstract mixed nails">
+        <p>A mix of abstract colors across each nail creates a playful, artistic look that feels creative and fearless. Every finger is its own moment, but together they form something cohesive. This is for the girl who doesn't pick just one mood.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Sheer Nude Pink Face Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/18-sheer-nude-pink-face-touch-nails.png" alt="Sheer nude pink face touch nails">
+        <p>Sheer nude-pink nails with a gentle face-touch pose create a soft, editorial aesthetic that feels intimate and polished. The translucency of the color adds a barely-there elegance that works in any setting. It's minimalism at its most beautiful.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Sage Green Jewelry Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/19-sage-green-jewelry-closeup-nails.png" alt="Sage green jewelry close up nails">
+        <p>Sage green nails with delicate gold rings in a close-up shot feel fresh, modern, and quietly elevated. The earthy tone is unexpected in the best way — grounded but still refined. Green nails have never looked this grown-up.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Soft Nude Face Cradle Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/20-soft-nude-face-cradle-nails.png" alt="Soft nude face cradle nails">
+        <p>Soft nude nails cradling the face in a warm, natural light create a calm and feminine aesthetic that feels effortlessly pretty. The simplicity of the color lets the warmth of the moment speak for itself. It's gentle luxury.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Pink Double Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/21-pink-double-face-frame-nails.png" alt="Pink double face frame nails">
+        <p>Soft pink nails framing the face with both hands create a playful and feminine composition that feels full of personality. The pose adds movement and energy while keeping the overall look light. It's cute — but make it intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Nude Warm Glow Portrait Nails</h3>
+        <img class="blog-img" src="/assets/blog-9/22-nude-warm-glow-portrait-nails.png" alt="Nude warm glow portrait nails">
+        <p>Nude nails in a warm portrait setting with soft, natural lighting create a look that feels organic, refined, and completely wearable. The glow of the lighting makes even the simplest manicure look like it was planned. Because it was.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p>Here's the thing nobody tells you — <strong>simple nails are actually the hardest to pull off</strong>. Because when there's nothing to hide behind, the vibe has to be <em>right</em>.</p>
+      <p>So next time you're debating between something crazy and something clean, ask yourself: <em>does this look like me, or does it just look like effort?</em></p>
+      <p>If it looks like you — you already nailed it 😉</p>
+    </div>
+  `
 }
 ];
