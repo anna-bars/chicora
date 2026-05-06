@@ -1290,5 +1290,179 @@ export const BLOGS: Blog[] = [
       <p>If it feels effortless—you already got it 😉</p>
     </div>
   `
+},
+{
+  id: 8,
+  slug: generateSlug('23 Vacation Nail Ideas for Your Next Beach Trip'),
+  title: '23 Vacation Nail Ideas',
+  fullTitle: '23 Vacation Nail Ideas for Your Next Beach Trip (2026)',
+  date: 'June 28\'',
+  badge: '🏖️ Vacation Edit',
+  category: '~ VACATION / BEACH NAILS / SUMMER VIBES',
+  imageUrl: '/assets/blog-8/1-glossy-pink-face-frame-nails.png',
+  cardImage: '/assets/blog-8/1-glossy-pink-face-frame-nails.png',
+  nailName: '23 Vacation Nail Ideas',
+  nailDescription: 'Soft vacation glow, playful summer chaos, or beach house energy—pick your vibe.',
+  content: `
+    <p>Let's be real for a second—nothing ruins a beach vibe faster than nails that just… don't match the energy. You've got the outfit, the tan, the iced drink in hand… and then your nails feel like they showed up uninvited. Yeah, not happening this time.</p>
+    <p>I went through all 23 looks from your set, and trust me—these aren't random Pinterest nails. Each one has a <em>specific</em> mood. Think soft vacation glow, playful summer chaos, or full-on "I casually own a beach house" energy. So the only question is: <strong>who are you on this trip?</strong></p>
+    <p>Let's get into it.</p>
+
+    <div class="nail-ideas-list">
+      <!-- ☀️ Soft & Minimal Vacation Energy -->
+      <div class="nail-idea-item">
+        <h3>1. Glossy Pink Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/1-glossy-pink-face-frame-nails.png" alt="Glossy pink face frame vacation nails">
+        <p>Soft glossy pink nails framed against the face create a clean and feminine look that feels effortless and polished. The shine catches natural light beautifully, giving that fresh-outside glow. It's simple, but somehow still feels intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Nude Lip-Touch Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/2-nude-lip-touch-minimal-nails.png" alt="Nude lip touch minimal vacation nails">
+        <p>Neutral nude nails paired with a soft lip-touch pose create an intimate, minimal aesthetic that feels calm and refined. The tones blend naturally with the skin, making everything look cohesive. It's giving quiet luxury without trying.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Soft Blue Almond Calm Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/3-soft-blue-almond-calm-nails.png" alt="Soft blue almond calm vacation nails">
+        <p>Light blue almond nails bring a subtle pop of color while keeping the overall vibe relaxed and airy. The tone feels cooling, almost like ocean water on a hot day. Perfect if you want color but not chaos.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Blue Statement Chest Pose Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/4-blue-statement-chest-pose-nails.png" alt="Blue statement chest pose vacation nails">
+        <p>Cool-toned blue nails styled across the chest create a bold, confident visual that feels modern and clean. The color stands out without feeling loud. It's controlled confidence.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Soft Blue Cozy Knit Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/5-soft-blue-cozy-knit-nails.png" alt="Soft blue cozy knit vacation nails">
+        <p>Light blue nails paired with soft knit textures create a calm and slightly cozy aesthetic. The contrast between summer color and cozy styling feels fresh. Unexpected—but it works.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Soft Pink Cozy Luxury Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/6-soft-pink-cozy-luxury-nails.png" alt="Soft pink cozy luxury vacation nails">
+        <p>Soft pink nails styled with cozy textures create a warm and relaxed aesthetic that still feels elevated. The softness makes everything look more inviting. Perfect for slow vacation mornings.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Red Cherry Accent Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/7-red-cherry-accent-nails.png" alt="Red cherry accent vacation nails">
+        <p>Red-toned nails with playful cherry details create a bold and slightly retro summer look. The design adds personality without going overboard. It's fun, but still put together.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Pink Sunset Glow Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/8-pink-sunset-glow-nails.png" alt="Pink sunset glow vacation nails">
+        <p>Glossy pink nails glowing under natural sunlight create a radiant and warm effect that feels soft and dreamy. The lighting enhances the color beautifully. Honestly, sunlight does half the work here.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Matcha Moment Pink Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/9-matcha-moment-pink-nails.png" alt="Matcha moment pink vacation nails">
+        <p>Soft pink nails styled with a matcha drink create a trendy, lifestyle-driven aesthetic that feels modern and relaxed. The contrast between soft color and bold setting makes it pop. Yes, your drink <em>does</em> matter here.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Clean Natural Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/10-clean-natural-nude-nails.png" alt="Clean natural nude vacation nails">
+        <p>Barely-there nude nails create a clean, skin-like finish that feels natural and effortless. The simplicity makes them incredibly wearable for any outfit or setting. Honestly, this is the "I woke up like this" of nails.</p>
+      </div>
+
+      <!-- 🌸 Playful & Floral Summer Moments -->
+      <div class="nail-idea-item">
+        <h3>11. Pink Floral Accent Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/11-pink-floral-accent-almond-nails.png" alt="Pink floral accent almond vacation nails">
+        <p>Soft pink nails with delicate floral accents add just enough detail to feel playful without overwhelming the look. The design keeps things light and feminine. It's cute, but not childish.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Soft Pink Luxury Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/12-soft-pink-luxury-detail-nails.png" alt="Soft pink luxury detail vacation nails">
+        <p>Pastel pink nails paired with gold jewelry create a refined and elevated look that feels soft but expensive. The balance between color and accessories feels intentional. This one whispers, it doesn't shout.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Gold Jewelry Statement Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/13-gold-jewelry-statement-nails.png" alt="Gold jewelry statement vacation nails">
+        <p>Multi-color pastel nails layered with gold rings create a bold yet balanced aesthetic. The jewelry enhances the look without overpowering it. It's giving "I didn't try… but I still won."</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Minimal Pink Dot Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/14-minimal-pink-dot-nails.png" alt="Minimal pink dot vacation nails">
+        <p>Soft pink nails with tiny dot accents create a playful but minimal look that feels clean and wearable. The small details make a difference without overwhelming. Less really is more here.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Pink Bloom Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/15-pink-bloom-detail-nails.png" alt="Pink bloom detail vacation nails">
+        <p>Glossy pink nails with floral detailing create a fresh and slightly romantic summer vibe. The tiny accents make the manicure feel styled rather than basic. It's subtle, but it hits.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Peachy Floral Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/16-peachy-floral-gloss-nails.png" alt="Peachy floral gloss vacation nails">
+        <p>Peach-toned nails with floral accents create a soft yet vibrant aesthetic that feels warm and inviting. The tones complement summer skin beautifully. This one just <em>feels</em> like golden hour.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Rainbow Floral Pop Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/17-rainbow-floral-pop-nails.png" alt="Rainbow floral pop vacation nails">
+        <p>Bright, colorful nails with floral elements bring a fun, energetic vibe that screams vacation mode. The mix of colors keeps things lively and eye-catching. IMO, this is for the girl who packs outfits just for photos.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Mixed Floral Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/18-mixed-floral-summer-nails.png" alt="Mixed floral summer vacation nails">
+        <p>A blend of floral designs across different nails creates a dynamic, slightly eclectic look that feels creative and free. Each nail adds something new without clashing. It's chaos—but the good kind.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Pink Abstract Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/19-pink-abstract-detail-nails.png" alt="Pink abstract detail vacation nails">
+        <p>Pink nails with abstract detailing create a modern, slightly artistic vibe that stands out in a subtle way. The design keeps things interesting without being too busy. It's giving "I have taste."</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Blue Minimal Gold Accent Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/20-blue-minimal-gold-accent-nails.png" alt="Blue minimal gold accent vacation nails">
+        <p>Muted blue nails paired with gold jewelry create a calm and sophisticated contrast. The tones feel cool and polished. It's minimal, but definitely not boring.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Ice Cream Pop Art Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/21-ice-cream-pop-art-nails.png" alt="Ice cream pop art vacation nails">
+        <p>Bright, playful nails paired with an ice cream cone bring pure summer joy into the look. The colors feel bold and fun without being overwhelming. This one basically says, "I'm here for a good time."</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Pink Street Style Grip Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/22-pink-street-style-grip-nails.png" alt="Pink street style grip vacation nails">
+        <p>Glossy pink nails holding sunglasses create a stylish, on-the-go vibe that feels casual yet put together. The grip pose adds movement and attitude. Effortless… but make it fashion.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Soft Natural Glow Nails</h3>
+        <img class="blog-img" src="/assets/blog-8/23-soft-natural-glow-nails.png" alt="Soft natural glow vacation nails">
+        <p>Natural-looking nails with a soft glow create a barely-there aesthetic that feels polished and fresh. The simplicity makes them timeless. FYI—this works with literally everything :)</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>Final Thoughts: Which Version of You Are You Packing?</strong></p>
+      <p>Here's the thing—<strong>vacation nails aren't just nails</strong>. They're part of the whole vibe. They show up in your photos, your coffee shots, your "accidental" hand poses (you know exactly what I mean).</p>
+      <p>So before you pick a design, ask yourself:</p>
+      <ul>
+        <li>Do I want <strong>soft and effortless</strong>?</li>
+        <li>Or do I want <strong>fun and noticeable</strong>?</li>
+        <li>Or maybe something that quietly says, "I have my life together"… even if you don't :/</li>
+      </ul>
+      <p><strong>That's the real choice.</strong></p>
+      <p>Because at the end of the day, the best vacation nails don't scream for attention—they just <em>fit</em> perfectly.</p>
+      <p>And when they fit? Yeah… that's when people notice 😉</p>
+    </div>
+  `
 }
 ];
