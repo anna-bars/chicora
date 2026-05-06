@@ -633,5 +633,149 @@ export const BLOGS: Blog[] = [
       <p>Now go ahead and pick your favorite. And remember—sometimes the quietest nails make the loudest statement.</p>
     </div>
   `
-}
-];
+  },
+{
+  id: 4,
+  slug: generateSlug('20 Fresh French Tip Nail Ideas That Feel Expensive (2026)'),
+  title: '20 Fresh French Tip Nail Ideas',
+  fullTitle: '20 Fresh French Tip Nail Ideas That Feel Expensive (2026)',
+  date: 'June 22\'',
+  badge: '✨ FRENCH REIMAGINED',
+  category: '~ FRENCH TIPS / MODERN CLASSICS / DETAILS',
+  imageUrl: '/assets/blog-4/18-white-french-rose-petal-style.png',
+  cardImage: '/assets/blog-4/18-white-french-rose-petal-style.png',
+  nailName: '20 Fresh French Tip Nail Ideas',
+  nailDescription: 'Soft colors, micro details, modern shapes—French tips that feel fresh, not repetitive. Luxury in the details.',
+  content: `
+    <p>You know that moment when French tips start feeling… predictable? Like, yeah—they're clean, they're classic… but also kinda overdone. And then suddenly you see a version that looks <strong>different</strong>, and you're like—wait… why does this feel so expensive?</p>
+    <p>That's exactly what's happening right now. These French tips aren't basic at all. They lean into soft colors, micro details, modern shapes, and that effortless luxury vibe that makes people look twice. So if you want French tips that feel fresh, not repetitive… keep scrolling.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. White French on Rose Petals</h3>
+        <img class="blog-img" src="/assets/blog-4/18-white-french-rose-petal-style.png" alt="White French tip nails on rose petals">
+        <p>Classic white French tips styled in a more romantic setting instantly feel elevated. The contrast between clean nails and rich textures creates a visually striking effect. It shows how much presentation can influence the overall vibe of a manicure. Simple design, but styled to feel luxurious.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Strawberry Chic French</h3>
+        <img class="blog-img" src="/assets/blog-4/20-strawberry-chic-french-nails.png" alt="Strawberry chic French tip nails">
+        <p>Tiny fruit accents combined with French tips create a look that feels playful but still elevated. The details add personality without making the nails look childish. When styled right, this kind of design feels trendy and curated rather than overdone. It's fun—but in a chic way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Tiny Floral French Detail</h3>
+        <img class="blog-img" src="/assets/blog-4/17-tiny-floral-french-detail.png" alt="Tiny floral French tip detail nails">
+        <p>Micro floral accents add a delicate layer of detail that you don't notice immediately—but once you do, you can't ignore it. The design feels soft, artistic, and very intentional. It keeps the French base intact while adding just enough personality. Perfect for anyone who loves subtle, intricate touches.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Minimal Red Micro French</h3>
+        <img class="blog-img" src="/assets/blog-4/16-minimal-red-micro-french.png" alt="Minimal red micro French tip nails">
+        <p>Super thin red tips create a look that feels subtle but incredibly intentional. The color adds just enough contrast to stand out while keeping the design minimal. It's perfect if you want something bold—but in a controlled, refined way. This is the kind of manicure that looks effortless but clearly thought through.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Sculpted Nude Almond French</h3>
+        <img class="blog-img" src="/assets/blog-4/13-sculpted-nude-almond-french.png" alt="Sculpted nude almond French tip nails">
+        <p>The perfectly shaped almond silhouette makes this French manicure feel elevated and refined. Combined with a clean nude base and precise tips, the result looks incredibly polished. This is one of those designs where the shape does most of the work. If you want nails that look expensive without adding extra elements, this is the move.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Petal Pink Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-4/12-petal-pink-gloss-nails.png" alt="Petal pink gloss nails French style">
+        <p>Soft pink tones paired with a glossy finish create a manicure that feels light, fresh, and very aesthetic. The look stays simple, but the shine and color give it that polished Pinterest vibe. It's perfect if you want something feminine that doesn't rely on extra details or designs. Clean, soft, and effortlessly pretty.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Lemon Yellow French Pop</h3>
+        <img class="blog-img" src="/assets/blog-4/11-lemon-yellow-french-pop.png" alt="Lemon yellow French tip pop nails">
+        <p>Bright yellow tips bring a cheerful and unexpected twist to the French manicure. The color instantly adds energy and makes the nails feel more playful without losing their elegance. Because the base stays neutral, the overall look remains balanced and wearable. It's the kind of design that subtly lifts your mood every time you look at your hands.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Floral Soft Pink French</h3>
+        <img class="blog-img" src="/assets/blog-4/10-floral-soft-pink-french.png" alt="Floral soft pink French tip nails">
+        <p>This design combines classic French tips with soft floral elements, creating a look that feels delicate and feminine. The flowers don't overpower the nails—they simply add a gentle, romantic touch. It's perfect for spring or any moment when you want something a little softer. The balance between structure and detail makes it feel very wearable.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Peachy Pink Gradient French</h3>
+        <img class="blog-img" src="/assets/blog-4/8-peachy-pink-gradient-french.png" alt="Peachy pink gradient French tip nails">
+        <p>Instead of a sharp line, this design blends soft pink tones into the tips, creating a smooth gradient effect. It feels more romantic and fluid compared to a traditional French manicure. The colors melt into each other in a way that looks soft and natural, almost like a filter on your nails. Perfect if you want something feminine without harsh contrast.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Nude Gloss Everyday French</h3>
+        <img class="blog-img" src="/assets/blog-4/7-nude-gloss-french-everyday.png" alt="Nude gloss everyday French tip nails">
+        <p>A glossy nude base combined with soft French tips creates the ultimate everyday manicure. It blends seamlessly with your natural nails, making it look clean and effortless at all times. This design works for literally any situation—work, events, casual days—and never feels overdone. If you want something reliable but still elevated, this is your go-to.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Pastel Blue French Tips</h3>
+        <img class="blog-img" src="/assets/blog-4/4-pastel-blue-french-tips.png" alt="Pastel blue French tip nails">
+        <p>Light blue tips bring a fresh, airy feeling that instantly softens the classic French manicure. The pastel tone keeps everything subtle, but still adds just enough color to stand out in a gentle way. It feels very seasonal—especially for spring and early summer—without being overly trendy. If you want something calm but not boring, this one hits perfectly.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Classic Red French Chic</h3>
+        <img class="blog-img" src="/assets/blog-4/2-classic-red-french-chic-nails.png" alt="Classic red French tip chic nails">
+        <p>Switching the classic white tip to red instantly transforms the entire vibe of the manicure. It feels bold and confident, but still keeps that timeless French structure we all love. This design sits right in the sweet spot between elegant and eye-catching, which makes it perfect if you want something noticeable but not overwhelming. It's giving main character energy—without being too loud.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Soft Pink Micro French</h3>
+        <img class="blog-img" src="/assets/blog-4/1-soft-pink-micro-french-nails.png" alt="Soft pink micro French tip nails">
+        <p>Barely-there pink tips create a super delicate and minimal look that feels clean from every angle. This design works perfectly if you love subtle details that don't scream for attention but still feel intentional. It gives that quiet luxury aesthetic where everything looks polished without trying too hard. Honestly, this is the kind of manicure that matches literally every outfit and never feels out of place.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Milky White Almond French</h3>
+        <img class="blog-img" src="/assets/blog-4/3-classic-red-french-chic-nails.png" alt="Milky white almond shaped French tip nails">
+        <p>A soft milky base paired with clean white tips creates a look that feels incredibly polished and refined. The almond shape adds extra elegance, making the whole manicure appear more sculpted and intentional. It's one of those styles that always looks expensive, even when the design itself stays simple. If you want something classic with a soft modern twist, this is it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Deep Burgundy French</h3>
+        <img class="blog-img" src="/assets/blog-4/5-burgundy-french-elegant-nails.png" alt="Deep burgundy French tip elegant nails">
+        <p>Rich burgundy tips create a deeper, more dramatic version of the classic French style. The color feels luxurious and slightly moody, which makes it perfect for evenings or more dressed-up looks. Even though the tone is bold, the French structure keeps everything balanced and wearable. It's the kind of manicure that quietly commands attention.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Baby Blue Minimal French</h3>
+        <img class="blog-img" src="/assets/blog-4/6-baby-blue-minimal-french.png" alt="Baby blue minimal French tip nails">
+        <p>Thin baby blue lines give a super clean and modern update to the traditional French tip. The design feels light, precise, and very intentional without adding unnecessary detail. It's perfect if you like minimal aesthetics but still want something a little different. This is one of those looks that feels simple—but clearly well thought out.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Double Blue French Tips</h3>
+        <img class="blog-img" src="/assets/blog-4/9-double-blue-french-outline.png" alt="Double blue line French tip nails">
+        <p>Adding a second thin line completely changes the dynamic of the French tip without making it complicated. The double outline feels graphic and modern while still keeping the design clean. It's a small detail, but it adds depth and makes the manicure look more styled. If you like subtle creativity, this one stands out in the best way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. Pastel Rainbow French Blend</h3>
+        <img class="blog-img" src="/assets/blog-4/14-pastel-rainbow-french-blend.png" alt="Pastel rainbow French tip blend nails">
+        <p>Using different pastel tones across the tips creates a playful yet controlled look. Each nail feels slightly unique, but the soft color palette keeps everything cohesive. It adds personality without becoming chaotic, which makes it perfect for everyday wear. A great choice if you want color—but in a calm, aesthetic way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Polka Dot Accent French</h3>
+        <img class="blog-img" src="/assets/blog-4/15-polka-dot-french-accent.png" alt="Polka dot accent French tip nails">
+        <p>A simple polka dot detail adds a fun twist to the classic French manicure without overwhelming it. The design stays clean, but that tiny accent gives it personality. It's playful, but still feels grown and put-together. Sometimes one small detail is all you need to change the entire look.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Daisy Accent French Nails</h3>
+        <img class="blog-img" src="/assets/blog-4/19-white-french-rose-petal.png" alt="Daisy accent French tip nails">
+        <p>A small daisy detail brings a fresh and youthful energy to the nails without overpowering the design. It adds a soft, natural touch that feels perfect for spring. The simplicity of the flower keeps everything balanced and wearable. It's subtle, but it completely changes the mood of the manicure.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>So… be honest—are French tips still "basic"?</strong> Yeah… not anymore.</p>
+      <p>These designs prove one thing: <strong>it's not the idea—it's the execution.</strong> You can go minimal, colorful, soft, or slightly bold, and it still stays classy. That's the magic of French tips right now—they adapt to you.</p>
+      <p>My advice? Pick the one that fits your current vibe—not the one you think you should wear. Because let's be real… you're probably changing them in two weeks anyway 😏</p>
+    </div>
+  `
+}];
