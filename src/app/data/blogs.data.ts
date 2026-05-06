@@ -2607,7 +2607,7 @@ export const BLOGS: Blog[] = [
   badge: '🍑 August Edit',
   category: '~ AUGUST NAILS / END OF SUMMER / WARM TONES',
   imageUrl: '/assets/blog-1/12-peach-nude-gradient-summer-nails.png',
-  cardImage: '/assets/blog-7/37-gold-jewelry-chest-detail.png',
+  cardImage: '/assets/blog-4/5-burgundy-french-elegant-nails.png',
   nailName: '28 August Nail Ideas',
   nailDescription: 'The last full month of summer deserves warm tones, golden finishes, and nails that make you squeeze every last drop out of the season.',
   content: `
