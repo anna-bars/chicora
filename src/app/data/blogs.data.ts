@@ -1036,5 +1036,259 @@ export const BLOGS: Blog[] = [
       <p>Now the real question is—are you going for coffee aesthetic, matcha vibe, or full clean-girl energy?</p>
     </div>
   `
+},
+{
+  id: 7,
+  slug: generateSlug('38 June Nail Ideas for Your Summer Debut'),
+  title: '38 June Nail Ideas',
+  fullTitle: '38 June Nail Ideas for Your Summer Debut (2026)',
+  date: 'June 25\'',
+  badge: '☀️ Summer Edit',
+  category: '~ JUNE / SUMMER NAILS / FRESH VIBES',
+  imageUrl: '/assets/blog-7/1-floral-accent-almond-nails.png',
+  cardImage: '/assets/blog-7/1-floral-accent-almond-nails.png',
+  nailName: '38 June Nail Ideas',
+  nailDescription: 'Fresh, seasonal, and curated—June nails that actually feel current. From soft neutrals to bold statements.',
+  content: `
+    <p>Let's be honest—June shows up and suddenly your nails need a personality upgrade. You start noticing details, lighting, hand poses… everything. And yeah, the difference between "nice nails" and "obsessed with your nails" is actually huge.</p>
+    <p>So I went through all <strong>38 looks</strong> and turned them into something clean, scrollable, and actually useful. Each one has its own vibe—your job is just to pick which version of you you're going for this month.</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Floral Accent Almond Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/1-floral-accent-almond-nails.png" alt="Floral accent almond nails">
+        <p>Soft almond nails with delicate floral accents create a romantic and feminine look that feels light and effortless. The design adds just enough detail to keep things interesting without overwhelming the clean base. It's perfect for anyone who wants something subtle but still memorable.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Glossy Pink Face Frame</h3>
+        <img class="blog-img" src="/assets/blog-7/2-glossy-pink-face-frame.png" alt="Glossy pink face frame nails">
+        <p>Glossy pink nails framing the face create a polished, natural aesthetic that feels soft and refined. The shine reflects light beautifully, making the manicure look fresh and healthy. This style works because it complements rather than competes.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Nude Lip-Touch Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/3-nude-lip-touch-minimal.png" alt="Nude lip touch minimal nails">
+        <p>A nude manicure paired with a soft lip-touch pose creates an intimate and minimal look that feels effortlessly put together. The neutral tone blends seamlessly with the skin, giving a clean and cohesive finish. It's quiet luxury without trying too hard.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Blue Statement Grip Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/4-blue-statement-grip-nails.png" alt="Blue statement grip nails">
+        <p>Bright blue nails instantly bring energy and personality to the look while still keeping a clean finish. The grip pose adds movement and makes the color stand out even more. It's bold, confident, and perfect for summer.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Soft Pink Floral Chest Pose</h3>
+        <img class="blog-img" src="/assets/blog-7/5-soft-pink-floral-chest.png" alt="Soft pink floral chest pose nails">
+        <p>Soft pink nails styled with a floral outfit create a cohesive and dreamy composition that feels feminine and fresh. The tones blend naturally, enhancing the softness of the entire look. It feels effortless but still intentional.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Gold Jewelry Nude Stack</h3>
+        <img class="blog-img" src="/assets/blog-7/6-gold-jewelry-nude-stack.png" alt="Gold jewelry nude stack nails">
+        <p>Neutral nails paired with layered gold jewelry create a refined and balanced aesthetic that feels elevated without being excessive. The simplicity of the nails allows the accessories to shine. It's timeless, clean, and always works.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Red Gloss Power Hands</h3>
+        <img class="blog-img" src="/assets/blog-7/7-red-gloss-power-hands.png" alt="Red gloss power hands nails">
+        <p>Glossy red nails layered across the hands create a bold and confident visual that immediately draws attention. The richness of the color adds depth and intensity. It's classic, powerful, and impossible to ignore.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Sunset Glow Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/8-sunset-glow-nude-nails.png" alt="Sunset glow nude nails">
+        <p>Warm sunlight enhances nude nails, giving them a golden glow that feels soft and expensive. The lighting adds dimension while keeping the look minimal. It's simple, but incredibly effective.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Street Style Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/9-street-style-minimal-nails.png" alt="Street style minimal nails">
+        <p>Neutral nails captured in a street setting feel natural, modern, and effortlessly stylish. The candid environment makes the manicure look even more wearable. It proves that simplicity can still feel elevated.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Deep Pink Gloss Elegance</h3>
+        <img class="blog-img" src="/assets/blog-7/10-deep-pink-gloss-elegance.png" alt="Deep pink gloss elegance nails">
+        <p>Deep pink nails with a glossy finish create a look that feels rich and polished without being overwhelming. The color adds personality while maintaining elegance. It's bold in a controlled way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Neutral Jewelry Touch Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/11-neutral-jewelry-touch.png" alt="Neutral jewelry touch nails">
+        <p>Soft nude nails paired with delicate jewelry create a clean and refined aesthetic that feels calm and intentional. The balance between simplicity and detail makes the look stand out subtly. It's minimal done right.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Petal Pink Soft Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/12-petal-pink-soft-nails.png" alt="Petal pink soft nails">
+        <p>Light pink nails styled against soft textures create a delicate and romantic visual that feels airy and feminine. The softness of the tones enhances the overall elegance. It's timeless and easy to wear.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Rose Petal Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/13-rose-petal-gloss-nails.png" alt="Rose petal gloss nails">
+        <p>Glossy pink nails resting on rose petals create a dreamy, almost editorial aesthetic that feels soft yet eye-catching. The shine enhances the color beautifully. It's simple, but visually striking.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. Lemon Drink Summer Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/14-lemon-drink-summer-nails.png" alt="Lemon drink summer nails">
+        <p>Fresh nails paired with a citrus drink instantly bring summer energy into the composition. The bright tones feel refreshing and playful. It's casual, but still styled.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Face Frame Chic Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/15-face-frame-chic-nails.png" alt="Face frame chic nails">
+        <p>Nails framing the face create a soft and editorial look that highlights both the manicure and natural beauty. The pose adds a sense of movement and intention. It feels clean and modern.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Pink Glow Close-Up Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/16-pink-glow-closeup-nails.png" alt="Pink glow close up nails">
+        <p>A close-up of soft pink nails highlights the shine and precision of the manicure. The glow effect makes everything feel fresh and polished. It's minimal but still captivating.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Blue Accent Bag Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/17-blue-accent-bag-nails.png" alt="Blue accent bag nails">
+        <p>Blue nails styled with a structured bag create a bold contrast that feels modern and stylish. The color adds personality without overpowering the look. It's playful but controlled.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>18. White Shirt Gold Detail Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/18-white-shirt-gold-detail.png" alt="White shirt gold detail nails">
+        <p>Neutral nails paired with a crisp white shirt and gold details create a timeless and polished aesthetic. The contrast enhances the simplicity of the manicure. It feels effortlessly luxurious.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>19. Gold Ring Nude Close-Up</h3>
+        <img class="blog-img" src="/assets/blog-7/19-gold-ring-nude-closeup.png" alt="Gold ring nude close up nails">
+        <p>A close-up of nude nails with gold rings creates a refined and intimate composition that feels elevated and intentional. The details add depth without distraction. It's subtle luxury.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>20. Sunset Smile Gloss Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/20-sunset-smile-gloss.png" alt="Sunset smile gloss nails">
+        <p>Glossy nails captured in warm sunlight create a radiant and effortless glow that feels fresh and natural. The lighting enhances the shine beautifully. It's simple but powerful.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>21. Designer Bag Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/21-nude-nails-designer-bag-style.png" alt="Designer bag nude nails">
+        <p>Neutral nails styled with a designer bag create a composition that feels instantly elevated and luxurious. The textures and tones work together seamlessly. This is pure old money energy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>22. Soft Pink Face Touch</h3>
+        <img class="blog-img" src="/assets/blog-7/22-soft-pink-face-touch.png" alt="Soft pink face touch nails">
+        <p>Soft pink nails paired with a gentle face-touch pose create a calm and feminine aesthetic that feels natural and refined. The simplicity keeps everything clean. It's effortlessly pretty.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>23. Blue Accent Face Frame</h3>
+        <img class="blog-img" src="/assets/blog-7/23-blue-accent-face-frame.png" alt="Blue accent face frame nails">
+        <p>Blue nails framing the face create a playful yet polished look that feels fresh and modern. The color adds energy while maintaining balance. It stands out in a clean way.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>24. Coffee Date Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/24-coffee-date-minimal-nails.png" alt="Coffee date minimal nails">
+        <p>Neutral nails paired with a coffee setting create a relaxed and relatable aesthetic that feels warm and effortless. The simplicity makes it feel real. Everyday elegance at its best.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>25. Street Chic Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/25-street-chic-nude-nails.png" alt="Street chic nude nails">
+        <p>Nude nails styled in an urban setting feel modern, clean, and wearable. The natural lighting enhances the polished finish. It's minimal but still stylish.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>26. Cozy Knit Neutral Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/26-cozy-knit-neutral-nails.png" alt="Cozy knit neutral nails">
+        <p>Neutral nails paired with soft knit textures create a warm and inviting look that still feels elevated. The contrast adds depth without complexity. It's comfort and luxury combined.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>27. Soft Smile Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/27-soft-smile-nude-nails.png" alt="Soft smile nude nails">
+        <p>Nude nails with a soft smile create a relaxed and natural vibe that feels genuine and effortless. The simplicity makes the look approachable. It's easy, but still polished.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>28. Clean White Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/28-clean-white-minimal-nails.png" alt="Clean white minimal nails">
+        <p>White nails create a crisp and fresh aesthetic that feels clean and modern. The simplicity makes them versatile and timeless. They work with everything.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>29. Beige Outfit Nude Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/29-beige-outfit-nude-nails.png" alt="Beige outfit nude nails">
+        <p>Nude nails paired with neutral outfits create a seamless and cohesive look that feels calm and elevated. Everything blends effortlessly. It's quiet luxury in motion.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>30. Coffee & Cream Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/30-coffee-cream-nails.png" alt="Coffee and cream nails">
+        <p>Creamy tones inspired by coffee create a cozy and polished aesthetic that feels relaxed but intentional. The softness adds warmth to the look. It's simple but effective.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>31. Lemon Refresh Hand Shot</h3>
+        <img class="blog-img" src="/assets/blog-7/31-lemon-drink-summer-vibes.png" alt="Lemon refresh hand shot nails">
+        <p>A fresh lemon drink paired with polished nails creates a vibrant summer moment that feels bright and refreshing. The composition feels natural and playful. It's pure seasonal energy.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>32. Matcha Minimal Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/32-green-juice-minimal-nails.png" alt="Matcha minimal nails">
+        <p>Green tones paired with a clean manicure create a fresh and trendy aesthetic that feels modern and slightly unexpected. It stands out while staying minimal. A cool twist on neutrals.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>33. Red Street Style Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/33-red-nails-street-style.png" alt="Red street style nails">
+        <p>Red nails captured in motion create a bold and confident look that feels dynamic and strong. The color immediately draws attention. It's classic with attitude.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>34. Glossy Nude Lip Close-Up</h3>
+        <img class="blog-img" src="/assets/blog-7/34-glossy-nude-lip-closeup.png" alt="Glossy nude lip close up nails">
+        <p>Glossy nude nails paired with a lip close-up create a soft and editorial aesthetic that feels intimate and refined. The tones blend beautifully. It's subtle but striking.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>35. Floral Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/35-floral-accent-face-frame.png" alt="Floral face frame nails">
+        <p>Floral accents combined with a face-framing pose create a playful yet feminine look that feels fresh and detailed. The design adds personality without overpowering. It's balanced and pretty.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>36. Double Hand Face Cover</h3>
+        <img class="blog-img" src="/assets/blog-7/36-double-hand-face-cover.png" alt="Double hand face cover nails">
+        <p>Layered hands partially covering the face create a bold, editorial composition that adds depth and movement. The nails remain the focus while the pose adds drama. It's visually strong.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>37. Gold Jewelry Chest Detail</h3>
+        <img class="blog-img" src="/assets/blog-7/37-gold-jewelry-chest-detail.png" alt="Gold jewelry chest detail nails">
+        <p>Neutral nails paired with gold jewelry create a rich and refined look that feels elegant and intentional. The textures add depth without complexity. It's classic luxury.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>38. Black Top Face Frame Nails</h3>
+        <img class="blog-img" src="/assets/blog-7/38-black-top-face-frame-nails.png" alt="Black top face frame nails">
+        <p>Nails framed against a dark outfit create strong contrast that makes the manicure stand out even more. The look feels bold yet controlled. It's simple, but visually striking.</p>
+      </div>
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>Here's the truth—anyone can do complicated nails, but not everyone can make simple look expensive.</strong></p>
+      <p>That's the real flex.</p>
+      <p>So next time you choose your nails, ask yourself: <strong>"Does this feel effortless… or does it try too hard?"</strong></p>
+      <p>If it feels effortless—you already got it 😉</p>
+    </div>
+  `
 }
 ];
