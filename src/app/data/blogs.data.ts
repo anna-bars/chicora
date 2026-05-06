@@ -778,4 +778,133 @@ export const BLOGS: Blog[] = [
       <p>My advice? Pick the one that fits your current vibe—not the one you think you should wear. Because let's be real… you're probably changing them in two weeks anyway 😏</p>
     </div>
   `
-}];
+},
+{
+  id: 5,
+  slug: generateSlug('17 Short Nail Designs That Look Expensive (2026)'),
+  title: '17 Short Nail Designs',
+  fullTitle: '17 Short Nail Designs That Look Expensive (2026)',
+  date: 'June 15\'',
+  badge: '🔥 Trending',
+  category: '~ MINIMAL / CLEAN / QUIET LUXURY',
+  imageUrl: '/assets/blog-5/1-soft-pink-everyday-elegance.png',
+  cardImage: '/assets/blog-5/1-soft-pink-everyday-elegance.png',
+  nailName: '17 Short Nail Designs',
+  nailDescription: 'Clean shapes, soft tones, glossy finishes—short nails that feel expensive without trying too hard.',
+  content: `
+    <p>You know that moment when your nails look so clean and polished that you suddenly feel more put together… even if the rest of your life is slightly falling apart? Yeah—these are <em>those</em> nails 😄</p>
+    <p>I went through every single look carefully, and honestly… this isn't about crazy designs. It's about <strong>details, color, and that quiet "expensive" energy</strong>. Let's get into it—try not to pick all 23. (You will.)</p>
+
+    <div class="nail-ideas-list">
+      <div class="nail-idea-item">
+        <h3>1. Soft Pink Everyday Elegance</h3>
+        <img class="blog-img" src="/assets/blog-5/1-soft-pink-everyday-elegance.png" alt="Soft pink everyday elegance short nails">
+        <p>This is that "effortlessly perfect" manicure that looks like you didn't even think about it—but somehow everything matches. The soft pastel pink paired with cozy textures makes your hands look instantly polished. I always notice how shades like this make your skin tone look smoother too. Ever wanted nails that work for literally every situation? This is it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>2. Glossy Minimal Pink Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/2-glossy-minimal-pink-hands.png" alt="Glossy minimal pink hands short nails">
+        <p>Short glossy pink nails against denim just hit differently. There's something about the contrast that makes everything feel clean and styled without trying. These nails don't compete—they complement. Honestly, this is one of those looks that always feels "safe," but never boring.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>3. Rosy Nude with Fur Sleeve</h3>
+        <img class="blog-img" src="/assets/blog-5/3-rosy-nude-fur-sleeve-style.png" alt="Rosy nude nails with fur sleeve">
+        <p>Muted rosy nude tones bring a soft richness that feels super understated. Paired with textures like fur or knits, the whole vibe leans into quiet luxury. I love how this shade doesn't scream for attention, but still looks intentional. It's giving "I have good taste," without needing to prove it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>4. Classic Sheer Pink Shine</h3>
+        <img class="blog-img" src="/assets/blog-5/4-classic-sheer-pink-shine.png" alt="Classic sheer pink shine short nails">
+        <p>These nails are basically your natural nails—but upgraded. The sheer pink gloss adds just enough shine to make everything look healthy and clean. You won't notice them at first glance… but somehow they still look perfect in every photo. Isn't that kind of the goal?</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>5. Cool-Tone Pink with Rings</h3>
+        <img class="blog-img" src="/assets/blog-5/5-cool-tone-pink-rings-style.png" alt="Cool tone pink nails with rings">
+        <p>Cool-toned pink nails feel a bit more modern and sharp compared to warmer shades. When you add silver rings, everything suddenly looks curated. I always feel like cooler tones give that "editorial" vibe. Subtle, but slightly elevated.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>6. Deep Burgundy Statement Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/6-deep-burgundy-short-nails.png" alt="Deep burgundy statement short nails">
+        <p>Okay, this one shifts the mood completely. Deep burgundy nails bring contrast and confidence without losing elegance. They feel bold—but controlled. If you ever want something darker without going full dramatic black, this is your perfect middle ground.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>7. Baby Pink Cozy Look</h3>
+        <img class="blog-img" src="/assets/blog-5/7-deep-burgundy-short-nails.png" alt="Baby pink cozy look short nails">
+        <p>Soft baby pink nails paired with cozy fabrics create that "cute but grown" aesthetic. They don't try to be edgy or bold—they just look soft and put together. I've noticed these shades always feel comforting, almost like a visual reset.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>8. Milky Nude Natural Finish</h3>
+        <img class="blog-img" src="/assets/blog-5/8-milky-nude-natural-finish.png" alt="Milky nude natural finish short nails">
+        <p>Milky nude nails are basically the definition of clean girl aesthetic. The slightly sheer finish gives that fresh, just-done look all the time. They reflect light in such a soft way, and somehow make your hands look more delicate. Simple… but very effective.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>9. Neutral Cream Minimal Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/9-neutral-cream-minimal-style.png" alt="Neutral cream minimal hands short nails">
+        <p>Creamy tones instantly give that "old money" feel. Everything looks soft, neutral, and expensive without trying. I always think shades like this look best with beige outfits—it creates that seamless, monochrome look. Quiet, but powerful.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>10. Soft French Tip Modern</h3>
+        <img class="blog-img" src="/assets/blog-5/10-soft-french-tip-modern.png" alt="Soft French tip modern short nails">
+        <p>This is the French tip after a glow-up. The lines feel softer, thinner, and way more natural than the classic version. It keeps the elegance, but removes the harsh contrast. Honestly, this is how French tips should've always looked.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>11. Natural Pink Barely-There Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/11-natural-pink-barely-there.png" alt="Natural pink barely there short nails">
+        <p>These nails almost disappear—and that's exactly why they work. The natural pink tone blends perfectly with your nail bed, creating that clean, untouched look. It's minimal to the point where it feels intentional. Ever noticed how less sometimes looks more expensive?</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>12. Beige Gloss Luxe Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/12-beige-gloss-luxe-style.png" alt="Beige gloss luxe short nails">
+        <p>Warm beige nails give a slightly richer, more mature vibe compared to pinks. The glossy finish adds that polished effect that makes everything feel complete. This is one of those styles that works in every season. Reliable… but still aesthetic.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>13. Nude Almond Clean Look</h3>
+        <img class="blog-img" src="/assets/blog-5/13-nude-almond-clean-look.png" alt="Nude almond clean look short nails">
+        <p>The almond shape alone elevates everything. Combine it with a soft nude shade, and suddenly your hands look more refined. I always feel like shape matters just as much as color. This one proves it.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>14. White Tip Minimal Chic</h3>
+        <img class="blog-img" src="/assets/blog-5/14-white-tip-minimal-chic.png" alt="White tip minimal chic short nails">
+        <p>Tiny white tips bring just enough contrast without overpowering the look. It feels fresh, clean, and super wearable. I like how it adds detail without becoming the focus. Subtle—but still noticeable.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>15. Sparkle Nude Accent Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/15-sparkle-nude-accent-style.png" alt="Sparkle nude accent short nails">
+        <p>A little bit of sparkle never hurt anyone—if you keep it controlled. The nude base keeps things grounded, while the shimmer adds light and dimension. It catches attention in the softest way possible. Not loud… just interesting.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>16. Classic Neutral Hands</h3>
+        <img class="blog-img" src="/assets/blog-5/16-classic-neutral-hands.png" alt="Classic neutral hands short nails">
+        <p>This is your go-to when you don't want to think too much. Neutral nails that match everything, always look good, and never feel out of place. I've had sets like this that worked with every outfit for weeks. Honestly, that's a win.</p>
+      </div>
+
+      <div class="nail-idea-item">
+        <h3>17. Pink & White Contrast Nails</h3>
+        <img class="blog-img" src="/assets/blog-5/17-pink-white-contrast-style.png" alt="Pink and white contrast short nails">
+        <p>Mixing pink and white creates a soft contrast that feels fresh but still balanced. It adds just enough variation to keep things interesting. If plain nails feel too simple, this is a good middle ground.</p>
+      </div>
+
+    </div>
+
+    <div class="final-thoughts">
+      <p><strong>So… which one are you saving?</strong> Be honest—you didn't just pick one 😄</p>
+      <p>Short nails in 2026 aren't about doing more. They're about <strong>doing less, but better</strong>. Clean shapes, soft tones, glossy finishes—that's the formula.</p>
+      <p>And the best part? You can switch it up anytime. Because let's be real… half the fun is choosing your next set.</p>
+    </div>
+  `
+}
+];
