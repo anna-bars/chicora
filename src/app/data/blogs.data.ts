@@ -475,11 +475,10 @@ export const BLOGS: Blog[] = [
   nailName: '24 Elegant Old Money Nails',
   nailDescription: 'Soft pinks, creamy nudes, glossy finishes—quiet luxury that speaks volumes without saying a word.',
   content: `
-    <p>Let's be honest—<strong>old money nails don't scream for attention… they quietly demand it</strong>. You've seen the aesthetic: soft pinks, creamy nudes, glossy finishes, and hands that somehow look like they belong in a luxury campaign without even trying.</p>
-    <p>I've spent way too much time analyzing this vibe (no regrets), and here's the truth—<strong>it's not about the nails alone, it's about how they're styled, photographed, and felt</strong>. Ever wondered why some simple nude nails look insanely expensive while others feel… meh?</p>
-    <p>Yeah, details.</p>
-    <p>So here's a full breakdown of 24 old money nail looks—each with its own personality, but all sharing that quiet, expensive energy.</p>
-    
+    <p>Let’s be honest—<strong>old money nails don’t scream for attention… they quietly own it</strong>. Soft pinks, creamy nudes, glossy finishes—effortless, but undeniably expensive-looking.</p>
+    <p>The secret? <strong>It’s not just the nails—it’s the styling, the details, the vibe</strong>. That’s why some nude nails look luxurious, while others fall flat.</p>
+    <p>Here are 24 old money nail ideas that capture that understated, elegant energy.</p>
+
     <div class="nail-ideas-list">
       <div class="nail-idea-item">
         <h3>1. Soft Pink Luxe Chest Pose</h3>
