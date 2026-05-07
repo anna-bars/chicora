@@ -120,7 +120,7 @@
 
 .general-cont-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     gap: clamp(20px, 3vw, 38px);
     padding: 20px;
@@ -130,8 +130,12 @@
     background: white;
     z-index: 10;
     flex-shrink: 0;
+    padding: 20px 4%;
 }
-
+.general-cont-header-nav {
+    display: flex;
+    gap: 24px;
+}
 .tags {
     display: flex;
     gap: clamp(20px, 3vw, 36px);
