@@ -91,8 +91,6 @@
     cursor: pointer;
 }
 
-
-
 .bottom-part-text {
     display: flex;
     justify-content: flex-start;
@@ -138,7 +136,6 @@
     flex-wrap: wrap;
 }
 
-/* === UPDATED: pill-style interactive tags, matches sidebar olive/green palette === */
 .tags a {
     text-decoration: none;
     color: black;
@@ -180,7 +177,6 @@
 .tags a.active::after {
     display: none;
 }
-/* === END tags update === */
 
 .icons {
     display: flex;
@@ -315,17 +311,16 @@
 .mobile-only {
     display: none;
 }
-p.hero-ttitle {
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: 200;
-        padding: 0 0 0 6px;
-    position: absolute;
-}
-p.hero-ttitle span {
-    font-weight: 500;
-    font-style: italic;
-    padding-left: 16px;
+
+/* Mobile-only hero companions — hidden on desktop by default */
+.mobile-hero-badge,
+.mobile-hero-tagline,
+.mobile-hero-cta,
+.mobile-hero-collage,
+.mobile-categories,
+.mobile-bottom-nav,
+.mobile-pinterest-icon {
+    display: none;
 }
 
 /* ========== MOBILE STYLES ========== */
@@ -333,45 +328,45 @@ p.hero-ttitle span {
     .desktop-only {
         display: none !important;
     }
-    
+
     .mobile-only {
         display: block;
     }
-    
+
     .cont {
         flex-direction: column;
     }
-    
+
     .second-general-cont {
         width: 100%;
         padding-bottom: 0px;
     }
-    
-    /* Mobile Navigation — UPDATED to olive/green brand palette */
+
+    /* Mobile Top Nav — white bar, hamburger / logo / pinterest, matches mockup */
     .mobile-nav {
         position: sticky;
         top: 0;
         z-index: 1000;
         background: white;
     }
-    
+
     .mobile-nav-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 14px 20px;
-        background: #383e08;
+        background: #ffffff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     }
-    
+
     .mobile-logo {
-        height: 32px;
+        height: 24px;
         width: auto;
-        margin: 8px 0;
     }
-    
+
     .burger-menu {
-        width: 30px;
-        height: 20px;
+        width: 26px;
+        height: 18px;
         background: none;
         border: none;
         cursor: pointer;
@@ -380,14 +375,25 @@ p.hero-ttitle span {
         flex-direction: column;
         justify-content: space-between;
     }
-    
+
     .burger-menu span {
         width: 100%;
         height: 2px;
-        background: #cfe770;
+        background: #1a1a1a;
         transition: all 0.3s ease;
     }
-    
+
+    .mobile-pinterest-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-pinterest-icon img {
+        width: 22px;
+        height: 22px;
+    }
+
     /* Mobile Fullscreen Menu — olive gradient, matches sidebar */
     .mobile-fullscreen-menu {
         position: fixed;
@@ -401,11 +407,11 @@ p.hero-ttitle span {
         display: flex;
         flex-direction: column;
     }
-    
+
     .mobile-fullscreen-menu.active {
         left: 0;
     }
-    
+
     .close-menu {
         position: absolute;
         top: 20px;
@@ -417,7 +423,7 @@ p.hero-ttitle span {
         cursor: pointer;
         font-weight: 300;
     }
-    
+
     .mobile-menu-content {
         flex: 1;
         display: flex;
@@ -427,37 +433,37 @@ p.hero-ttitle span {
         gap: 30px;
         padding: 40px;
     }
-    
+
     .menu-logo {
         width: 60px;
         height: auto;
         filter: brightness(0) invert(1);
     }
-    
+
     .mobile-menu-content h2 {
         color: white;
         font-size: 24px;
         font-weight: 400;
     }
-    
+
     .menu-tags {
         display: flex;
         flex-direction: column;
         gap: 20px;
         text-align: center;
     }
-    
+
     .menu-tags a {
         color: rgba(207, 231, 112, 0.85);
         text-decoration: none;
         font-size: 18px;
         transition: color 0.3s ease;
     }
-    
+
     .menu-tags a:hover {
         color: #cfe770;
     }
-    
+
     .menu-footer {
         position: absolute;
         bottom: 40px;
@@ -465,94 +471,164 @@ p.hero-ttitle span {
         gap: 30px;
         color: rgba(255,255,255,0.8);
     }
-    
-    /* Mobile Hero — olive-tinted overlay + green/gold gradient text */
+
+    /* ===== Mobile Hero — light-green card, text + photo collage + CTA, per mockup ===== */
     .mobile-hero {
-        position: relative;
-        overflow: hidden;
-        padding: 16px 20px;
-        background-image: linear-gradient(135deg, rgba(56,62,8,0.55), rgba(207,231,112,0.35)),
-                           url(../../assets/header-ack.png);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 26px 20px 30px;
+        background-image: url(../../assets/header-ack.png);
         background-size: cover;
         background-position: center;
-        border-top: 1px solid #383e08;
+        position: relative;
+        overflow: hidden;
     }
-    
-    .hero-background {
-        position: absolute;
-        top: -50%;
-        right: -50%;
-        width: 200%;
-        height: 200%;
-        background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
-        background-size: 50px 50px;
-        animation: float 20s linear infinite;
-        margin-top: 4px;
-    }
-    
-    @keyframes float {
-        from {
-            transform: translate(0, 0) rotate(0deg);
-        }
-        to {
-            transform: translate(50px, 50px) rotate(360deg);
-        }
-    }
-    
-    .hero-content {
+
+    .mobile-hero-text {
+        flex: 1 1 58%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         position: relative;
         z-index: 1;
-        text-align: center;
-        color: white;
     }
-    
-    .hero-content h1 {
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 1.2;
-        margin-bottom: 20px;
+
+    .mobile-hero-badge {
+        display: inline-block;
+        width: fit-content;
+        background: rgba(56, 62, 8, 0.1);
+        color: #383e08;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-weight: 500;
     }
-    
-    .hero-content h1 span {
-        font-weight: 700;
+
+    /* hero-ttitle flows naturally inside the light-green hero card */
+    p.hero-ttitle {
+        position: static;
+        color: #383e08;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    p.hero-ttitle span {
+        font-weight: 600;
         font-style: italic;
-        background: linear-gradient(135deg, #cfe770, #fff3c4);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+        padding-left: 0;
     }
-    
-    .hero-subtitle {
-        font-size: 18px;
-        opacity: 0.9;
-        margin-bottom: 8px;
+
+    .mobile-hero-tagline {
+        color: #494E45;
+        font-size: 13px;
+        line-height: 1.5;
     }
-    
-    .hero-desc {
-        font-size: 14px;
-        opacity: 0.7;
-        margin-bottom: 30px;
-    }
-    
-    .hero-badge {
+
+    .mobile-hero-cta {
+        margin-top: 6px;
+        align-self: flex-start;
         display: inline-flex;
-        gap: 15px;
-        background: rgba(207, 231, 112, 0.25);
-        backdrop-filter: blur(10px);
-        padding: 12px 20px;
-        border-radius: 40px;
-        font-size: 14px;
+        align-items: center;
+        gap: 6px;
+        background: #383e08;
         color: #FFF8F8;
+        border: none;
+        padding: 11px 22px;
+        border-radius: 26px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
-    
-    /* Mobile Search Bar */
+
+    .mobile-hero-cta:active {
+        transform: scale(0.95);
+        background: #2a2e06;
+    }
+
+    .mobile-hero-collage {
+        display: block;
+        flex: 0 0 36%;
+        position: relative;
+        min-height: 150px;
+        z-index: 1;
+    }
+
+    .collage-img {
+        position: absolute;
+        border: 4px inset #cfe770;
+        border-radius: 4px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+        object-fit: cover;
+    }
+    .collage-img-1 {
+        width: 80%;
+        height: 108px;
+        top: 0;
+        right: 0;
+        transform: rotate(-4deg);
+        z-index: 1;
+    }
+
+    .collage-img-2 {
+        width: 72%;
+        height: 100px;
+        bottom: -6px;
+        left: 0;
+        transform: rotate(5deg);
+        z-index: 2;
+    }
+
+    /* ===== Mobile Category Chips ===== */
+    .mobile-categories {
+        display: flex;
+        padding: 16px 20px;
+        gap: 10px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        background: white;
+    }
+
+    .mobile-categories::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-chip {
+        padding: 9px 18px;
+        background: #ffffff;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 30px;
+        font-size: 13px;
+        color: #333;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .category-chip.active {
+        background: #cfe770;
+        border-color: #cfe770;
+        color: #383e08;
+        font-weight: 600;
+    }
+
+    .category-chip:active {
+        transform: scale(0.95);
+    }
+
+    /* Mobile Search Bar (optional, kept for future use) */
     .mobile-search-bar {
         padding: 15px 20px;
         display: flex;
         gap: 12px;
         background: white;
     }
-    
+
     .search-input {
         flex: 1;
         display: flex;
@@ -562,13 +638,13 @@ p.hero-ttitle span {
         padding: 12px 16px;
         border-radius: 30px;
     }
-    
+
     .search-input img {
         width: 20px;
         height: 20px;
         opacity: 0.5;
     }
-    
+
     .search-input input {
         flex: 1;
         border: none;
@@ -576,7 +652,7 @@ p.hero-ttitle span {
         outline: none;
         font-size: 14px;
     }
-    
+
     .filter-btn {
         background: #1a1a1a;
         color: white;
@@ -586,81 +662,50 @@ p.hero-ttitle span {
         font-size: 14px;
         cursor: pointer;
     }
-    
-    /* Mobile Categories (Horizontal Scroll) */
-    .mobile-categories {
-        padding: 15px 20px;
-        display: flex;
-        gap: 10px;
-        overflow-x: auto;
-        scrollbar-width: none;
-    }
-    
-    .mobile-categories::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .category-chip {
-        padding: 8px 16px;
-        background: #f5f5f5;
-        border-radius: 30px;
-        font-size: 14px;
-        white-space: nowrap;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    
-    .category-chip.active {
-        background: #383e08;
-        color: #FFF8F8;
-    }
-    
-    .category-chip:active {
-        transform: scale(0.95);
-    }
-    
-    /* Mobile Blog Grid */
+
+    /* Mobile Blog Grid — extra bottom padding so fixed nav never overlaps content */
     .gen-blog-cont {
         display: flex;
         flex-direction: column;
         gap: 16px;
-        padding: 16px;
+        padding: 16px 16px 100px;
     }
-    
+
     .blog-unique-example {
         min-height: 554px;
         border-radius: 20px;
     }
-    
+
     .blog-badge {
         font-size: 11px;
         padding: 12px 10px;
     }
-    
+
     .blog-title-seo h3 {
         font-size: 18px;
         margin-bottom: 8px;
     }
-    
+
     .read-more {
         font-size: 12px;
     }
-    
-    /* Mobile Bottom Navigation */
+
+    /* ===== Mobile Bottom Navigation ===== */
     .mobile-bottom-nav {
+        display: none;
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
         background: rgba(255,255,255,0.95);
         backdrop-filter: blur(20px);
-        display: flex;
         justify-content: space-around;
         padding: 12px 20px 20px;
-        border-top: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(0,0,0,0.06);
         z-index: 100;
+        text-decoration: none;
     }
-    
+
     .nav-item {
         display: flex;
         flex-direction: column;
@@ -668,22 +713,25 @@ p.hero-ttitle span {
         gap: 4px;
         cursor: pointer;
         transition: all 0.3s ease;
-        opacity: 0.5;
+        opacity: 0.55;
+        text-decoration: none;
+        color: #494E45;
     }
-    
+
     .nav-item.active {
         opacity: 1;
+        color: #383e08;
     }
-    
+
     .nav-item span:first-child {
-        font-size: 22px;
+        font-size: 20px;
     }
-    
+
     .nav-item span:last-child {
         font-size: 11px;
         font-weight: 500;
     }
-    
+
     .nav-item:active {
         transform: scale(0.9);
     }
@@ -694,11 +742,11 @@ p.hero-ttitle span {
     .gen-blog-cont {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .first-header {
         width: 35%;
     }
-    
+
     .second-general-cont {
         width: 65%;
     }

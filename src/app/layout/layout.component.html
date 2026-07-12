@@ -22,10 +22,13 @@
   <!-- Mobile Nav -->
   <div class="mobile-nav mobile-only">
     <div class="mobile-nav-header">
-      <img class="mobile-logo" src="/assets/logo/logo.svg" alt="Daily Nail Edit">
       <button class="burger-menu" (click)="toggleMenu()">
         <span></span><span></span><span></span>
       </button>
+      <img class="mobile-logo" src="/assets/logo/logo-dark.svg" alt="Daily Nail Edit">
+      <a class="mobile-pinterest-icon" href="https://www.pinterest.com/chicorainspo/" target="_blank">
+        <img src="/assets/pints-icon.svg" alt="Pinterest">
+      </a>
     </div>
     <div class="mobile-fullscreen-menu" [class.active]="menuOpen">
       <button class="close-menu" (click)="toggleMenu()">&times;</button>
@@ -62,13 +65,36 @@
       </div>
     </div>
 
+    <!-- Mobile Hero — light-green card, text + photo collage + CTA -->
+    <div class="mobile-hero mobile-only">
+      <div class="mobile-hero-text">
+        <span class="mobile-hero-badge">Daily Nail Edit</span>
+        <p class="hero-ttitle">Your Next <span>Nail Obsession</span> Starts Here.</p>
+        <p class="mobile-hero-tagline">Curated, not random.<br>For girls who notice details.</p>
+        <button class="mobile-hero-cta">Explore <span>→</span></button>
+      </div>
+      <div class="mobile-hero-collage">
+        <img class="collage-img collage-img-1" src="/assets/mob-header/01.png" alt="Nail inspiration">
+        <img class="collage-img collage-img-2" src="/assets/mob-header/02.png" alt="Nail inspiration">
+      </div>
+    </div>
+
+    <!-- Mobile Category Chips -->
+    <div class="mobile-categories mobile-only">
+      <div class="category-chip active">Summer</div>
+      <div class="category-chip">French Tips</div>
+      <div class="category-chip">Old Money</div>
+      <div class="category-chip">June Nails</div>
+      <div class="category-chip">Chrome</div>
+    </div>
+
     <!-- ★ DYNAMIC GRID — ավտոմատ կառուցվում է BLOGS-ից -->
     <div class="gen-blog-cont">
       <div
         *ngFor="let blog of blogs"
         class="blog-unique-example"
         [style.backgroundImage]="'url(' + (blog.cardImage || blog.imageUrl) + ')'"
-        (click)="navigateToBlog(blog.slug)"   
+        (click)="navigateToBlog(blog.slug)"
       >
         <div class="blog-badge">{{ blog.badge }}</div>
         <p class="data">{{ blog.date }}</p>
@@ -79,10 +105,25 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="mobile-hero mobile-only">
-      <p class="hero-ttitle">Your next <br><span>nail obsession</span><br>starts here.</p>
-      <img class="btimg" src="/assets/brending-img.png" alt="Branding image">
+  <!-- Mobile Bottom Navigation -->
+  <div class="mobile-bottom-nav mobile-only">
+    <div class="nav-item active">
+      <span>&#127968;</span>
+      <span>Home</span>
+    </div>
+    <div class="nav-item">
+      <span>&#10024;</span>
+      <span>Explore</span>
+    </div>
+    <a class="nav-item" href="https://www.pinterest.com/chicorainspo/" target="_blank">
+      <span>&#128204;</span>
+      <span>Pinterest</span>
+    </a>
+    <div class="nav-item">
+      <span>&#129293;</span>
+      <span>Saved</span>
     </div>
   </div>
 </div>
