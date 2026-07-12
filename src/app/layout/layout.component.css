@@ -138,6 +138,7 @@
     flex-wrap: wrap;
 }
 
+/* === UPDATED: pill-style interactive tags, matches sidebar olive/green palette === */
 .tags a {
     text-decoration: none;
     color: black;
@@ -145,24 +146,41 @@
     font-size: clamp(14px, 1.5vw, 16px);
     font-weight: 500;
     position: relative;
-    padding: 5px 0;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: all 0.35s ease;
+    letter-spacing: 0.3px;
 }
 
 .tags a::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 4px;
+    left: 14px;
     width: 0;
     height: 2px;
-    background-color: black;
+    background-color: #383e08;
     transition: width 0.3s ease;
 }
 
-.tags a:hover::after {
-    width: 100%;
-    background-color: #c4957c;
+.tags a:hover {
+    background: rgba(207, 231, 112, 0.3);
+    color: #383e08;
+    letter-spacing: 0.6px;
 }
+
+.tags a:hover::after {
+    width: calc(100% - 28px);
+}
+
+.tags a.active {
+    background: #383e08;
+    color: #FFF8F8;
+}
+.tags a.active::after {
+    display: none;
+}
+/* === END tags update === */
 
 .icons {
     display: flex;
@@ -329,7 +347,7 @@ p.hero-ttitle span {
         padding-bottom: 0px;
     }
     
-    /* Mobile Navigation */
+    /* Mobile Navigation — UPDATED to olive/green brand palette */
     .mobile-nav {
         position: sticky;
         top: 0;
@@ -341,13 +359,14 @@ p.hero-ttitle span {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 12px 20px;
-        background: #8B1A19;
+        padding: 14px 20px;
+        background: #383e08;
     }
     
     .mobile-logo {
-        height: 56px;
+        height: 32px;
         width: auto;
+        margin: 8px 0;
     }
     
     .burger-menu {
@@ -365,25 +384,23 @@ p.hero-ttitle span {
     .burger-menu span {
         width: 100%;
         height: 2px;
-        background: #ffffff;
+        background: #cfe770;
         transition: all 0.3s ease;
     }
     
-    /* ========== ԱՅՍՏԵՂ Է ՄԻԱԿ ՓՈՓՈԽՈՒԹՅՈՒՆԸ ========== */
-    /* Mobile Fullscreen Menu - ՀԻՄԱ ԿԱՐՄԻՐ ՖՈՆՈՎ */
+    /* Mobile Fullscreen Menu — olive gradient, matches sidebar */
     .mobile-fullscreen-menu {
         position: fixed;
         top: 0;
         left: -100%;
         width: 100%;
         height: 100vh;
-        background: #000000;  /* ← ԿԱՐՄԻՐ ՖՈՆ */
+        background: linear-gradient(160deg, #383e08 0%, #2a2e06 100%);
         z-index: 2000;
         transition: left 0.4s ease;
         display: flex;
         flex-direction: column;
     }
-    /* ================================================ */
     
     .mobile-fullscreen-menu.active {
         left: 0;
@@ -414,7 +431,7 @@ p.hero-ttitle span {
     .menu-logo {
         width: 60px;
         height: auto;
-        filter: brightness(0) invert(1);  /* ← Սա սպիտակեցնում Է լոգոն */
+        filter: brightness(0) invert(1);
     }
     
     .mobile-menu-content h2 {
@@ -431,14 +448,14 @@ p.hero-ttitle span {
     }
     
     .menu-tags a {
-        color: rgba(255,255,255,0.9);
+        color: rgba(207, 231, 112, 0.85);
         text-decoration: none;
         font-size: 18px;
         transition: color 0.3s ease;
     }
     
     .menu-tags a:hover {
-        color: white;
+        color: #cfe770;
     }
     
     .menu-footer {
@@ -449,12 +466,16 @@ p.hero-ttitle span {
         color: rgba(255,255,255,0.8);
     }
     
-    /* Mobile Hero */
+    /* Mobile Hero — olive-tinted overlay + green/gold gradient text */
     .mobile-hero {
+        position: relative;
         overflow: hidden;
         padding: 16px 20px;
-        background-image: url(../../assets/header-ack.png);
-        border-top: 1px solid #8B1A19;
+        background-image: linear-gradient(135deg, rgba(56,62,8,0.55), rgba(207,231,112,0.35)),
+                           url(../../assets/header-ack.png);
+        background-size: cover;
+        background-position: center;
+        border-top: 1px solid #383e08;
     }
     
     .hero-background {
@@ -495,7 +516,7 @@ p.hero-ttitle span {
     .hero-content h1 span {
         font-weight: 700;
         font-style: italic;
-        background: linear-gradient(135deg, #ffd89b, #c7e9fb);
+        background: linear-gradient(135deg, #cfe770, #fff3c4);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -516,11 +537,12 @@ p.hero-ttitle span {
     .hero-badge {
         display: inline-flex;
         gap: 15px;
-        background: rgba(255,255,255,0.2);
+        background: rgba(207, 231, 112, 0.25);
         backdrop-filter: blur(10px);
         padding: 12px 20px;
         border-radius: 40px;
         font-size: 14px;
+        color: #FFF8F8;
     }
     
     /* Mobile Search Bar */
@@ -589,8 +611,8 @@ p.hero-ttitle span {
     }
     
     .category-chip.active {
-        background: #1a1a1a;
-        color: white;
+        background: #383e08;
+        color: #FFF8F8;
     }
     
     .category-chip:active {
