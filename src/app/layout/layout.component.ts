@@ -4,9 +4,10 @@ import { BLOGS } from '../data/blogs.data';
 import { Blog } from '../data/blog.model';
 
 @Component({
-  selector: 'app-layout',
-  templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.css']
+    selector: 'app-layout',
+    templateUrl: './layout.component.html',
+    styleUrls: ['./layout.component.css'],
+    standalone: false
 })
 export class LayoutComponent {
   menuOpen = false;
