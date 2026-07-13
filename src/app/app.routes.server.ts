@@ -4,15 +4,18 @@ import { BLOGS } from './data/blogs.data';
 
 export const serverRoutes: ServerRoute[] = [
   {
+    path: '',  // ✅ Գլխավոր էջ (առանց slash-ի)
+    renderMode: RenderMode.Prerender
+  },
+  {
     path: 'blog/:slug',
     renderMode: RenderMode.Prerender,
     getPrerenderParams: async () => {
-      // Build-ի ժամանակ բոլոր բլոգների համար HTML է ստեղծվում
       return BLOGS.map(blog => ({ slug: blog.slug }));
     }
   },
   {
-    path: '**',
-    renderMode: RenderMode.Prerender // Գլխավոր էջը և մյուս էջերը
+    path: '**',  // Բոլոր մյուս էջերը
+    renderMode: RenderMode.Prerender
   }
 ];

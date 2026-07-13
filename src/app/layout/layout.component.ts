@@ -25,10 +25,8 @@ export class LayoutComponent implements OnInit {
   }
 
   private updateHomepageMetaTags(): void {
-    // === TITLE ===
     this.titleService.setTitle('ChicOra - Daily Nail Edit | Your Next Nail Obsession Starts Here');
 
-    // === BASIC META TAGS ===
     this.meta.updateTag({ 
       name: 'description', 
       content: 'Curated nail art inspiration for girls who notice details. Discover the latest trends in summer nails, French tips, old money aesthetics and more.' 
@@ -39,7 +37,6 @@ export class LayoutComponent implements OnInit {
       content: 'nail art, nail designs, summer nails, French tips, old money nails, nail inspiration, ChicOra' 
     });
 
-    // === OPEN GRAPH (Pinterest, Facebook, Twitter) ===
     this.meta.updateTag({ 
       property: 'og:title', 
       content: 'ChicOra - Daily Nail Edit | Your Next Nail Obsession Starts Here' 
@@ -70,11 +67,9 @@ export class LayoutComponent implements OnInit {
       content: 'ChicOra' 
     });
 
-    // ✅ Pinterest Rich Pins-ի համար
     this.meta.updateTag({ property: 'og:image:width', content: '1200' });
     this.meta.updateTag({ property: 'og:image:height', content: '630' });
 
-    // === TWITTER CARDS ===
     this.meta.updateTag({ 
       name: 'twitter:card', 
       content: 'summary_large_image' 
@@ -95,7 +90,6 @@ export class LayoutComponent implements OnInit {
       content: `${this.baseUrl}/assets/logo/logo-dark.svg` 
     });
 
-    // === ROBOTS ===
     this.meta.updateTag({ 
       name: 'robots', 
       content: 'index, follow' 
