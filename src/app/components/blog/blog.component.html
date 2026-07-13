@@ -1,7 +1,7 @@
 <div class="cont">
   <!-- Desktop Sidebar -->
   <div class="first-header desktop-only">
-    
+
     <a routerLink="/">
       <img class="logo-img" src="/assets/logo.svg" alt="Daily Nail Edit Logo">
     </a>
@@ -36,7 +36,7 @@
         <span></span>
       </button>
     </div>
-    
+
     <div class="mobile-fullscreen-menu" [class.active]="menuOpen">
       <button class="close-menu" (click)="toggleMenu()">&times;</button>
       <div class="mobile-menu-content">
@@ -64,69 +64,68 @@
         <img class="logo-img" src="/assets/black-logo.svg" alt="Daily Nail Edit Logo">
       </a>
       <div class="general-cont-header-nav">
-              <div class="tags">
-                <a href="#">Summer</a>
-                <a href="#">French tips</a>
-                <a href="#">Old money</a>
-                <a href="#">June nails</a>
-              </div>
-              <div class="icons">
-                <img src="/assets/pints-icon.svg" alt="Pinterest">
-              </div>
+        <div class="tags">
+          <a href="#">Summer</a>
+          <a href="#">French tips</a>
+          <a href="#">Old money</a>
+          <a href="#">June nails</a>
+        </div>
+        <div class="icons">
+          <img src="/assets/pints-icon.svg" alt="Pinterest">
+        </div>
 
       </div>
     </div>
 
     <!-- Blog Content Area -->
-    <div class="blog-container" *ngIf="currentBlog" [class.is-summer-blog]="currentBlog.id === 1">
-      <!-- Main Blog Post -->
-      <div class="blog-main-content">
-        <div class="blog-header">
-          <div class="blog-badge">{{ currentBlog.badge }}</div>
-          <p class="blog-date">{{ currentBlog.date }}</p>
-          <h4 class="blog-category">{{ currentBlog.category }}</h4>
-          <h1 class="blog-title">{{ currentBlog.fullTitle }}</h1>
-        </div>
-
-      
-
-        <!-- Blog Content -->
-        <div class="blog-content" [innerHTML]="currentBlog.content"></div>
-
-        <!-- Tags & Share -->
-        <div class="blog-footer">
-          <div class="blog-tags">
-            <span>#NailArt</span>
-            <span>#SummerNails</span>
-            <span>#NailInspo</span>
+    @if (currentBlog) {
+      <div class="blog-container" [class.is-summer-blog]="currentBlog.id === 1">
+        <!-- Main Blog Post -->
+        <div class="blog-main-content">
+          <div class="blog-header">
+            <div class="blog-badge">{{ currentBlog.badge }}</div>
+            <p class="blog-date">{{ currentBlog.date }}</p>
+            <h4 class="blog-category">{{ currentBlog.category }}</h4>
+            <h1 class="blog-title">{{ currentBlog.fullTitle }}</h1>
           </div>
-          <div class="share-buttons">
-            <button class="share-btn">📌 Save to Pinterest</button>
+          <!-- Blog Content -->
+          <div class="blog-content" [innerHTML]="currentBlog.content"></div>
+          <!-- Tags & Share -->
+          <div class="blog-footer">
+            <div class="blog-tags">
+              <span>#NailArt</span>
+              <span>#SummerNails</span>
+              <span>#NailInspo</span>
+            </div>
+            <div class="share-buttons">
+              <button class="share-btn">📌 Save to Pinterest</button>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- Suggested Blogs Sidebar - Compact Version -->
-      <div class="blog-sidebar">
-        <div class="sidebar-sticky">
-          <h3 class="sidebar-title">You Might Also Like</h3>
-          <div class="suggested-blogs">
-            <div *ngFor="let blog of suggestedBlogs" 
-              class="suggested-blog-card" 
-              (click)="navigateToBlog(blog.slug)"> 
-              <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
-                <span class="suggested-category-badge">{{ blog.badge }}</span>
-              </div>
-              <div class="suggested-blog-info">
-                <span class="suggested-date">{{ blog.date }}</span>
-                <h4 class="suggested-title">{{ blog.title }}</h4>
-                <span class="read-more">Read more →</span>
-              </div>
+        <!-- Suggested Blogs Sidebar - Compact Version -->
+        <div class="blog-sidebar">
+          <div class="sidebar-sticky">
+            <h3 class="sidebar-title">You Might Also Like</h3>
+            <div class="suggested-blogs">
+              @for (blog of suggestedBlogs; track blog) {
+                <div
+                  class="suggested-blog-card"
+                  (click)="navigateToBlog(blog.slug)">
+                  <div class="suggested-blog-image" [style.backgroundImage]="'url(' + blog.imageUrl + ')'">
+                    <span class="suggested-category-badge">{{ blog.badge }}</span>
+                  </div>
+                  <div class="suggested-blog-info">
+                    <span class="suggested-date">{{ blog.date }}</span>
+                    <h4 class="suggested-title">{{ blog.title }}</h4>
+                    <span class="read-more">Read more →</span>
+                  </div>
+                </div>
+              }
             </div>
           </div>
         </div>
       </div>
-    </div>
+    }
 
     <!-- Mobile Hero Section -->
     <div class="mobile-hero mobile-only">

@@ -90,20 +90,21 @@
 
     <!-- ★ DYNAMIC GRID — ավտոմատ կառուցվում է BLOGS-ից -->
     <div class="gen-blog-cont">
-      <div
-        *ngFor="let blog of blogs"
-        class="blog-unique-example"
-        [style.backgroundImage]="'url(' + (blog.cardImage || blog.imageUrl) + ')'"
-        (click)="navigateToBlog(blog.slug)"
-      >
-        <div class="blog-badge">{{ blog.badge }}</div>
-        <p class="data">{{ blog.date }}</p>
-        <div class="blog-title-seo">
-          <h4>{{ blog.category }}</h4>
-          <h3>{{ blog.title }}</h3>
-          <div class="read-more">Read more →</div>
+      @for (blog of blogs; track blog) {
+        <div
+          class="blog-unique-example"
+          [style.backgroundImage]="'url(' + (blog.cardImage || blog.imageUrl) + ')'"
+          (click)="navigateToBlog(blog.slug)"
+          >
+          <div class="blog-badge">{{ blog.badge }}</div>
+          <p class="data">{{ blog.date }}</p>
+          <div class="blog-title-seo">
+            <h4>{{ blog.category }}</h4>
+            <h3>{{ blog.title }}</h3>
+            <div class="read-more">Read more →</div>
+          </div>
         </div>
-      </div>
+      }
     </div>
   </div>
 
