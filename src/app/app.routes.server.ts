@@ -7,12 +7,12 @@ export const serverRoutes: ServerRoute[] = [
     path: 'blog/:slug',
     renderMode: RenderMode.Prerender,
     getPrerenderParams: async () => {
-      // Այստեղ BLOGS-ը ֆիքսված արրեյ է, որը հասանելի է build-ի ժամանակ
+      // Build-ի ժամանակ բոլոր բլոգների համար HTML է ստեղծվում
       return BLOGS.map(blog => ({ slug: blog.slug }));
     }
   },
   {
     path: '**',
-    renderMode: RenderMode.Prerender // Բոլոր մյուս էջերը նույնպես prerender
+    renderMode: RenderMode.Prerender // Գլխավոր էջը և մյուս էջերը
   }
 ];
