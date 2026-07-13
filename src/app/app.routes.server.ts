@@ -1,10 +1,10 @@
-// app.routes.server.ts
+// src/app/app.routes.server.ts
 import { RenderMode, ServerRoute } from '@angular/ssr';
 import { BLOGS } from './data/blogs.data';
 
 export const serverRoutes: ServerRoute[] = [
   {
-    path: '',  // ✅ Գլխավոր էջ (առանց slash-ի)
+    path: '',
     renderMode: RenderMode.Prerender
   },
   {
@@ -15,7 +15,7 @@ export const serverRoutes: ServerRoute[] = [
     }
   },
   {
-    path: '**',  // Բոլոր մյուս էջերը
+    path: '**',
     renderMode: RenderMode.Prerender
   }
 ];

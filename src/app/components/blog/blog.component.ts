@@ -1,15 +1,16 @@
-// blog.component.ts
+
 import { Component, OnInit, inject } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
 import { BLOGS } from '../../data/blogs.data';
 import { Blog } from '../../data/blog.model';
 
 @Component({
-    selector: 'app-blog',
-    templateUrl: './blog.component.html',
-    styleUrls: ['./blog.component.css'],
-    standalone: false
+  selector: 'app-blog',
+  standalone: true,
+  imports: [RouterLink],
+  templateUrl: './blog.component.html',
+  styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
   

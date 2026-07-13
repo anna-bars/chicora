@@ -1,12 +1,9 @@
-import { provideZoneChangeDetection } from "@angular/core";
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
-import { AppModule } from './app/app.module';
-import { inject } from "@vercel/analytics";
+import { bootstrapApplication } from '@angular/platform-browser';
+import { inject } from '@vercel/analytics';
+import { AppComponent } from './app/app.component';
+import { appConfig } from './app/app.config';
 
 inject();
 
-platformBrowserDynamic().bootstrapModule(AppModule, { applicationProviders: [provideZoneChangeDetection()], })
+bootstrapApplication(AppComponent, appConfig)
   .catch(err => console.error(err));
-
-  
