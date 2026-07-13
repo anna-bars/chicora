@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "chicora:build:production"
+              "buildTarget": "chicora:build:production"
             },
             "development": {
-              "browserTarget": "chicora:build:development"
+              "buildTarget": "chicora:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "chicora:build"
+            "buildTarget": "chicora:build"
           }
         },
         "test": {
