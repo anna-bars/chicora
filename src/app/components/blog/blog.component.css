@@ -96,6 +96,7 @@
     top: 0;
     flex-shrink: 0;
     z-index: 1;
+        background-color: #cfe770;
 }
 
 .logo-img {
@@ -617,7 +618,7 @@ img.blog-img {
     display: flex;
 }
 .blog-header.desktop-only {
-    display: block !important;
+    display: block ;
 }
 .mobile-only {
     display: none;
