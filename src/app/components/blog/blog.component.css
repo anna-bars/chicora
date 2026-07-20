@@ -299,7 +299,7 @@
 }
 
 .blog-badge {
-    display: inline-block;
+    display: none;
     background: rgba(0,0,0,0.05);
     padding: 6px 12px;
     border-radius: 20px;
@@ -387,6 +387,112 @@
     width: 100%;
     border-radius: 16px;
     margin: 30px 0;
+}
+
+/* ===== ★ Inline Newsletter Capture ===== */
+/* Signature element: a "pinned note" — echoes the site's own save/Pinterest
+   language (📌, saved-look copy) instead of a generic boxed CTA. Injected
+   into .blog-content at runtime, after the article's middle <h2>. */
+.inline-newsletter-signup {
+    position: relative;
+    max-width: 480px;
+    margin: 48px auto 44px;
+    padding: 36px 32px 30px;
+    text-align: center;
+    background: #fffefb;
+    border: 1.5px dashed rgba(56, 62, 8, 0.35);
+    border-radius: 4px;
+    transform: rotate(-0.6deg);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.08);
+}
+
+.newsletter-pin {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-8deg);
+    font-size: 30px;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.25));
+}
+
+.newsletter-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: #c4957c;
+    margin-bottom: 10px;
+}
+
+.newsletter-heading {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.35;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.newsletter-sub {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 22px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 8px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.newsletter-input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 16px;
+    border-radius: 30px;
+    border: 1px solid rgba(56, 62, 8, 0.25);
+    font-size: 14px;
+    background: white;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.newsletter-input:focus {
+    border-color: #383e08;
+}
+
+.newsletter-btn {
+    flex-shrink: 0;
+    background: #383e08;
+    color: #FFF8F8;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.newsletter-btn:hover {
+    background: #2a2e06;
+    transform: translateY(-1px);
+}
+
+.newsletter-success {
+    display: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #383e08;
+}
+
+.inline-newsletter-signup.is-submitted .newsletter-form,
+.inline-newsletter-signup.is-submitted .newsletter-sub {
+    display: none;
+}
+
+.inline-newsletter-signup.is-submitted .newsletter-success {
+    display: block;
 }
 
 .blog-footer {
@@ -773,7 +879,7 @@ img.blog-img {
     }
 
     .menu-tags a {
-        color: rgba(207, 231, 112, 0.85);
+        color: rgba(207, 231, 120, 0.85);
         text-decoration: none;
         font-size: 18px;
         transition: color 0.3s ease;
@@ -929,6 +1035,22 @@ img.blog-img {
     .blog-footer {
         padding: 0 20px 20px;
         margin-top: 30px;
+    }
+
+    /* Inline newsletter — mobile */
+    .inline-newsletter-signup {
+        margin: 36px 0;
+        padding: 30px 22px 24px;
+        transform: none;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .newsletter-btn {
+        width: 100%;
     }
 
     /* Mobile summer blog styles */

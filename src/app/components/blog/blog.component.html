@@ -98,6 +98,7 @@
             <span class="mobile-trending-badge">🔥 {{ currentBlog.badge }}</span>
           </div>
           <div class="mobile-blog-info">
+           
             <div class="mobile-meta-row">
               <span class="mobile-category-pill">{{ currentBlog.category }}</span>
               <span class="mobile-date">{{ currentBlog.date }}</span>
@@ -121,13 +122,14 @@
         <!-- Main Blog Post -->
         <div class="blog-main-content">
           <div class="blog-header desktop-only">
-            <div class="blog-badge">{{ currentBlog.badge }}</div>
             <p class="blog-date">{{ currentBlog.date }}</p>
             <h4 class="blog-category">{{ currentBlog.category }}</h4>
             <h1 class="blog-title">{{ currentBlog.fullTitle }}</h1>
           </div>
 
-          <!-- Blog Content -->
+          <!-- Blog Content — the inline newsletter card is injected into this
+               block at runtime (see insertNewsletterSignup in the component),
+               anchored after the middle <h2> so it reads as part of the article -->
           <div class="blog-content" [innerHTML]="currentBlog.content"></div>
 
           <!-- Tags & Share -->
@@ -210,4 +212,5 @@
       <span>Saved</span>
     </div>
   </div>
+
 </div>
