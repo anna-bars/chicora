@@ -616,7 +616,9 @@ img.blog-img {
 .desktop-only {
     display: flex;
 }
-
+.blog-header.desktop-only {
+    display: block !important;
+}
 .mobile-only {
     display: none;
 }
