@@ -54,7 +54,7 @@
 
 .middle-part h2 {
     font-weight: 400;
-    color: #bfb1ada7;
+    color: #1d3622a7;
     font-size: clamp(18px, 2.5vw, 22px);
     margin: 10px 0;
 }
@@ -64,11 +64,11 @@
     font-weight: 400;
     width: 100%;
     text-align: right;
-    color: #bfb1ada7;
+    color: #2b2b2ba7;
 }
 
 .middle-part h1 {
-    color: white;
+    color: #383e08;
     font-weight: 400;
     font-size: clamp(28px, 5vw, 38px);
     line-height: 1.2;
@@ -95,7 +95,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 24px;
-    color: rgb(186, 186, 186);
+    color: #262121;
     padding-top: 8px;
     font-size: clamp(13px, 1.5vw, 15px);
 }
