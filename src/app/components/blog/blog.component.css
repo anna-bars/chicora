@@ -890,3 +890,115 @@ img.blog-img {
     border: 15px solid red;
     width: 71%;
 }
+.cont{
+    position: relative;
+    overflow: hidden;
+}
+.pearl-background{
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+.pearl-background span{
+    width: 30px !important;
+    height: 30px !important;
+    background: red;
+    display: block;
+    position: absolute;
+}
+/* ===== Mobile Pearl Background ===== */
+@media (max-width: 768px) {
+  .pearl-background span {
+    width: 5px;
+    height: 5px;
+  }
+  /* մոբայլում ցույց ենք տալիս միայն 5-ը, մնացածը թաքցնում */
+  .pearl-background span:nth-child(n+6) {
+    display: none;
+  }
+}
+
+/* ===== Mobile Hero Entrance Animation ===== */
+@media (max-width: 768px) {
+  .mobile-hero {
+    animation: heroFadeUp 1s ease forwards;
+    opacity: 0;
+  }
+
+  .mobile-hero .hero-ttitle {
+    opacity: 0;
+    animation: heroFadeUp .9s ease forwards;
+    animation-delay: .15s;
+  }
+
+  .mobile-hero .btimg {
+    opacity: 0;
+    animation: heroFadeUp .9s ease forwards;
+    animation-delay: .35s;
+  }
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Mobile Hero background subtle shimmer ===== */
+@media (max-width: 768px) {
+  .mobile-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mobile-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+      110deg,
+      transparent,
+      rgba(255,255,255,.35),
+      transparent
+    );
+    animation: shimmerPass 5s ease-in-out infinite;
+    animation-delay: 1.2s;
+    pointer-events: none;
+  }
+}
+
+@keyframes shimmerPass {
+  0%   { left: -60%; }
+  35%  { left: 130%; }
+  100% { left: 130%; }
+}
+
+/* ===== Mobile Suggested Blog Cards - tap feel ===== */
+@media (max-width: 768px) {
+  .suggested-blog-card {
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+
+  .suggested-blog-card:active {
+    transform: scale(.96);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  }
+}
+
+/* ===== Mobile Reading Progress ===== */
+@media (max-width: 768px) {
+  .reading-progress {
+    height: 3px;
+    background: #c4957c;
+  }
+}
