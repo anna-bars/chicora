@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:chicora": "node dist/chicora/server/server.mjs"
+    "serve:ssr:chicora": "node dist/chicora/server/server.mjs",
+    "migrate": "tsx scripts/migrate-to-supabase.ts"
+
   },
   "private": true,
   "dependencies": {
@@ -43,6 +45,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.23.1",
     "typescript": "~5.9.3"
   }
 }

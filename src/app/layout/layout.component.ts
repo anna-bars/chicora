@@ -1,8 +1,7 @@
-// layout.component.ts
 import { Component, OnInit, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
-import { BLOGS } from '../data/blogs.data';
+import { BlogService } from '../services/blog.service';
 import { Blog } from '../data/blog.model';
 
 @Component({
@@ -16,15 +15,17 @@ export class LayoutComponent implements OnInit {
   private router = inject(Router);
   private meta = inject(Meta);
   private titleService = inject(Title);
+  private blogService = inject(BlogService);
 
   menuOpen = false;
-  blogs: Blog[] = BLOGS;
+  blogs: Blog[] = [];
   private baseUrl = 'https://chicora.vercel.app';
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
     this.updateHomepageMetaTags();
+    this.blogs = await this.blogService.getBlogsLight();
   }
-
+ 
   private updateHomepageMetaTags(): void {
     this.titleService.setTitle('ChicOra - Daily Nail Edit | Your Next Nail Obsession Starts Here');
 
@@ -97,10 +98,10 @@ export class LayoutComponent implements OnInit {
     });
   }
 
-  navigateToBlog(slug: string): void {
+    navigateToBlog(slug: string): void {
     this.router.navigate(['/blog', slug]);
   }
-  
+
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
     document.body.style.overflow = this.menuOpen ? 'hidden' : '';

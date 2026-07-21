@@ -68,9 +68,7 @@
 
 /* Nail idea scroll reveal */
 .nail-idea-item {
-    opacity: 0;
-    transform: translateY(50px) scale(.98);
-    transition: opacity .8s ease, transform .8s ease;
+    opacity: 1;
 }
 .nail-idea-item.show {
     opacity: 1;

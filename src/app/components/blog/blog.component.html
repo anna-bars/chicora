@@ -130,8 +130,25 @@
           <!-- Blog Content — the inline newsletter card is injected into this
                block at runtime (see insertNewsletterSignup in the component),
                anchored after the middle <h2> so it reads as part of the article -->
-          <div class="blog-content" [innerHTML]="currentBlog.content"></div>
+          <div class="blog-content">
 
+  @for (item of currentBlog.nailItems; track item.title) {
+    <div class="nail-idea-item">
+      <h3>{{ item.title }}</h3>
+
+      @for (image of item.images; track image) {
+        <img class="blog-img" [src]="image" [alt]="item.title">
+      }
+
+      <p>{{ item.description }}</p>
+    </div>
+  }
+
+  @if (currentBlog.finalThoughts) {
+    <div class="final-thoughts" [innerHTML]="currentBlog.finalThoughts"></div>
+  }
+
+</div>
           <!-- Tags & Share -->
           <div class="blog-footer">
             <div class="blog-tags">

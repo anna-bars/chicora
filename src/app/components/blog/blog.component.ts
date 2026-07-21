@@ -2,8 +2,10 @@ import { Component, OnInit, OnDestroy, AfterViewInit, HostListener, inject, Rend
 import { DOCUMENT, DecimalPipe } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
-import { BLOGS } from '../../data/blogs.data';
+import { BlogService } from '../../services/blog.service';
 import { Blog } from '../../data/blog.model';
+import { PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-blog',
@@ -13,12 +15,17 @@ import { Blog } from '../../data/blog.model';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
-
+  private blogService = inject(BlogService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
   private meta = inject(Meta);
   private titleService = inject(Title);
   private renderer = inject(Renderer2);
+  private platformId = inject(PLATFORM_ID);
+
+  private get isBrowser(): boolean {
+  return isPlatformBrowser(this.platformId);
+}
 
   // Դինամիկ schema script-ի reference
   private schemaScript: HTMLScriptElement | null = null;
@@ -48,14 +55,17 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.setupScrollReveal();
-  }
+  if (!this.isBrowser) return;
 
-  loadBlog(slug: string): void {
-    this.currentBlog = BLOGS.find(b => b.slug === slug) ?? null;
+  this.setupScrollReveal();
+}
+
+  async loadBlog(slug: string): Promise<void> {
+    this.currentBlog = await this.blogService.getBlog(slug);
 
     if (this.currentBlog) {
-      this.suggestedBlogs = BLOGS
+      this.suggestedBlogs = await this.blogService.getBlogs();
+      this.suggestedBlogs = this.suggestedBlogs
         .filter(b => b.slug !== slug)
         .slice(0, 3);
 
@@ -75,14 +85,17 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
       this.activePreviewIndex = 0;
 
       this.menuOpen = false;
-      document.body.style.overflow = '';
+      if (this.isBrowser) {
+  document.body.style.overflow = '';
+}
 
-      // re-run scroll reveal + inline newsletter insertion for the newly loaded content
-      setTimeout(() => {
-        this.setupScrollReveal();
-        this.insertNewsletterSignup();
-        this.setupPreviewObserver();
-      }, 0);
+     if (this.isBrowser) {
+  setTimeout(() => {
+    this.setupScrollReveal();
+    this.insertNewsletterSignup();
+    this.setupPreviewObserver();
+  }, 0);
+}
     } else {
       this.router.navigate(['/']);
     }
@@ -92,10 +105,17 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
    * Reading time estimate based on plain-text word count (~200 wpm)
    */
   get readingTime(): number {
-    if (!this.currentBlog?.content) return 3;
-    const words = this.currentBlog.content.replace(/<[^>]*>/g, '').trim().split(/\s+/).length;
-    return Math.max(1, Math.round(words / 200));
-  }
+  if (!this.currentBlog?.nailItems?.length) return 3;
+
+  const words = this.currentBlog.nailItems
+    .map(item => item.description || '')
+    .join(' ')
+    .trim()
+    .split(/\s+/)
+    .length;
+
+  return Math.max(1, Math.round(words / 200));
+}
 
   toggleSave(): void {
     this.isSaved = !this.isSaved;
@@ -132,22 +152,26 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   /**
    * Scroll reveal for nail idea sections
    */
-  private setupScrollReveal(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-
-    this.observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        }
-      });
-    }, { threshold: 0.2 });
-
-    const items = this.document.querySelectorAll('.nail-idea-item');
-    items.forEach(el => this.observer!.observe(el));
+private setupScrollReveal(): void {
+  if (this.observer) {
+    this.observer.disconnect();
   }
+
+  this.observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        this.observer!.unobserve(entry.target); // մեկ անգամ, հետո չնայի
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -10% 0px' // ավելի շուտ trigger՝ նախքան լրիվ մեջ մտնելը
+  });
+
+  const items = this.document.querySelectorAll('.nail-idea-item');
+  items.forEach(el => this.observer!.observe(el));
+}
 
   /**
    * ★ Fixed circular nail-preview dock
