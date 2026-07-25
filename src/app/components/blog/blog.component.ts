@@ -24,24 +24,22 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   private platformId = inject(PLATFORM_ID);
 
   private get isBrowser(): boolean {
-  return isPlatformBrowser(this.platformId);
-}
+    return isPlatformBrowser(this.platformId);
+  }
 
-  // Դինամիկ schema script-ի reference
   private schemaScript: HTMLScriptElement | null = null;
   private observer: IntersectionObserver | null = null;
 
   menuOpen = false;
   currentBlog: Blog | null = null;
   suggestedBlogs: Blog[] = [];
+  isLoading = true;
   private baseUrl = 'https://chicora.vercel.app';
 
-  // ★ Social proof state
   savesCount = 0;
   viewsCount = 0;
   isSaved = false;
 
-  // ★ Fixed circular nail-preview dock (bottom of viewport)
   nailPreviewImages: { src: string; alt: string; originalIndex: number }[] = [];
   activePreviewIndex = 0;
   private previewObserver: IntersectionObserver | null = null;
@@ -55,12 +53,12 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-  if (!this.isBrowser) return;
-
-  this.setupScrollReveal();
-}
+    if (!this.isBrowser) return;
+    this.setupScrollReveal();
+  }
 
   async loadBlog(slug: string): Promise<void> {
+    this.isLoading = true;
     this.currentBlog = await this.blogService.getBlog(slug);
 
     if (this.currentBlog) {
@@ -69,8 +67,6 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
         .filter(b => b.slug !== slug)
         .slice(0, 3);
 
-      // ★ deterministic pseudo social-proof numbers, based on slug
-      // (replace with real analytics data once available on the backend)
       const seed = this.currentBlog.slug
         .split('')
         .reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
@@ -86,45 +82,42 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
 
       this.menuOpen = false;
       if (this.isBrowser) {
-  document.body.style.overflow = '';
-}
+        document.body.style.overflow = '';
+      }
 
-     if (this.isBrowser) {
-  setTimeout(() => {
-    this.setupScrollReveal();
-    this.insertNewsletterSignup();
-    this.setupPreviewObserver();
-  }, 0);
-}
+      this.isLoading = false;
+
+      if (this.isBrowser) {
+        setTimeout(() => {
+          this.setupScrollReveal();
+          this.insertNewsletterSignup();
+          this.setupPreviewObserver();
+        }, 0);
+      }
     } else {
+      this.isLoading = false;
       this.router.navigate(['/']);
     }
   }
 
-  /**
-   * Reading time estimate based on plain-text word count (~200 wpm)
-   */
   get readingTime(): number {
-  if (!this.currentBlog?.nailItems?.length) return 3;
+    if (!this.currentBlog?.nailItems?.length) return 3;
 
-  const words = this.currentBlog.nailItems
-    .map(item => item.description || '')
-    .join(' ')
-    .trim()
-    .split(/\s+/)
-    .length;
+    const words = this.currentBlog.nailItems
+      .map(item => item.description || '')
+      .join(' ')
+      .trim()
+      .split(/\s+/)
+      .length;
 
-  return Math.max(1, Math.round(words / 200));
-}
+    return Math.max(1, Math.round(words / 200));
+  }
 
   toggleSave(): void {
     this.isSaved = !this.isSaved;
     this.savesCount += this.isSaved ? 1 : -1;
   }
 
-  /**
-   * Reading progress bar — updates width on scroll
-   */
   @HostListener('window:scroll')
   onScroll(): void {
     const scrollEl = this.getScrollContainer();
@@ -137,7 +130,6 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private getScrollContainer(): { scrollTop: number; scrollHeight: number; clientHeight: number } {
-    // On desktop the blog-container scrolls internally; on mobile the window/body scrolls.
     const blogContainer = this.document.querySelector('.blog-container') as HTMLElement | null;
     if (blogContainer && window.innerWidth > 768) {
       return blogContainer;
@@ -149,50 +141,37 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
     };
   }
 
-  /**
-   * Scroll reveal for nail idea sections
-   */
-private setupScrollReveal(): void {
-  if (this.observer) {
-    this.observer.disconnect();
+  private setupScrollReveal(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+
+    this.observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          this.observer!.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -10% 0px'
+    });
+
+    const items = this.document.querySelectorAll('.nail-idea-item');
+    items.forEach(el => this.observer!.observe(el));
   }
 
-  this.observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-        this.observer!.unobserve(entry.target); // մեկ անգամ, հետո չնայի
-      }
-    });
-  }, {
-    threshold: 0.1,
-    rootMargin: '0px 0px -10% 0px' // ավելի շուտ trigger՝ նախքան լրիվ մեջ մտնելը
-  });
-
-  const items = this.document.querySelectorAll('.nail-idea-item');
-  items.forEach(el => this.observer!.observe(el));
-}
-
-  /**
-   * ★ Fixed circular nail-preview dock
-   * Pulls up to 8 images straight out of the article body (evenly sampled
-   * if the post has more than 8) instead of generic text nav links, so the
-   * bottom of the page shows actual looks from the post. Clicking a circle
-   * jumps to that image; the active circle tracks scroll position, so the
-   * dock doubles as a lightweight progress indicator that's always visible.
-   */
   private extractNailPreviewImages(blog: Blog): { src: string; alt: string; originalIndex: number }[] {
     let imgSrcs: string[] = [];
 
     if (blog.content) {
-      // plain-HTML blogs — pull <img> tags out of the rendered content
       const temp = this.document.createElement('div');
       temp.innerHTML = blog.content;
       imgSrcs = Array.from(temp.querySelectorAll('img'))
         .map(img => img.getAttribute('src') || '')
         .filter(Boolean);
     } else if (blog.nailItems && blog.nailItems.length > 0) {
-      // structured blogs — pull images straight out of each nail item
       imgSrcs = blog.nailItems.flatMap(item => item.images || []);
     }
 
@@ -246,15 +225,7 @@ private setupScrollReveal(): void {
     target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
-  /**
-   * ★ Inline newsletter capture
-   * Pinterest traffic is one-time by nature — this is the one moment we can turn
-   * a passing visitor into a returning one. Inserted mid-article (after the
-   * middle <h2> of the post body) rather than as a top/bottom banner, since
-   * mid-content placement gets read, not skipped.
-   */
   private insertNewsletterSignup(): void {
-    // clean up any previous instance (route re-use on navigateToBlog)
     const existing = this.document.querySelector('.inline-newsletter-signup');
     if (existing) existing.remove();
 
@@ -289,19 +260,11 @@ private setupScrollReveal(): void {
       e.preventDefault();
       const emailInput = form.querySelector('.newsletter-input') as HTMLInputElement | null;
       const email = emailInput?.value ?? '';
-
-      // TODO: wire this up to your actual email provider (Mailchimp, ConvertKit, Buttondown, etc.)
-      // For now this just confirms the submission in the UI.
       console.log('Newsletter signup:', email);
-
       box.classList.add('is-submitted');
     });
   }
 
-  /**
-   * JSON-LD Structured Data Generator
-   * Ստեղծում է Article, BreadcrumbList, Organization, WebSite schema-ներ
-   */
   private addJsonLdSchema(blog: Blog): void {
     this.removeJsonLdSchema();
 

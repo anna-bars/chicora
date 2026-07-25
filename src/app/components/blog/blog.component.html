@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <!-- Mobile Navigation (unified with layout) -->
+  <!-- Mobile Navigation -->
   <div class="mobile-nav mobile-only">
     <div class="mobile-nav-header">
       <button class="burger-menu" (click)="toggleMenu()">
@@ -87,6 +87,27 @@
         </div>
       </div>
     </div>
+
+    <!-- ★ Skeleton loading state — shown only during client-side navigation -->
+    @if (isLoading) {
+      <div class="blog-container skeleton-loading">
+        <div class="blog-main-content">
+          <div class="skeleton-header">
+            <div class="skeleton-line skeleton-date"></div>
+            <div class="skeleton-line skeleton-category"></div>
+            <div class="skeleton-line skeleton-title"></div>
+          </div>
+          @for (i of [1,2,3]; track i) {
+            <div class="skeleton-nail-item">
+              <div class="skeleton-line skeleton-item-title"></div>
+              <div class="skeleton-image"></div>
+              <div class="skeleton-line skeleton-text"></div>
+              <div class="skeleton-line skeleton-text short"></div>
+            </div>
+          }
+        </div>
+      </div>
+    }
 
     <!-- Blog Content Area -->
     @if (currentBlog) {
@@ -210,7 +231,7 @@
     }
   </div>
 
-  <!-- Mobile Bottom Navigation (unified with layout) -->
+  <!-- Mobile Bottom Navigation -->
   <div class="mobile-bottom-nav mobile-only">
     <a class="nav-item" routerLink="/">
       <span>&#127968;</span>
