@@ -1,6 +1,6 @@
-// src/app/app.routes.server.ts
 import { RenderMode, ServerRoute } from '@angular/ssr';
-import { BLOGS } from './data/blogs.data';
+import { createClient } from '@supabase/supabase-js';
+import { environment } from '../environments/environment';
 
 export const serverRoutes: ServerRoute[] = [
   {
@@ -11,7 +11,21 @@ export const serverRoutes: ServerRoute[] = [
     path: 'blog/:slug',
     renderMode: RenderMode.Prerender,
     getPrerenderParams: async () => {
-      return BLOGS.map(blog => ({ slug: blog.slug }));
+      const supabase = createClient(
+        environment.supabaseUrl,
+        environment.supabaseAnonKey
+      );
+
+      const { data, error } = await supabase
+        .from('blogs')
+        .select('slug');
+
+      if (error) {
+        console.error('Prerender slug fetch failed:', error);
+        return [];
+      }
+
+      return (data ?? []).map(blog => ({ slug: blog.slug }));
     }
   },
   {
