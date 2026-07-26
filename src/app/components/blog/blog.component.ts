@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, AfterViewInit, HostListener, inject, Rend
 import { DOCUMENT, DecimalPipe } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
+import { PendingTasks } from '@angular/core';
 import { BlogService } from '../../services/blog.service';
 import { Blog } from '../../data/blog.model';
 import { PLATFORM_ID } from '@angular/core';
@@ -22,6 +23,7 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   private titleService = inject(Title);
   private renderer = inject(Renderer2);
   private platformId = inject(PLATFORM_ID);
+  private pendingTasks = inject(PendingTasks);
 
   private get isBrowser(): boolean {
     return isPlatformBrowser(this.platformId);
@@ -58,45 +60,51 @@ export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   async loadBlog(slug: string): Promise<void> {
+    const done = this.pendingTasks.add();
     this.isLoading = true;
-    this.currentBlog = await this.blogService.getBlog(slug);
 
-    if (this.currentBlog) {
-      this.suggestedBlogs = await this.blogService.getBlogs();
-      this.suggestedBlogs = this.suggestedBlogs
-        .filter(b => b.slug !== slug)
-        .slice(0, 3);
+    try {
+      this.currentBlog = await this.blogService.getBlog(slug);
 
-      const seed = this.currentBlog.slug
-        .split('')
-        .reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
+      if (this.currentBlog) {
+        this.suggestedBlogs = await this.blogService.getBlogs();
+        this.suggestedBlogs = this.suggestedBlogs
+          .filter(b => b.slug !== slug)
+          .slice(0, 3);
 
-      this.savesCount = 800 + (seed * 37) % 1600;
-      this.viewsCount = 4000 + (seed * 91) % 9000;
-      this.isSaved = false;
+        const seed = this.currentBlog.slug
+          .split('')
+          .reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
 
-      this.updateMetaTags(this.currentBlog);
-      this.addJsonLdSchema(this.currentBlog);
-      this.nailPreviewImages = this.extractNailPreviewImages(this.currentBlog);
-      this.activePreviewIndex = 0;
+        this.savesCount = 800 + (seed * 37) % 1600;
+        this.viewsCount = 4000 + (seed * 91) % 9000;
+        this.isSaved = false;
 
-      this.menuOpen = false;
-      if (this.isBrowser) {
-        document.body.style.overflow = '';
+        this.updateMetaTags(this.currentBlog);
+        this.addJsonLdSchema(this.currentBlog);
+        this.nailPreviewImages = this.extractNailPreviewImages(this.currentBlog);
+        this.activePreviewIndex = 0;
+
+        this.menuOpen = false;
+        if (this.isBrowser) {
+          document.body.style.overflow = '';
+        }
+
+        this.isLoading = false;
+
+        if (this.isBrowser) {
+          setTimeout(() => {
+            this.setupScrollReveal();
+            this.insertNewsletterSignup();
+            this.setupPreviewObserver();
+          }, 0);
+        }
+      } else {
+        this.isLoading = false;
+        this.router.navigate(['/']);
       }
-
-      this.isLoading = false;
-
-      if (this.isBrowser) {
-        setTimeout(() => {
-          this.setupScrollReveal();
-          this.insertNewsletterSignup();
-          this.setupPreviewObserver();
-        }, 0);
-      }
-    } else {
-      this.isLoading = false;
-      this.router.navigate(['/']);
+    } finally {
+      done();
     }
   }
 
